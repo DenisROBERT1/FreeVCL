@@ -1,0 +1,30 @@
+:Base FreeVCL_Fr.hlp
+:Title Free-VCL
+:Index dummy=dummy.hlp ;(This is necessary when using KLinks - because of a bug in the help
+:Link dummy.hlp        ; compiler. Without this only the first keyword would be looked up!)
+1 Sommaire=SHM_contents9999@FreeVCL_Fr.hlp
+1 Introduction=SHM_contents0001@FreeVCL_Fr.hlp
+1 Prise en main
+2 Configuration=SHM_contents0002@FreeVCL_Fr.hlp
+2 Mon premier programme=SHM_contents0003@FreeVCL_Fr.hlp
+1 Manuel détaillé
+2 Les propriétés=SHM_contents0004@FreeVCL_Fr.hlp
+2 Les évènements=SHM_contents0005@FreeVCL_Fr.hlp
+2 Unicode=SHM_contents0006@FreeVCL_Fr.hlp
+2 Création d'un composant=SHM_contents0007@FreeVCL_Fr.hlp
+2 Internationalisation=SHM_contents0008@FreeVCL_Fr.hlp
+2 Problèmes connus=SHM_contents0009@FreeVCL_Fr.hlp
+2 Différences par rapport à C++ Builder=SHM_contents0010@FreeVCL_Fr.hlp
+2 Exemples de programmes=SHM_contents0011@FreeVCL_Fr.hlp
+1 Outils
+2 VCL2FreeVCL=SHM_contents0012@FreeVCL_Fr.hlp
+2 CreateUnit=SHM_contents0013@FreeVCL_Fr.hlp
+1 Configurations spécifiques
+2 Visual Studio 6=SHM_contents0014@FreeVCL_Fr.hlp
+2 Visual Studio Express=SHM_contents0015@FreeVCL_Fr.hlp
+2 Code::Blocks=SHM_contents0016@FreeVCL_Fr.hlp
+1 Divers
+2 Foire aux questions=SHM_contents0017@FreeVCL_Fr.hlp
+2 Résolution des problèmes=SHM_contents0018@FreeVCL_Fr.hlp
+2 Historique=SHM_contents0019@FreeVCL_Fr.hlp
+2 Remerciements=SHM_contents0020@FreeVCL_Fr.hlp

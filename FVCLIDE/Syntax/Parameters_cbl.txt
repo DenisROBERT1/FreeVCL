@@ -1,0 +1,9 @@
+AlphaChars=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-
+CaseSensitive=true
+CommentSingle=*
+QuoteBegin="
+QuoteEnd="
+QuoteBegin2='
+QuoteEnd2='
+EscapeString="
+MultiLine=\

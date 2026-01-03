@@ -1,0 +1,327 @@
+##v##00.4.50
+64
+----------------- 0 - Page -----------------
+Introduction
+0
+0
+0
+----------------- 1 - Header ---------------
+Getting started
+-1
+2
+0
+----------------- 2 - Page -----------------
+Configuration
+1
+0
+1
+----------------- 3 - Page -----------------
+My first program
+2
+0
+1
+----------------- 4 - Header ---------------
+C++ syntax
+-1
+2
+0
+----------------- 5 - Page -----------------
+Properties
+3
+0
+1
+----------------- 6 - Page -----------------
+Events
+4
+0
+1
+----------------- 7 - Page -----------------
+Unicode
+5
+0
+1
+----------------- 8 - Page -----------------
+Creation of a component
+6
+0
+1
+----------------- 9 - Page -----------------
+Internationalization
+7
+0
+1
+----------------- 10 - Page -----------------
+Known problems
+8
+0
+1
+----------------- 11 - Page -----------------
+Differences between FreeVCL and C++ Builder
+9
+0
+1
+----------------- 12 - Page -----------------
+Program samples
+10
+0
+1
+----------------- 13 - Header ---------------
+Integrated editor (FVCLIDE)
+-1
+2
+0
+----------------- 14 - Page -----------------
+Généralités
+11
+0
+1
+----------------- 15 - Header ---------------
+Présentation générale
+-1
+2
+1
+----------------- 16 - Page -----------------
+Le menu principal
+12
+0
+2
+----------------- 17 - Page -----------------
+La fenêtre espace de travail
+13
+0
+2
+----------------- 18 - Page -----------------
+La fenêtre d'édition
+14
+0
+2
+----------------- 19 - Page -----------------
+La fenêtre de résultats
+15
+0
+2
+----------------- 20 - Header ---------------
+Les commandes du menu
+-1
+2
+1
+----------------- 21 - Page -----------------
+Le menu fichiers
+16
+0
+2
+----------------- 22 - Page -----------------
+Le menu édition
+17
+0
+2
+----------------- 23 - Page -----------------
+Le menu recherche
+18
+0
+2
+----------------- 24 - Page -----------------
+Le menu macros
+19
+0
+2
+----------------- 25 - Page -----------------
+Le menu construction
+20
+0
+2
+----------------- 26 - Page -----------------
+Le menu outils
+21
+0
+2
+----------------- 27 - Page -----------------
+Le menu options
+22
+0
+2
+----------------- 28 - Page -----------------
+Le menu aide
+23
+0
+2
+----------------- 29 - Header ---------------
+Détail des fonctionnalités
+-1
+2
+1
+----------------- 30 - Header ---------------
+Fonctionnalités par catégories
+-1
+2
+2
+----------------- 31 - Page -----------------
+Installation et configuration
+24
+0
+3
+----------------- 32 - Page -----------------
+Espaces de travail
+25
+0
+3
+----------------- 33 - Page -----------------
+Création et modification d'un projet
+26
+0
+3
+----------------- 34 - Page -----------------
+Edition de fichiers
+27
+0
+3
+----------------- 35 - Page -----------------
+Les marque-pages
+28
+0
+3
+----------------- 36 - Page -----------------
+Modification d'une fenêtre de dialogue
+29
+0
+3
+----------------- 37 - Page -----------------
+Les macros
+30
+0
+3
+----------------- 38 - Page -----------------
+Lancement en ligne de commande
+31
+0
+3
+----------------- 39 - Header ---------------
+Boîtes de dialogue
+-1
+2
+2
+----------------- 40 - Page -----------------
+Messages d'information et d'erreur
+32
+0
+3
+----------------- 41 - Page -----------------
+Recherche et remplacement
+33
+0
+3
+----------------- 42 - Page -----------------
+Saisie de modèles
+34
+0
+3
+----------------- 43 - Page -----------------
+Statistiques
+35
+0
+3
+----------------- 44 - Page -----------------
+Conversion de nombres
+36
+0
+3
+----------------- 45 - Page -----------------
+Outils utilisateurs
+37
+0
+3
+----------------- 46 - Page -----------------
+Options générales de l'éditeur
+38
+0
+3
+----------------- 47 - Page -----------------
+Définition des raccourcis
+39
+0
+3
+----------------- 48 - Page -----------------
+Coloration syntaxique
+40
+0
+3
+----------------- 49 - Page -----------------
+Police de caractères
+41
+0
+3
+----------------- 50 - Page -----------------
+Paramètres de formatage de code
+42
+0
+3
+----------------- 51 - Page -----------------
+Réponses par défaut
+43
+0
+3
+----------------- 52 - Page -----------------
+Création d'une nouvelle fenêtre de dialogue
+44
+0
+3
+----------------- 53 - Page -----------------
+Propriétés d'un contrôle
+45
+0
+3
+----------------- 54 - Header ---------------
+Tools
+-1
+2
+0
+----------------- 55 - Page -----------------
+VCL2FreeVCL
+46
+0
+1
+----------------- 56 - Header ---------------
+Specifics configurations
+-1
+2
+0
+----------------- 57 - Page -----------------
+Visual Studio 6
+47
+0
+1
+----------------- 58 - Page -----------------
+Visual Studio Express
+48
+0
+1
+----------------- 59 - Page -----------------
+Code::Blocks
+49
+0
+1
+----------------- 60 - Header ---------------
+Miscellaneous
+-1
+2
+0
+----------------- 61 - Page -----------------
+Frequently asked questions
+50
+0
+1
+----------------- 62 - Page -----------------
+Troubleshootings
+51
+0
+1
+----------------- 63 - Page -----------------
+History
+52
+0
+1
+----------------- 64 - Page -----------------
+Thanks
+53
+0
+1

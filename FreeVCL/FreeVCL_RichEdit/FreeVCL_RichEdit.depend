@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1545950480 source:c:\sources\freevcl\freevcl\freevcl_richedit\tfactory_fvcl_richedit.cpp
+	<FreeVcl.h>
+	<TFactory_FVCL_RichEdit.h>
+	<TRichEdit.h>
+
+1562622427 source:c:\sources\freevcl\freevcl\freevcl_richedit\tparaattributes.cpp
+	<FreeVcl.h>
+	<TFactory_FVCL_RichEdit.h>
+	<TRichEdit.h>
+
+1562622427 source:c:\sources\freevcl\freevcl\freevcl_richedit\ttextattributes.cpp
+	<FreeVcl.h>
+	<TFactory_FVCL_RichEdit.h>
+	<TRichEdit.h>
+
+1591774091 source:c:\sources\freevcl\freevcl\freevcl_richedit\trichedit.cpp
+	<FreeVcl.h>
+	<TFactory_FVCL_RichEdit.h>
+	<TRichEdit.h>
+

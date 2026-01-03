@@ -1,0 +1,6 @@
+EXPORTS
+    Translate_Add@8 @1
+    Translate_ChooseLanguage@4 @2
+    Translate_GetLanguage@0 @3
+    Translate_SetLanguage@4 @4
+    Translate_Translate@4 @5

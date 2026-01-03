@@ -1,0 +1,203 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "FVCL_Multimed"=..\FVCL_Multimed\FVCL_Multimed.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FVCL_RichEdit"=.\FVCL_RichEdit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FVCL_ToolsEDI"=..\FVCL_ToolEDI\FVCL_ToolsEDI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FVCL_Web"=..\FVCL_Web\FVCL_Web.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FVCL_XFiles"=..\FVCL_XFILES\FVCL_XFiles.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FVcl"=..\FVCL\FVcl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "NECCompta"=..\COMPTA\NECCompta.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FVcl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name XFiles
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RAD"=..\RAD\RAD.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FVcl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SaisieRacc"=..\SaisRacc\SaisieRacc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FVcl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SvgAuto"=..\SvgAuto\SvgAuto.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FVcl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestAnimate"=..\TestsUnitaires\TestAnimate\TestAnimate.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TestWebCam"=..\TestsUnitaires\TestWebCam\TestWebCam.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TraitFichier"=..\TRAITFICHIERS\TraitFichier\TraitFichier.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "UBU"=..\UBU\UBU.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FVcl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

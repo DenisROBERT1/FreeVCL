@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FreeVcl" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/objs" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Debug" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/objs" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Release" />
+				</Environment>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Os" />
+			<Add option="-m64" />
+			<Add option="-W" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-m64" />
+		</Linker>
+		<Unit filename="../../Include/CharString.h" />
+		<Unit filename="../../Include/Collections.h" />
+		<Unit filename="../../Include/Components.h" />
+		<Unit filename="../../Include/Event.h" />
+		<Unit filename="../../Include/Exceptions.h" />
+		<Unit filename="../../Include/FVCLBase.h" />
+		<Unit filename="../../Include/FVCLTypes.h" />
+		<Unit filename="../../Include/FreeVcl.h" />
+		<Unit filename="../../Include/Objects.h" />
+		<Unit filename="../../Include/Persistents.h" />
+		<Unit filename="../../Include/Property.h" />
+		<Unit filename="../../Include/Set.h" />
+		<Unit filename="../../Include/TAction.h" />
+		<Unit filename="../../Include/TApplication.h" />
+		<Unit filename="../../Include/TBMPFile.h" />
+		<Unit filename="../../Include/TBaseDragControlObject.h" />
+		<Unit filename="../../Include/TBevel.h" />
+		<Unit filename="../../Include/TBitBtn.h" />
+		<Unit filename="../../Include/TBitmap.h" />
+		<Unit filename="../../Include/TBrush.h" />
+		<Unit filename="../../Include/TButton.h" />
+		<Unit filename="../../Include/TCURFile.h" />
+		<Unit filename="../../Include/TCURICOFile.h" />
+		<Unit filename="../../Include/TCanvas.h" />
+		<Unit filename="../../Include/TCheckBox.h" />
+		<Unit filename="../../Include/TClipboard.h" />
+		<Unit filename="../../Include/TColor.h" />
+		<Unit filename="../../Include/TColorBox.h" />
+		<Unit filename="../../Include/TColorDialog.h" />
+		<Unit filename="../../Include/TComboBox.h" />
+		<Unit filename="../../Include/TComboBoxItems.h" />
+		<Unit filename="../../Include/TComponent.h" />
+		<Unit filename="../../Include/TControl.h" />
+		<Unit filename="../../Include/TControlBar.h" />
+		<Unit filename="../../Include/TControlCanvas.h" />
+		<Unit filename="../../Include/TControlScrollBar.h" />
+		<Unit filename="../../Include/TCustomBrush.h" />
+		<Unit filename="../../Include/TCustomCanvas.h" />
+		<Unit filename="../../Include/TCustomControl.h" />
+		<Unit filename="../../Include/TCustomFont.h" />
+		<Unit filename="../../Include/TCustomGrid.h" />
+		<Unit filename="../../Include/TCustomImageList.h" />
+		<Unit filename="../../Include/TCustomPanel.h" />
+		<Unit filename="../../Include/TCustomPen.h" />
+		<Unit filename="../../Include/TDBFFile.h" />
+		<Unit filename="../../Include/TDateTime.h" />
+		<Unit filename="../../Include/TDateTimePicker.h" />
+		<Unit filename="../../Include/TDirectoryListBox.h" />
+		<Unit filename="../../Include/TDragControlObject.h" />
+		<Unit filename="../../Include/TDragControlObjectEx.h" />
+		<Unit filename="../../Include/TDragImageList.h" />
+		<Unit filename="../../Include/TDragObject.h" />
+		<Unit filename="../../Include/TEdit.h" />
+		<Unit filename="../../Include/TFactory.h" />
+		<Unit filename="../../Include/TFactory_FVCL.h" />
+		<Unit filename="../../Include/TFileList.h" />
+		<Unit filename="../../Include/TFileStream.h" />
+		<Unit filename="../../Include/TFont.h" />
+		<Unit filename="../../Include/TFontDialog.h" />
+		<Unit filename="../../Include/TForm.h" />
+		<Unit filename="../../Include/TFormFrame.h" />
+		<Unit filename="../../Include/TFrame.h" />
+		<Unit filename="../../Include/TGraphic.h" />
+		<Unit filename="../../Include/TGroupBox.h" />
+		<Unit filename="../../Include/THintWindow.h" />
+		<Unit filename="../../Include/THotKey.h" />
+		<Unit filename="../../Include/TICOFile.h" />
+		<Unit filename="../../Include/TIcon.h" />
+		<Unit filename="../../Include/TImage.h" />
+		<Unit filename="../../Include/TImageList.h" />
+		<Unit filename="../../Include/TLabel.h" />
+		<Unit filename="../../Include/TLink.h" />
+		<Unit filename="../../Include/TListBox.h" />
+		<Unit filename="../../Include/TListBoxItems.h" />
+		<Unit filename="../../Include/TListColumn.h" />
+		<Unit filename="../../Include/TListColumns.h" />
+		<Unit filename="../../Include/TListItem.h" />
+		<Unit filename="../../Include/TListItems.h" />
+		<Unit filename="../../Include/TListView.h" />
+		<Unit filename="../../Include/TListViewSubItems.h" />
+		<Unit filename="../../Include/TMainMenu.h" />
+		<Unit filename="../../Include/TMask.h" />
+		<Unit filename="../../Include/TMaskEdit.h" />
+		<Unit filename="../../Include/TMemo.h" />
+		<Unit filename="../../Include/TMemoLines.h" />
+		<Unit filename="../../Include/TMemoryStream.h" />
+		<Unit filename="../../Include/TMenu.h" />
+		<Unit filename="../../Include/TMenuItem.h" />
+		<Unit filename="../../Include/TMonthCalColors.h" />
+		<Unit filename="../../Include/TMonthCalendar.h" />
+		<Unit filename="../../Include/TMouse.h" />
+		<Unit filename="../../Include/TObject.h" />
+		<Unit filename="../../Include/TOpenDialog.h" />
+		<Unit filename="../../Include/TOpenSaveDialog.h" />
+		<Unit filename="../../Include/TPDFFile.h" />
+		<Unit filename="../../Include/TPageControl.h" />
+		<Unit filename="../../Include/TPageScroller.h" />
+		<Unit filename="../../Include/TPaintBox.h" />
+		<Unit filename="../../Include/TPaletteVCL.h" />
+		<Unit filename="../../Include/TPanel.h" />
+		<Unit filename="../../Include/TPen.h" />
+		<Unit filename="../../Include/TPersistent.h" />
+		<Unit filename="../../Include/TPicture.h" />
+		<Unit filename="../../Include/TPoint.h" />
+		<Unit filename="../../Include/TPopupMenu.h" />
+		<Unit filename="../../Include/TPrintDialog.h" />
+		<Unit filename="../../Include/TPrinter.h" />
+		<Unit filename="../../Include/TPrinterSetupDialog.h" />
+		<Unit filename="../../Include/TProgressBar.h" />
+		<Unit filename="../../Include/TRadioButton.h" />
+		<Unit filename="../../Include/TRadioGroup.h" />
+		<Unit filename="../../Include/TRect.h" />
+		<Unit filename="../../Include/TRegExp.h" />
+		<Unit filename="../../Include/TSaveDialog.h" />
+		<Unit filename="../../Include/TScreen.h" />
+		<Unit filename="../../Include/TScrollBar.h" />
+		<Unit filename="../../Include/TScrollBox.h" />
+		<Unit filename="../../Include/TShape.h" />
+		<Unit filename="../../Include/TSizeConstraints.h" />
+		<Unit filename="../../Include/TSpeedButton.h" />
+		<Unit filename="../../Include/TSplitter.h" />
+		<Unit filename="../../Include/TStaticText.h" />
+		<Unit filename="../../Include/TStatusBar.h" />
+		<Unit filename="../../Include/TStream.h" />
+		<Unit filename="../../Include/TStringGrid.h" />
+		<Unit filename="../../Include/TStringList.h" />
+		<Unit filename="../../Include/TStringTab.h" />
+		<Unit filename="../../Include/TStrings.h" />
+		<Unit filename="../../Include/TTabControl.h" />
+		<Unit filename="../../Include/TTabControlTabs.h" />
+		<Unit filename="../../Include/TTabSheet.h" />
+		<Unit filename="../../Include/TTimer.h" />
+		<Unit filename="../../Include/TToolBar.h" />
+		<Unit filename="../../Include/TToolButton.h" />
+		<Unit filename="../../Include/TTrackBar.h" />
+		<Unit filename="../../Include/TTrayIcon.h" />
+		<Unit filename="../../Include/TTreeNode.h" />
+		<Unit filename="../../Include/TTreeNodes.h" />
+		<Unit filename="../../Include/TTreeView.h" />
+		<Unit filename="../../Include/TUpDown.h" />
+		<Unit filename="../../Include/TWinControl.h" />
+		<Unit filename="../../Include/Translate.h" />
+		<Unit filename="../../Include/WideString.h" />
+		<Unit filename="../../Include/WinControls.h" />
+		<Unit filename="CharString.cpp" />
+		<Unit filename="Exceptions.cpp" />
+		<Unit filename="FreeVcl.cpp" />
+		<Unit filename="TAction.cpp" />
+		<Unit filename="TApplication.cpp" />
+		<Unit filename="TBMPFile.cpp" />
+		<Unit filename="TBaseDragControlObject.cpp" />
+		<Unit filename="TBevel.cpp" />
+		<Unit filename="TBitBtn.cpp" />
+		<Unit filename="TBitmap.cpp" />
+		<Unit filename="TBrush.cpp" />
+		<Unit filename="TButton.cpp" />
+		<Unit filename="TCURFile.cpp" />
+		<Unit filename="TCURICOFile.cpp" />
+		<Unit filename="TCanvas.cpp" />
+		<Unit filename="TCheckBox.cpp" />
+		<Unit filename="TClipboard.cpp" />
+		<Unit filename="TColor.cpp" />
+		<Unit filename="TColorBox.cpp" />
+		<Unit filename="TColorDialog.cpp" />
+		<Unit filename="TComboBox.cpp" />
+		<Unit filename="TComboBoxItems.cpp" />
+		<Unit filename="TCommonCalendar.cpp" />
+		<Unit filename="TComponent.cpp" />
+		<Unit filename="TControl.cpp" />
+		<Unit filename="TControlBar.cpp" />
+		<Unit filename="TControlCanvas.cpp" />
+		<Unit filename="TControlScrollBar.cpp" />
+		<Unit filename="TCustomBrush.cpp" />
+		<Unit filename="TCustomCanvas.cpp" />
+		<Unit filename="TCustomControl.cpp" />
+		<Unit filename="TCustomFont.cpp" />
+		<Unit filename="TCustomGrid.cpp" />
+		<Unit filename="TCustomImageList.cpp" />
+		<Unit filename="TCustomPanel.cpp" />
+		<Unit filename="TCustomPen.cpp" />
+		<Unit filename="TDateTime.cpp" />
+		<Unit filename="TDateTimePicker.cpp" />
+		<Unit filename="TDirectoryListBox.cpp" />
+		<Unit filename="TDragControlObject.cpp" />
+		<Unit filename="TDragControlObjectEx.cpp" />
+		<Unit filename="TDragImageList.cpp" />
+		<Unit filename="TDragObject.cpp" />
+		<Unit filename="TEdit.cpp" />
+		<Unit filename="TFactory.cpp" />
+		<Unit filename="TFactory_FVCL.cpp" />
+		<Unit filename="TFileList.cpp" />
+		<Unit filename="TFileStream.cpp" />
+		<Unit filename="TFont.cpp" />
+		<Unit filename="TFontDialog.cpp" />
+		<Unit filename="TForm.cpp" />
+		<Unit filename="TFormFrame.cpp" />
+		<Unit filename="TFrame.cpp" />
+		<Unit filename="TGIFFile.cpp" />
+		<Unit filename="TGIFImage.cpp" />
+		<Unit filename="TGraphic.cpp" />
+		<Unit filename="TGroupBox.cpp" />
+		<Unit filename="THintWindow.cpp" />
+		<Unit filename="THotKey.cpp" />
+		<Unit filename="TICOFile.cpp" />
+		<Unit filename="TIcon.cpp" />
+		<Unit filename="TImage.cpp" />
+		<Unit filename="TImageList.cpp" />
+		<Unit filename="TLabel.cpp" />
+		<Unit filename="TLink.cpp" />
+		<Unit filename="TListBox.cpp" />
+		<Unit filename="TListBoxItems.cpp" />
+		<Unit filename="TListColumn.cpp" />
+		<Unit filename="TListColumns.cpp" />
+		<Unit filename="TListItem.cpp" />
+		<Unit filename="TListItems.cpp" />
+		<Unit filename="TListView.cpp" />
+		<Unit filename="TListViewSubItems.cpp" />
+		<Unit filename="TMainMenu.cpp" />
+		<Unit filename="TMask.cpp" />
+		<Unit filename="TMaskEdit.cpp" />
+		<Unit filename="TMemo.cpp" />
+		<Unit filename="TMemoLines.cpp" />
+		<Unit filename="TMemoryStream.cpp" />
+		<Unit filename="TMenu.cpp" />
+		<Unit filename="TMenuItem.cpp" />
+		<Unit filename="TMonthCalColors.cpp" />
+		<Unit filename="TMonthCalendar.cpp" />
+		<Unit filename="TMouse.cpp" />
+		<Unit filename="TObject.cpp" />
+		<Unit filename="TOpenDialog.cpp" />
+		<Unit filename="TOpenSaveDialog.cpp" />
+		<Unit filename="TPageControl.cpp" />
+		<Unit filename="TPageScroller.cpp" />
+		<Unit filename="TPaintBox.cpp" />
+		<Unit filename="TPaletteVCL.cpp" />
+		<Unit filename="TPanel.cpp" />
+		<Unit filename="TPen.cpp" />
+		<Unit filename="TPersistent.cpp" />
+		<Unit filename="TPicture.cpp" />
+		<Unit filename="TPoint.cpp" />
+		<Unit filename="TPopupMenu.cpp" />
+		<Unit filename="TPrintDialog.cpp" />
+		<Unit filename="TPrinter.cpp" />
+		<Unit filename="TPrinterSetupDialog.cpp" />
+		<Unit filename="TProgressBar.cpp" />
+		<Unit filename="TRadioButton.cpp" />
+		<Unit filename="TRadioGroup.cpp" />
+		<Unit filename="TRect.cpp" />
+		<Unit filename="TRegExp.cpp" />
+		<Unit filename="TSaveDialog.cpp" />
+		<Unit filename="TScreen.cpp" />
+		<Unit filename="TScrollBar.cpp" />
+		<Unit filename="TScrollBox.cpp" />
+		<Unit filename="TShape.cpp" />
+		<Unit filename="TSizeConstraints.cpp" />
+		<Unit filename="TSpeedButton.cpp" />
+		<Unit filename="TSplitter.cpp" />
+		<Unit filename="TStaticText.cpp" />
+		<Unit filename="TStatusBar.cpp" />
+		<Unit filename="TStream.cpp" />
+		<Unit filename="TStringGrid.cpp" />
+		<Unit filename="TStringList.cpp" />
+		<Unit filename="TStringTab.cpp" />
+		<Unit filename="TStrings.cpp" />
+		<Unit filename="TTabControl.cpp" />
+		<Unit filename="TTabControlTabs.cpp" />
+		<Unit filename="TTabSheet.cpp" />
+		<Unit filename="TTimer.cpp" />
+		<Unit filename="TToolBar.cpp" />
+		<Unit filename="TToolButton.cpp" />
+		<Unit filename="TTrackBar.cpp" />
+		<Unit filename="TTrayIcon.cpp" />
+		<Unit filename="TTreeNode.cpp" />
+		<Unit filename="TTreeNodes.cpp" />
+		<Unit filename="TTreeView.cpp" />
+		<Unit filename="TUpDown.cpp" />
+		<Unit filename="TWinControl.cpp" />
+		<Unit filename="WideString.cpp" />
+		<Extensions>
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="" main="" init_handlers="necessary" language="CPP" />
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

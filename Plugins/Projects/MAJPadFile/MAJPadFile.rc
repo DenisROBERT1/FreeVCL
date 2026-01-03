@@ -1,0 +1,46 @@
+#include <windows.h>
+
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+BMP_MAJPADFILE_20					BITMAP	MOVEABLE PURE 	"MAJPadFile_20x20.bmp"
+BMP_MAJPADFILE_32					BITMAP	MOVEABLE PURE 	"MAJPadFile_32x32.bmp"
+BMP_MAJPADFILE_48					BITMAP	MOVEABLE PURE 	"MAJPadFile_48x48.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+FORM_SAISIEPARAMS DIALOG DISCARDABLE 0, 0, 300, 84
+CAPTION "Paramètres du setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Source :",LABEL_SOURCE,4,6,44,8
+    EDITTEXT        EDIT_SOURCE,52,4,200,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRSOURCE,256,4,40,12,NOT WS_TABSTOP,NOT WS_TABSTOP
+    LTEXT           "Destination :",LABEL_DEST,4,24,44,8
+    EDITTEXT        EDIT_DEST,52,22,200,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRDEST,256,22,40,12,NOT WS_TABSTOP,NOT WS_TABSTOP
+    LTEXT           "Ficher Setup :",LABEL_FILESETUP,4,42,44,8
+    EDITTEXT        EDIT_FILESETUP,52,40,200,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRFILESETUP,256,40,40,12,NOT WS_TABSTOP,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Ok",BUTTON_OK,80,62,40,12
+    PUSHBUTTON      "Annuler",BUTTON_ANNULER,130,62,40,12
+    PUSHBUTTON      "Aide",BUTTON_AIDE,180,62,40,12
+END
+

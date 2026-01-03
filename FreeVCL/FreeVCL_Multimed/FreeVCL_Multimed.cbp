@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FreeVCL_Multimed" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_Multimed.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Debug" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_Multimed.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-m64" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Release" />
+				</Environment>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Os" />
+			<Add option="-m64" />
+			<Add option="-W" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-m64" />
+		</Linker>
+		<Unit filename="../../Include/FreeVcl_Multimed.h" />
+		<Unit filename="../../Include/TAnimate.h" />
+		<Unit filename="../../Include/TFactory_FVCL_Multimed.h" />
+		<Unit filename="../../Include/TWebCam.h" />
+		<Unit filename="../../Include/WebCam.h" />
+		<Unit filename="TAnimate.cpp" />
+		<Unit filename="TFactory_FVCL_Multimed.cpp" />
+		<Unit filename="TWebCam.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

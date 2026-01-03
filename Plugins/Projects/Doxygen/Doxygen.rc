@@ -1,0 +1,40 @@
+#include <windows.h>
+
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+BMP_DOXYGEN_20					BITMAP	MOVEABLE PURE 	"Doxygen_20x20.bmp"
+BMP_DOXYGEN_32					BITMAP	MOVEABLE PURE 	"Doxygen_32x32.bmp"
+BMP_DOXYGEN_48					BITMAP	MOVEABLE PURE 	"Doxygen_48x48.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+FORM_SAISIEPARAMS DIALOG DISCARDABLE 0, 0, 340, 52
+CAPTION "Génération automatique de documentation DOXYGEN"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Fichier de paramètres :",LABEL_PARAM,4,6,80,8
+    EDITTEXT        EDIT_PARAM,88,4,204,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRPARAM,296,4,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Ok",BUTTON_OK,100,30,40,12
+    PUSHBUTTON      "Annuler",BUTTON_ANNULER,150,30,40,12
+    PUSHBUTTON      "Aide",BUTTON_AIDE,200,30,40,12
+END
+

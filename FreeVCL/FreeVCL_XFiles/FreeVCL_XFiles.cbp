@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FreeVCL_XFiles" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="debug">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$Build/FreeVCL_XFiles.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/objs" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Wunreachable-code" />
+					<Add option="-pedantic" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Debug" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$Build/FreeVCL_XFiles.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/objs" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Release" />
+				</Environment>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="debug;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Os" />
+			<Add option="-m64" />
+			<Add option="-W" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-m64" />
+		</Linker>
+		<Unit filename="../../Include/FreeVCL_XFiles.h" />
+		<Unit filename="../../Include/TBrushPdf.h" />
+		<Unit filename="../../Include/TCanvasPdf.h" />
+		<Unit filename="../../Include/TColorPdf.h" />
+		<Unit filename="../../Include/TDBFFile.h" />
+		<Unit filename="../../Include/TFactory_FVCL_XFiles.h" />
+		<Unit filename="../../Include/TFontPdf.h" />
+		<Unit filename="../../Include/TMetafile.h" />
+		<Unit filename="../../Include/TObjetPdf.h" />
+		<Unit filename="../../Include/TObjetPdfCatalog.h" />
+		<Unit filename="../../Include/TObjetPdfContent.h" />
+		<Unit filename="../../Include/TObjetPdfFont.h" />
+		<Unit filename="../../Include/TObjetPdfOutlines.h" />
+		<Unit filename="../../Include/TObjetPdfPage.h" />
+		<Unit filename="../../Include/TObjetPdfPages.h" />
+		<Unit filename="../../Include/TObjetPdfProcSet.h" />
+		<Unit filename="../../Include/TObjetPdfUnknown.h" />
+		<Unit filename="../../Include/TPDFFile.h" />
+		<Unit filename="../../Include/TPenPdf.h" />
+		<Unit filename="../../Include/TXMLFile.h" />
+		<Unit filename="TBrushPdf.cpp" />
+		<Unit filename="TCanvasPdf.cpp" />
+		<Unit filename="TColorPdf.cpp" />
+		<Unit filename="TDBFFile.cpp" />
+		<Unit filename="TFactory_FVCL_XFiles.cpp" />
+		<Unit filename="TFontPdf.cpp" />
+		<Unit filename="TMetafile.cpp" />
+		<Unit filename="TObjetPdf.cpp" />
+		<Unit filename="TObjetPdfCatalog.cpp" />
+		<Unit filename="TObjetPdfContent.cpp" />
+		<Unit filename="TObjetPdfFont.cpp" />
+		<Unit filename="TObjetPdfOutlines.cpp" />
+		<Unit filename="TObjetPdfPage.cpp" />
+		<Unit filename="TObjetPdfPages.cpp" />
+		<Unit filename="TObjetPdfProcSet.cpp" />
+		<Unit filename="TObjetPdfUnknown.cpp" />
+		<Unit filename="TPDFFile.cpp" />
+		<Unit filename="TPenPdf.cpp" />
+		<Unit filename="TXMLFile.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

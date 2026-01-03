@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FreeVCL_Web" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_Web.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+					<Add library="libws2_32.a" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Debug" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_Web.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+					<Add library="libws2_32.a" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Release" />
+				</Environment>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Os" />
+			<Add option="-m64" />
+			<Add option="-W" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-m64" />
+		</Linker>
+		<Unit filename="../../Include/FreeVcl_Web.h" />
+		<Unit filename="../../Include/TClientSocket.h" />
+		<Unit filename="../../Include/TComPort.h" />
+		<Unit filename="../../Include/TCppWebBrowser.h" />
+		<Unit filename="../../Include/TCustomSocket.h" />
+		<Unit filename="../../Include/TDdeClientConv.h" />
+		<Unit filename="../../Include/TDdeClientItem.h" />
+		<Unit filename="../../Include/TDdeServerConv.h" />
+		<Unit filename="../../Include/TDdeServerItem.h" />
+		<Unit filename="../../Include/TFactory_FVCL_Web.h" />
+		<Unit filename="../../Include/TServerSocket.h" />
+		<Unit filename="TClientSocket.cpp" />
+		<Unit filename="TComPort.cpp" />
+		<Unit filename="TCppWebBrowser.cpp" />
+		<Unit filename="TCustomSocket.cpp" />
+		<Unit filename="TDdeClientConv.cpp" />
+		<Unit filename="TDdeClientItem.cpp" />
+		<Unit filename="TDdeServerConv.cpp" />
+		<Unit filename="TDdeServerItem.cpp" />
+		<Unit filename="TFactory_FVCL_Web.cpp" />
+		<Unit filename="TServerSocket.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

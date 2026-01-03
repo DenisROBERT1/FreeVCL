@@ -1,0 +1,41 @@
+#include <windows.h>
+
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+BMP_COPYFILE						BITMAP	MOVEABLE PURE 	"CopyFile.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+FORM_SAISIEPARAMS DIALOG DISCARDABLE 0, 0, 300, 70
+CAPTION "Paramètres copie de fichiers"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Source :",LABEL_SOURCE,4,6,40,8
+    EDITTEXT        EDIT_SOURCE,48,4,204,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRSOURCE,256,4,40,12,NOT WS_TABSTOP
+    LTEXT           "Destination :",LABEL_DEST,4,24,40,8
+    EDITTEXT        EDIT_DEST,48,22,204,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRDEST,256,22,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Ok",BUTTON_OK,80,48,40,12
+    PUSHBUTTON      "Annuler",BUTTON_ANNULER,130,48,40,12
+    PUSHBUTTON      "Aide",BUTTON_AIDE,180,48,40,12
+END
+

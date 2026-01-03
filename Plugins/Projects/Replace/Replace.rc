@@ -1,0 +1,67 @@
+#include <windows.h>
+
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+BMP_REPLACE_20					BITMAP	MOVEABLE PURE 	"Replace_20x20.bmp"
+BMP_REPLACE_32					BITMAP	MOVEABLE PURE 	"Replace_32x32.bmp"
+BMP_REPLACE_48					BITMAP	MOVEABLE PURE 	"Replace_48x48.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+FORM_SAISIEPARAMS DIALOG DISCARDABLE 0, 0, 300, 194
+CAPTION "Paramètres de remplacement"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Source :",LABEL_SOURCE,4,6,40,8
+    EDITTEXT        EDIT_SOURCE,48,4,204,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRSOURCE,256,4,40,12,NOT WS_TABSTOP,NOT WS_TABSTOP
+    LTEXT           "Destination :",LABEL_DEST,4,24,40,8
+    EDITTEXT        EDIT_DEST,48,22,204,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRDEST,256,22,40,12,NOT WS_TABSTOP,NOT WS_TABSTOP
+    LTEXT           "Remplacer :",LABEL_SRCH1,4,42,40,8
+    EDITTEXT        EDIT_SRCH1,48,40,110,12,ES_AUTOHSCROLL
+    LTEXT           "Par :",LABEL_REPL1,164,42,20,8
+    EDITTEXT        EDIT_REPL1,186,40,110,12,ES_AUTOHSCROLL
+    LTEXT           "Remplacer :",LABEL_SRCH2,4,60,40,8
+    EDITTEXT        EDIT_SRCH2,48,58,110,12,ES_AUTOHSCROLL
+    LTEXT           "Par :",LABEL_REPL2,164,60,20,8
+    EDITTEXT        EDIT_REPL2,186,58,110,12,ES_AUTOHSCROLL
+    LTEXT           "Remplacer :",LABEL_SRCH3,4,78,40,8
+    EDITTEXT        EDIT_SRCH3,48,76,110,12,ES_AUTOHSCROLL
+    LTEXT           "Par :",LABEL_REPL3,164,78,20,8
+    EDITTEXT        EDIT_REPL3,186,76,110,12,ES_AUTOHSCROLL
+    LTEXT           "Remplacer :",LABEL_SRCH4,4,96,40,8
+    EDITTEXT        EDIT_SRCH4,48,94,110,12,ES_AUTOHSCROLL
+    LTEXT           "Par :",LABEL_REPL4,164,96,20,8
+    EDITTEXT        EDIT_REPL4,186,94,110,12,ES_AUTOHSCROLL
+    LTEXT           "Remplacer :",LABEL_SRCH5,4,114,40,8
+    EDITTEXT        EDIT_SRCH5,48,112,110,12,ES_AUTOHSCROLL
+    LTEXT           "Par :",LABEL_REPL5,164,114,20,8
+    EDITTEXT        EDIT_REPL5,186,112,110,12,ES_AUTOHSCROLL
+    LTEXT           "Dans les textes de remplacement, la chaîne ""[file]"" sera remplacée par le contenu du fichier ci-dessous :",LABEL_INFO,48,130,248,20
+    LTEXT           "Ficher :",LABEL_FILEREPL,4,152,40,8
+    EDITTEXT        EDIT_FILEREPL,48,150,204,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRFILEREPL,256,150,40,12,NOT WS_TABSTOP,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Ok",BUTTON_OK,80,172,40,12
+    PUSHBUTTON      "Annuler",BUTTON_ANNULER,130,172,40,12
+    PUSHBUTTON      "Aide",BUTTON_AIDE,180,172,40,12
+END
+

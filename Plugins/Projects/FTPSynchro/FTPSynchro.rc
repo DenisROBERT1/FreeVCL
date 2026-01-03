@@ -1,0 +1,55 @@
+#include <windows.h>
+
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+BMP_FTPSYNCHRO_20					BITMAP	MOVEABLE PURE 	"FtpSynchro_20x20.bmp"
+BMP_FTPSYNCHRO_32					BITMAP	MOVEABLE PURE 	"FtpSynchro_32x32.bmp"
+BMP_FTPSYNCHRO_48					BITMAP	MOVEABLE PURE 	"FtpSynchro_48x48.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+FORM_SAISIEPARAMS DIALOG DISCARDABLE 5, 18, 320, 203
+CAPTION "Paramètres synchronisation FTP"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Sens synchro",LABEL_SENS,4,8,60,8
+    COMBOBOX        COMBOBOX_SENS,68,6,248,100,CBS_DROPDOWNLIST
+    LTEXT           "Répertoire local :",LABEL_LOCAL,4,26,60,8
+    EDITTEXT        EDIT_LOCAL,68,24,204,12,WS_TABSTOP|ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRLOCAL,276,24,40,12,NOT WS_TABSTOP
+    LTEXT           "Répertoire FTP :",LABEL_REMOTE,4,44,60,8
+    EDITTEXT        EDIT_REMOTE,68,42,248,12,WS_TABSTOP|ES_AUTOHSCROLL
+    LTEXT           "Site FTP :",LABEL_FTP,4,62,60,8
+    EDITTEXT        EDIT_FTP,68,60,248,12,WS_TABSTOP|ES_AUTOHSCROLL
+    LTEXT           "Identifiant :",LABEL_IDENT,5,80,60,8
+    EDITTEXT        EDIT_IDENT,68,78,248,12,WS_TABSTOP|ES_AUTOHSCROLL
+    LTEXT           "Mot de passe :",LABEL_PASSWORD,4,98,60,8
+    EDITTEXT        EDIT_PASSWORD,68,96,164,12,WS_TABSTOP|ES_PASSWORD|ES_AUTOHSCROLL
+    LTEXT           "Port :",LABEL_PORT,240,98,28,8
+    EDITTEXT        EDIT_PORT,272,96,44,12,WS_TABSTOP|ES_AUTOHSCROLL
+    LTEXT           "Action à effectuer sur les fichiers présents uniquement sur le poste destination :",LABEL_FTPONLY,4,116,312,8
+    AUTORADIOBUTTON "Ne rien faire",RADIO_NOTHING,68,132,248,8,WS_TABSTOP|BS_AUTORADIOBUTTON
+    AUTORADIOBUTTON "Les copier sur la source",RADIO_COPY,68,146,248,8,WS_TABSTOP|BS_AUTORADIOBUTTON
+    AUTORADIOBUTTON "Les supprimer",RADIO_DELETE,68,160,248,8,WS_TABSTOP|BS_AUTORADIOBUTTON
+    DEFPUSHBUTTON   "Ok",BUTTON_OK,87,182,40,12
+    PUSHBUTTON      "Annuler",BUTTON_ANNULER,140,182,40,12
+    PUSHBUTTON      "Aide",BUTTON_AIDE,193,182,40,12
+END

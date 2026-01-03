@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tclientsocket.cpp
+	<FreeVcl.h>
+	<FreeVcl_Web.h>
+
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tcomport.cpp
+	<FreeVcl.h>
+	<TComPort.h>
+
+1603954464 source:c:\sources\freevcl\freevcl\freevcl_web\tcppwebbrowser.cpp
+	<FreeVcl.h>
+	<ole2.h>
+	<exdisp.h>
+	<TCppWebBrowser.h>
+
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tcustomsocket.cpp
+	<FreeVcl.h>
+	<FreeVcl_Web.h>
+
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tddeclientconv.cpp
+	<FreeVcl.h>
+	<FreeVcl_Web.h>
+
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tddeclientitem.cpp
+	<FreeVcl.h>
+	<FreeVcl_Web.h>
+
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tddeserverconv.cpp
+	<FreeVcl.h>
+	<FreeVcl_Web.h>
+
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tddeserveritem.cpp
+	<FreeVcl.h>
+	<FreeVcl_Web.h>
+
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tfactory_fvcl_web.cpp
+	<FreeVcl.h>
+	<FreeVCL_Web.h>
+
+1545950478 source:c:\sources\freevcl\freevcl\freevcl_web\tserversocket.cpp
+	<FreeVcl.h>
+	<FreeVcl_Web.h>
+

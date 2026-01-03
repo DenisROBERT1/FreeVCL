@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1230853124 source:c:\programmes\testsunitaires\testwebcam\testwebcam.cpp
+	<windows.h>
+	<commdlg.h>
+	<FreeVcl.h>
+	"TForm_Principale.h"
+
+1238536299 c:\programmes\testsunitaires\testwebcam\tform_principale.h
+	<FreeVcl.h>
+	<FreeVcl_Multimed.h>
+
+1210617817 source:c:\programmes\testsunitaires\testwebcam\testwebcam.rc
+	"windows.h"
+
+1238536299 source:c:\programmes\testsunitaires\testwebcam\tform_principale.cpp
+	<windows.h>
+	<commdlg.h>
+	"TForm_Principale.h"
+
+1285607742 source:c:\sources\freevcl\unittests\testwebcam\testwebcam.cpp
+	<FreeVcl.h>
+	"TForm_Principale.h"
+
+1285607560 c:\sources\freevcl\unittests\testwebcam\tform_principale.h
+	<FreeVcl.h>
+	<FreeVcl_Multimed.h>
+
+1210617817 source:c:\sources\freevcl\unittests\testwebcam\testwebcam.rc
+	"windows.h"
+
+1285607742 source:c:\sources\freevcl\unittests\testwebcam\tform_principale.cpp
+	"TForm_Principale.h"
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FreeVCL_ToolsEDI" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_ToolsEDI.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Debug" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../FreeVCL/Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_ToolsEDI.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Release" />
+				</Environment>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Os" />
+			<Add option="-m64" />
+			<Add option="-W" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-m64" />
+		</Linker>
+		<Unit filename="../../Include/FreeVCL_ToolsEDI.h" />
+		<Unit filename="../../Include/TCustomEditor.h" />
+		<Unit filename="../../Include/TDictionnary.h" />
+		<Unit filename="../../Include/TFactory_FVCL_ToolsEDI.h" />
+		<Unit filename="../../Include/THexaEditor.h" />
+		<Unit filename="../../Include/TTextEditor.h" />
+		<Unit filename="../../Include/TTextEditorLines.h" />
+		<Unit filename="../../Include/TTooltip.h" />
+		<Unit filename="../../Include/TUndoRedo.h" />
+		<Unit filename="TCustomEditor.cpp" />
+		<Unit filename="TDictionnary.cpp" />
+		<Unit filename="TFactory_FVCL_ToolsEDI.cpp" />
+		<Unit filename="THexaEditor.cpp" />
+		<Unit filename="TTextEditor.cpp" />
+		<Unit filename="TTextEditorLines.cpp" />
+		<Unit filename="TTooltip.cpp" />
+		<Unit filename="TUndoRedo.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

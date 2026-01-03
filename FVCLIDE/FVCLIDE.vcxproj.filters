@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b1644907-1080-4a3e-a9db-f6721c36c63c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d40e568d-3f41-4c5b-b582-8c8681f549db}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{dda72edc-3f28-4c2f-863b-14039deafb03}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TControlSizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TElemBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TElemVCL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFileASCII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFileForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_Principale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_Proprietes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_SaisieColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_SaisieRacc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_Statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFrame_EditFichierText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFrame_SaisieDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FVCLIDE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_SearchAndReplace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Forms\TForm_APropos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_DisplayError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFVCLIDEAutomation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_ConvertNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFrame_FVCLIDEBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFrame_EditFichierHexa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_EdiOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_NewDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_SaisieTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTypeProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_Models.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_SaisieModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_AddNewProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_Autocompletion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_CodeFormatParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_SaisieDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_DefaultResponses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TControlSizer_Collection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_FileProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TListTypeProjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_AddNewFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFrame_SaisieIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFrame_SaisieCursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_RepeatMacro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TNumVersion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TForm_FileFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TControlSizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TElemBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TElemVCL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFileASCII.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFileForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_Principale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_Proprietes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_SaisieColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_SaisieRacc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_Statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFrame_EditFichierText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFrame_SaisieDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_SearchAndReplace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Forms\TForm_APropos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_Tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFVCLIDEAutomation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFrame_FVCLIDEBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_ConvertNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFrame_EditFichierHexa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_EdiOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_NewDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_SaisieTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTypeProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_Models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_SaisieModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_AddNewProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_Autocompletion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_DisplayError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_CodeFormatParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_SaisieDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_DefaultResponses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TControlSizer_Collection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_DefaultResponses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_FileProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TListTypeProjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_AddNewFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\Include\Plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFrame_SaisieIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFrame_SaisieCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_RepeatMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TNumVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TForm_FileFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SIZE2.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_Principale.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_Proprietes.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_SaisieColors.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_SaisieRacc.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_Statistics.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TFrame_EditFichierText.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TFrame_SaisieDialog.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FVCLIDE.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_SearchAndReplace.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Common\Forms\TForm_APropos.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_DisplayError.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_ConvertNumbers.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_Tools.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TFrame_EditFichierHexa.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_EdiOptions.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_NewDialog.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_SaisieTools.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_Models.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_SaisieModel.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_AddNewProject.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_Autocompletion.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_CodeFormatParams.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_SaisieDialog.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_DefaultResponses.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_FileProperties.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_AddNewFile.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TFrame_SaisieIcon.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TFrame_SaisieCursor.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_RepeatMacro.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TForm_FileFormat.dfm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FVCLIDE.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,104 @@
+---------------------------
+Statistiques 09/12/2008
+---------------------------
+24 fichiers traités
+7027 lignes
+3898 lignes de code
+1601 lignes de commentaires
+85 lignes de code + commentaires
+1443 lignes vides
+---------------------------
+
+---------------------------
+Statistiques 25/12/2008
+---------------------------
+26 fichiers traités
+7635 lignes
+4309 lignes de code
+1682 lignes de commentaires
+85 lignes de code + commentaires
+1559 lignes vides
+---------------------------
+
+---------------------------
+Statistiques 03/01/2009
+---------------------------
+30 fichiers traités
+9263 lignes
+5443 lignes de code
+1863 lignes de commentaires
+97 lignes de code + commentaires
+1860 lignes vides
+---------------------------
+
+---------------------------
+Statistiques 24/09/2009
+---------------------------
+42 fichiers traités
+14541 lignes
+8406 lignes de code
+3164 lignes de commentaires
+70 lignes de code + commentaires
+2901 lignes vides
+---------------------------
+
+---------------------------
+Statistiques 10/10/2010
+---------------------------
+42 fichier(s) traité(s)
+382268 caractère(s)
+14762 ligne(s)
+8568 ligne(s) de code
+3194 ligne(s) de commentaire(s)
+70 ligne(s) de code + commentaire(s)
+2930 ligne(s) vide(s)
+---------------------------
+
+---------------------------
+Statistiques 01/04/2011
+---------------------------
+46 fichier(s) traité(s)
+432760 caractère(s)
+16535 ligne(s)
+9790 ligne(s) de code
+3383 ligne(s) de commentaire(s)
+79 ligne(s) de code + commentaire(s)
+3283 ligne(s) vide(s)
+---------------------------
+
+---------------------------
+Statistiques 11/04/2011
+---------------------------
+56 fichier(s) traité(s)
+523491 caractère(s)
+20186 ligne(s)
+12020 ligne(s) de code
+4029 ligne(s) de commentaire(s)
+90 ligne(s) de code + commentaire(s)
+4047 ligne(s) vide(s)
+---------------------------
+
+---------------------------
+Statistiques 15/02/2013
+---------------------------
+81 fichier(s) traité(s)
+812179 caractère(s)
+30601 ligne(s)
+19007 ligne(s) de code
+5503 ligne(s) de commentaire(s)
+138 ligne(s) de code + commentaire(s)
+5953 ligne(s) vide(s)
+---------------------------
+
+---------------------------
+Statistiques 25/06/2015
+---------------------------
+78 fichier(s) traité(s)
+1202079 caractère(s)
+47893 ligne(s)
+33968 ligne(s) de code
+4676 ligne(s) de commentaire(s)
+71 ligne(s) de code + commentaire(s)
+153 ligne(s) de commentaire(s) vide(s)
+9024 ligne(s) vide(s)
+---------------------------

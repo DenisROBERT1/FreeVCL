@@ -1,0 +1,127 @@
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+AAAA_MAINICON 					ICON		DISCARDABLE 		"FVCLIDE.ico"
+ICON_INFORMATION				ICON		DISCARDABLE 		"Information.ico"
+ICON_QUESTION 					ICON		DISCARDABLE 		"Question.ico"
+ICON_WARNING						ICON		DISCARDABLE 		"Warning.ico"
+ICON_ERROR							ICON		DISCARDABLE 		"Error.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MOVE								CURSOR	DISCARDABLE 		"SIZE2.CUR"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+BMP_KEYUP 							BITMAP	MOVEABLE PURE 	"KeyUp16.bmp"
+BMP_KEYDOWN 						BITMAP	MOVEABLE PURE 	"KeyDown16.bmp"
+
+BMP_HOME								BITMAP	MOVEABLE PURE 	"Home.bmp"
+BMP_PGUP								BITMAP	MOVEABLE PURE 	"PgUp.bmp"
+BMP_PGDOWN							BITMAP	MOVEABLE PURE 	"PgDown.bmp"
+BMP_LEFT								BITMAP	MOVEABLE PURE 	"Left.bmp"
+BMP_UP									BITMAP	MOVEABLE PURE 	"Up.bmp"
+BMP_RIGHT 							BITMAP	MOVEABLE PURE 	"Right.bmp"
+BMP_DOWN								BITMAP	MOVEABLE PURE 	"Down.bmp"
+BMP_TAB 								BITMAP	MOVEABLE PURE 	"Tab.bmp"
+BMP_TSHIFT							BITMAP	MOVEABLE PURE 	"Shift.bmp"
+
+BMP_IMAGELISTPOPUP			BITMAP	MOVEABLE PURE 	"ImageListPopup.bmp"
+BMP_IMAGELISTTREESTATES	BITMAP	MOVEABLE PURE 	"ImageListTreeStates.bmp"
+BMP_IMAGELISTBUTTONS		BITMAP	MOVEABLE PURE 	"ImageListButtons.bmp"
+
+BMP_CONTROLUNKNOWN			BITMAP	MOVEABLE PURE 	"ControlUnknown.bmp"
+BMP_PLUGINUNKNOWN				BITMAP	MOVEABLE PURE 	"PluginUnknown.bmp"
+BMP_TEXTFILE_20					BITMAP	MOVEABLE PURE 	"TextFile_20x20.bmp"
+BMP_TEXTFILE_32					BITMAP	MOVEABLE PURE 	"TextFile_32x32.bmp"
+BMP_TEXTFILE_48					BITMAP	MOVEABLE PURE 	"TextFile_48x48.bmp"
+BMP_TEXTFILES_20				BITMAP	MOVEABLE PURE 	"TextFiles_20x20.bmp"
+BMP_TEXTFILES_32				BITMAP	MOVEABLE PURE 	"TextFiles_32x32.bmp"
+BMP_TEXTFILES_48				BITMAP	MOVEABLE PURE 	"TextFiles_48x48.bmp"
+BMP_DIRECTORY_20				BITMAP	MOVEABLE PURE 	"Directory_20x20.bmp"
+BMP_DIRECTORY_32				BITMAP	MOVEABLE PURE 	"Directory_32x32.bmp"
+BMP_DIRECTORY_48				BITMAP	MOVEABLE PURE 	"Directory_48x48.bmp"
+BMP_UPDATEYES						BITMAP	MOVEABLE PURE 	"UpdateYes.bmp"
+BMP_UPDATENO						BITMAP	MOVEABLE PURE 	"UpdateNo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DFM
+//
+
+TFORM_PRINCIPALE				DFM 		MOVEABLE PURE 	"TForm_Principale.dfm"
+TFORM_DISPLAYERROR			DFM 		MOVEABLE PURE 	"TForm_DisplayError.dfm"
+TFORM_SEARCHANDREPLACE	DFM 		MOVEABLE PURE 	"TForm_SearchAndReplace.dfm"
+TFORM_REPEATMACRO				DFM 		MOVEABLE PURE 	"TForm_RepeatMacro.dfm"
+TFORM_FILEFORMAT				DFM 		MOVEABLE PURE 	"TForm_FileFormat.dfm"
+TFORM_MODELS						DFM 		MOVEABLE PURE 	"TForm_Models.dfm"
+TFORM_SAISIEMODEL				DFM 		MOVEABLE PURE 	"TForm_SaisieModel.dfm"
+TFORM_EDIOPTIONS				DFM 		MOVEABLE PURE 	"TForm_EdiOptions.dfm"
+TFORM_SAISIERACC				DFM 		MOVEABLE PURE 	"TForm_SaisieRacc.dfm"
+TFORM_SAISIECOLORS			DFM 		MOVEABLE PURE 	"TForm_SaisieColors.dfm"
+TFORM_CODEFORMATPARAMS	DFM 		MOVEABLE PURE 	"TForm_CodeFormatParams.dfm"
+TFORM_DEFAULTRESPONSES	DFM 		MOVEABLE PURE 	"TForm_DefaultResponses.dfm"
+TFORM_STATISTICS				DFM 		MOVEABLE PURE 	"TForm_Statistics.dfm"
+TFORM_NEWDIALOG 				DFM 		MOVEABLE PURE 	"TForm_NewDialog.dfm"
+TFORM_PROPRIETES				DFM 		MOVEABLE PURE 	"TForm_Proprietes.dfm"
+TFORM_CONVERTNUMBERS		DFM 		MOVEABLE PURE 	"TForm_ConvertNumbers.dfm"
+TFORM_TOOLS							DFM 		MOVEABLE PURE 	"TForm_Tools.dfm"
+TFORM_SAISIETOOLS				DFM 		MOVEABLE PURE 	"TForm_SaisieTools.dfm"
+TFORM_ADDNEWPROJECT			DFM 		MOVEABLE PURE 	"TForm_AddNewProject.dfm"
+TFORM_ADDNEWFILE				DFM 		MOVEABLE PURE 	"TForm_AddNewFile.dfm"
+TFORM_FILEPROPERTIES		DFM 		MOVEABLE PURE 	"TForm_FileProperties.dfm"
+TFORM_AUTOCOMPLETION		DFM 		MOVEABLE PURE 	"TForm_Autocompletion.dfm"
+TFORM_SAISIEDIALOG			DFM 		MOVEABLE PURE 	"TForm_SaisieDialog.dfm"
+TFORM_APROPOS 					DFM 		MOVEABLE PURE 	"../../Common/Forms/TForm_APropos.dfm"
+
+TFRAME_EDITFICHIERTEXT	DFM 		MOVEABLE PURE 	"TFrame_EditFichierText.dfm"
+TFRAME_EDITFICHIERHEXA	DFM 		MOVEABLE PURE 	"TFrame_EditFichierHexa.dfm"
+TFRAME_SAISIEDIALOG 		DFM 		MOVEABLE PURE 	"TFrame_SaisieDialog.dfm"
+TFRAME_SAISIEICON     	DFM 		MOVEABLE PURE 	"TFrame_SaisieIcon.dfm"
+TFRAME_SAISIECURSOR    	DFM 		MOVEABLE PURE 	"TFrame_SaisieCursor.dfm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// VERSION INFO
+//
+
+// En cas de changement de version, changer le numéro de version :
+// - Ci-dessous (3 fois)
+// - Dans \Sources\FreeVCL\Install\FreeVCL.iss (2 fois)
+// - Dans la page de téléchargement \Sites\www_vixia_fr\freevcl\download.html
+
+1 VERSIONINFO
+FILEVERSION 1,3,1,5
+PRODUCTVERSION 1,3,1,5
+{
+	BLOCK "StringFileInfo"
+	{
+		BLOCK "040C04E4"
+		{
+			VALUE "CompanyName", "Denis ROBERT"
+			VALUE "FileVersion", "1.3.1.5"
+			VALUE "FileDescription", "FreeVCL integrated development environment"
+			VALUE "InternalName", "FVCLIDE"
+			VALUE "LegalCopyright", ""
+			VALUE "LegalTrademarks", ""
+			VALUE "OriginalFilename", ""
+			VALUE "ProductName", "FVCLIDE"
+			VALUE "ProductVersion", "Version 1"
+		}
+	}
+	BLOCK "VarFileInfo"
+	{
+		VALUE "Translation", 0x040C, 1252
+	}
+}

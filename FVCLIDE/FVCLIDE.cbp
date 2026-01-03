@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FVCLIDE" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="debug">
+				<Option output="CodeBlocks/MBCS_32bits/$(Build)/FVCLIDE.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+					<Add library="libversion.a" />
+					<Add library="libcomdlg32.a" />
+					<Add library="libcomctl32.a" />
+					<Add library="libws2_32.a" />
+					<Add library="libole32.a" />
+					<Add library="liboleaut32.a" />
+					<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl.a" />
+					<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_ToolsEDI.a" />
+					<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_XFiles.a" />
+					<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_Web.a" />
+					<Add directory="../../Lib/CodeBlocks/MBCS_32bits/$Build" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Debug" />
+				</Environment>
+			</Target>
+			<Target title="release">
+				<Option output="CodeBlocks/MBCS_32bits/$(Build)/FVCLIDE.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="CodeBlocks/MBCS_32bits/$(Build)/objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-m64" />
+					<Add option="-std=c++0x" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+					<Add library="libversion.a" />
+					<Add library="libcomdlg32.a" />
+					<Add library="libcomctl32.a" />
+					<Add library="libws2_32.a" />
+					<Add library="libole32.a" />
+					<Add library="liboleaut32.a" />
+					<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl.a" />
+					<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_ToolsEDI.a" />
+					<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_XFiles.a" />
+					<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_Web.a" />
+					<Add directory="../../Lib/CodeBlocks/MBCS_32bits/$build" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Release" />
+				</Environment>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="debug;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Os" />
+			<Add option="-m64" />
+			<Add option="-W" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-m64" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libversion.a" />
+			<Add library="libws2_32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl.a" />
+			<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_ToolsEDI.a" />
+			<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_XFiles.a" />
+			<Add library="../Lib/CodeBlocks/MBCS_32bits/$(Build)/FreeVcl_Web.a" />
+		</Linker>
+		<Unit filename="../../Common/Forms/TForm_APropos.cpp" />
+		<Unit filename="../../Common/Forms/TForm_APropos.dfm" />
+		<Unit filename="../../Common/Forms/TForm_APropos.h" />
+		<Unit filename="../Common/Forms/TForm_APropos.dfm" />
+		<Unit filename="../Common/Forms/TForm_APropos.h" />
+		<Unit filename="../Include/TXMLFile.h" />
+		<Unit filename="FVCLIDE.cpp" />
+		<Unit filename="FVCLIDE.rc">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="TConfig.cpp" />
+		<Unit filename="TConfig.h" />
+		<Unit filename="TControlSizer.cpp" />
+		<Unit filename="TControlSizer.h" />
+		<Unit filename="TControlSizer_Collection.cpp" />
+		<Unit filename="TControlSizer_Collection.h" />
+		<Unit filename="TElemBase.cpp" />
+		<Unit filename="TElemBase.h" />
+		<Unit filename="TElemVCL.cpp" />
+		<Unit filename="TElemVCL.h" />
+		<Unit filename="TFVCLIDEAutomation.cpp" />
+		<Unit filename="TFVCLIDEAutomation.h" />
+		<Unit filename="TFileASCII.cpp" />
+		<Unit filename="TFileASCII.h" />
+		<Unit filename="TFileForm.cpp" />
+		<Unit filename="TFileForm.h" />
+		<Unit filename="TForm_AddNewFile.cpp" />
+		<Unit filename="TForm_AddNewFile.dfm" />
+		<Unit filename="TForm_AddNewFile.h" />
+		<Unit filename="TForm_AddNewProject.cpp" />
+		<Unit filename="TForm_AddNewProject.dfm" />
+		<Unit filename="TForm_AddNewProject.h" />
+		<Unit filename="TForm_Autocompletion.cpp" />
+		<Unit filename="TForm_Autocompletion.dfm" />
+		<Unit filename="TForm_Autocompletion.h" />
+		<Unit filename="TForm_CodeFormatParams.cpp" />
+		<Unit filename="TForm_CodeFormatParams.dfm" />
+		<Unit filename="TForm_CodeFormatParams.h" />
+		<Unit filename="TForm_ConvertNumbers.cpp" />
+		<Unit filename="TForm_ConvertNumbers.dfm" />
+		<Unit filename="TForm_ConvertNumbers.h" />
+		<Unit filename="TForm_DefaultResponses.cpp" />
+		<Unit filename="TForm_DefaultResponses.dfm" />
+		<Unit filename="TForm_DefaultResponses.h" />
+		<Unit filename="TForm_DisplayError.cpp" />
+		<Unit filename="TForm_DisplayError.dfm" />
+		<Unit filename="TForm_DisplayError.h" />
+		<Unit filename="TForm_EdiOptions.cpp" />
+		<Unit filename="TForm_EdiOptions.dfm" />
+		<Unit filename="TForm_EdiOptions.h" />
+		<Unit filename="TForm_FileFormat.cpp" />
+		<Unit filename="TForm_FileFormat.dfm" />
+		<Unit filename="TForm_FileFormat.h" />
+		<Unit filename="TForm_FileProperties.cpp" />
+		<Unit filename="TForm_FileProperties.dfm" />
+		<Unit filename="TForm_FileProperties.h" />
+		<Unit filename="TForm_Models.cpp" />
+		<Unit filename="TForm_Models.dfm" />
+		<Unit filename="TForm_Models.h" />
+		<Unit filename="TForm_NewDialog.cpp" />
+		<Unit filename="TForm_NewDialog.dfm" />
+		<Unit filename="TForm_NewDialog.h" />
+		<Unit filename="TForm_Principale.cpp" />
+		<Unit filename="TForm_Principale.dfm" />
+		<Unit filename="TForm_Principale.h" />
+		<Unit filename="TForm_Proprietes.cpp" />
+		<Unit filename="TForm_Proprietes.dfm" />
+		<Unit filename="TForm_Proprietes.h" />
+		<Unit filename="TForm_RepeatMacro.cpp" />
+		<Unit filename="TForm_RepeatMacro.h" />
+		<Unit filename="TForm_SaisieColors.cpp" />
+		<Unit filename="TForm_SaisieColors.dfm" />
+		<Unit filename="TForm_SaisieColors.h" />
+		<Unit filename="TForm_SaisieDialog.cpp" />
+		<Unit filename="TForm_SaisieDialog.dfm" />
+		<Unit filename="TForm_SaisieDialog.h" />
+		<Unit filename="TForm_SaisieModel.cpp" />
+		<Unit filename="TForm_SaisieModel.dfm" />
+		<Unit filename="TForm_SaisieRacc.cpp" />
+		<Unit filename="TForm_SaisieRacc.dfm" />
+		<Unit filename="TForm_SaisieRacc.h" />
+		<Unit filename="TForm_SaisieTools.cpp" />
+		<Unit filename="TForm_SaisieTools.dfm" />
+		<Unit filename="TForm_SaisieTools.h" />
+		<Unit filename="TForm_SearchAndReplace.cpp" />
+		<Unit filename="TForm_SearchAndReplace.dfm" />
+		<Unit filename="TForm_SearchAndReplace.h" />
+		<Unit filename="TForm_Statistics.cpp" />
+		<Unit filename="TForm_Statistics.dfm" />
+		<Unit filename="TForm_Statistics.h" />
+		<Unit filename="TForm_Tools.cpp" />
+		<Unit filename="TForm_Tools.dfm" />
+		<Unit filename="TForm_Tools.h" />
+		<Unit filename="TFrame_EditFichierHexa.cpp" />
+		<Unit filename="TFrame_EditFichierHexa.dfm" />
+		<Unit filename="TFrame_EditFichierHexa.h" />
+		<Unit filename="TFrame_EditFichierText.cpp" />
+		<Unit filename="TFrame_EditFichierText.dfm" />
+		<Unit filename="TFrame_EditFichierText.h" />
+		<Unit filename="TFrame_FVCLIDEBase.cpp" />
+		<Unit filename="TFrame_FVCLIDEBase.h" />
+		<Unit filename="TFrame_SaisieCursor.cpp" />
+		<Unit filename="TFrame_SaisieCursor.h" />
+		<Unit filename="TFrame_SaisieDialog.cpp" />
+		<Unit filename="TFrame_SaisieDialog.dfm" />
+		<Unit filename="TFrame_SaisieDialog.h" />
+		<Unit filename="TFrame_SaisieIcon.cpp" />
+		<Unit filename="TFrame_SaisieIcon.h" />
+		<Unit filename="TGlobalConstr.cpp" />
+		<Unit filename="TGlobalConstr.h" />
+		<Unit filename="TListTypeProjects.cpp" />
+		<Unit filename="TListTypeProjects.h" />
+		<Unit filename="TNumVersion.cpp" />
+		<Unit filename="TNumVersion.h" />
+		<Unit filename="TProject.cpp" />
+		<Unit filename="TProject.h" />
+		<Unit filename="TTypeProject.cpp" />
+		<Unit filename="TTypeProject.h" />
+		<Unit filename="TUndoRedo.h" />
+		<Unit filename="TXMLTree.cpp" />
+		<Unit filename="TXMLTree.h" />
+		<Unit filename="Utilit.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

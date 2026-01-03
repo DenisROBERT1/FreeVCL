@@ -1,0 +1,10 @@
+AlphaChars=abcdefghijklmnopqrstuvwxyzéèêëîïôöùûüÿçABCDEFGHIJKLMNOPQRSTUVWXYZÉÈÊËÎÏÔÖÙÛÜŸÇ_
+CaseSensitive=false
+BlockBegin=object
+BlockEnd=end
+QuoteBegin="
+QuoteEnd="
+QuoteBegin2='
+QuoteEnd2='
+CodeFormat=DFM
+Associated=.h

@@ -1,0 +1,1105 @@
+##v##00.4.50
+pagenumber=1
+linenumber=0
+sellength=0
+topline=0
+EditHelpFileTitle.Text=Free-VCL
+form2.STextForeHeadline.Color=16777215
+form2.STextForeText.Color=0
+form2.STextBackHeadline.Color=12845056
+form2.STextBackText.Color=14876671
+form2.STextHeadlineFont.Caption=Arial
+form2.STextTextFont.Caption=Arial
+form2.sTextFontSizeForHeadline.Caption=12
+form2.sTextFontSizeForText.Caption=9
+form2.CBoxBold.Checked=1
+form2.CBoxNoForeColor.Checked=0
+form2.CBoxLanguageID.ItemIndex=0
+form2.CBoxCharSet.ItemIndex=0
+form2.EditContents.Text=Sommaire
+form2.EditFrontpageName.Text=Sommaire
+form2.CBoxDontMakeFrontpage.Checked=0
+form2.EditLogoPath.Text=FreeVcl.bmp
+form2.EditFrontpageButtonCaption.Text=Free VCL
+form2.RGroupHorizontalAlignment.ItemIndex=0
+form2.RGroupVerticalAlignment.ItemIndex=0
+form2.CBoxBlankLineBeforeEachHeading.Checked=1
+form2.CBoxMakeFrontPageButton.Checked=0
+form2.SpinEditFrontpageIDnumber.Value=9999
+form2.CBoxAddAboutMenu.Checked=0
+form2.EditAboutMenuCaption.Text=&About this help file...
+form2.CBoxPopupPagesForAboutMenu.Tag=-1
+form2.EditConstantNameFilePrefix.Text=pageConstants_
+form2.EditConstantNameFileExt.Text=txt
+form2.CBoxDontMakeHeadersKeywords.Checked=0
+form2.CBoxDontMakeTargetsKeywords.Checked=0
+copyToPath=
+form5.sTextColor1=0
+form5.sTextColor2=9743070
+form5.sTextColor3=12386403
+form5.sTextColor4=255
+form5.sTextColor5=8421376
+form5.sTextColor6=8650752
+form5.sTextColor7=33280
+form5.sTextColor8=32896
+form5.sTextColor9=13026246
+form5.sTextColor10=16711680
+form5.sTextColor11=65280
+form5.sTextColor12=8651007
+form5.sTextColor13=16777215
+form5.sTextColor14=16757429
+form5.sTextColor15=9764863
+form5.sTextColor16=8421504
+form5.sTextComment1=
+form5.sTextComment2=
+form5.sTextComment3=
+form5.sTextComment4=
+form5.sTextComment5=
+form5.sTextComment6=
+form5.sTextComment7=
+form5.sTextComment8=
+form5.sTextComment9=
+form5.sTextComment10=
+form5.sTextComment11=
+form5.sTextComment12=
+form5.sTextComment13=
+form5.sTextComment14=
+form5.sTextComment15=
+form5.sTextComment16=
+NumOfPages=19
+------------ end of project settings / page settings follow ------------
+pageC.pages[0].ImageIndex=-1
+pageTitle(0).Text=Introduction
+getPageConstantLabel(0).Caption=
+getPageContentHeaderLabel(0).Caption=
+pageKeywords(0).Text=
+pageC.pages[1].ImageIndex=-1
+pageTitle(1).Text=Configuration
+getPageConstantLabel(1).Caption=
+getPageContentHeaderLabel(1).Caption=
+pageKeywords(1).Text=RTTI;path;lib;include
+pageC.pages[2].ImageIndex=-1
+pageTitle(2).Text=Mon premier programme
+getPageConstantLabel(2).Caption=
+getPageContentHeaderLabel(2).Caption=
+pageKeywords(2).Text=Exemple;FVCL_BEGIN_COMPONENTS;FVCL_END_COMPONENTS;FVCL_BEGIN_EVENTS;FVCL_END_EVENTS;FVCL_ARG_CALLEVENT;FVCL_ARG_SUPP;FASTCALL;__fastcall;
+pageC.pages[3].ImageIndex=-1
+pageTitle(3).Text=Les propriétés
+getPageConstantLabel(3).Caption=
+getPageContentHeaderLabel(3).Caption=
+pageKeywords(3).Text=DECLARE_PROPERTY;Property
+pageC.pages[4].ImageIndex=-1
+pageTitle(4).Text=Les évènements
+getPageConstantLabel(4).Caption=
+getPageContentHeaderLabel(4).Caption=
+pageKeywords(4).Text=DECLARE_EVENT;CALL_EVENT_1;SET_EVENT;FVCL_ARG_CALLEVENT;
+pageC.pages[5].ImageIndex=-1
+pageTitle(5).Text=Unicode
+getPageConstantLabel(5).Caption=
+getPageContentHeaderLabel(5).Caption=
+pageKeywords(5).Text=_T;CharString;WideString;AnsiString
+pageC.pages[6].ImageIndex=-1
+pageTitle(6).Text=Création d'un composant
+getPageConstantLabel(6).Caption=
+getPageContentHeaderLabel(6).Caption=
+pageKeywords(6).Text=GetListProperties;GetTypeProperty;GetDefaultProperty;GetProperty;SetProperty
+pageC.pages[7].ImageIndex=-1
+pageTitle(7).Text=Internationalisation
+getPageConstantLabel(7).Caption=
+getPageContentHeaderLabel(7).Caption=
+pageKeywords(7).Text=English;Translate
+pageC.pages[8].ImageIndex=-1
+pageTitle(8).Text=Problèmes connus
+getPageConstantLabel(8).Caption=
+getPageContentHeaderLabel(8).Caption=
+pageKeywords(8).Text=Bug
+pageC.pages[9].ImageIndex=-1
+pageTitle(9).Text=Différences par rapport à C++ Builder
+getPageConstantLabel(9).Caption=
+getPageContentHeaderLabel(9).Caption=
+pageKeywords(9).Text=DIALOG;RC;
+pageC.pages[10].ImageIndex=-1
+pageTitle(10).Text=Exemples de programmes
+getPageConstantLabel(10).Caption=
+getPageContentHeaderLabel(10).Caption=
+pageKeywords(10).Text=TRichEdit;PDF;TCppWebBrowser;TSocketClient;TSocketServer;
+pageC.pages[11].ImageIndex=-1
+pageTitle(11).Text=VCL2FreeVCL
+getPageConstantLabel(11).Caption=
+getPageContentHeaderLabel(11).Caption=
+pageKeywords(11).Text=Migration
+pageC.pages[12].ImageIndex=-1
+pageTitle(12).Text=CreateUnit
+getPageConstantLabel(12).Caption=
+getPageContentHeaderLabel(12).Caption=
+pageKeywords(12).Text=
+pageC.pages[13].ImageIndex=-1
+pageTitle(13).Text=Visual Studio 6
+getPageConstantLabel(13).Caption=
+getPageContentHeaderLabel(13).Caption=
+pageKeywords(13).Text=
+pageC.pages[14].ImageIndex=-1
+pageTitle(14).Text=Visual Studio Express
+getPageConstantLabel(14).Caption=
+getPageContentHeaderLabel(14).Caption=
+pageKeywords(14).Text=
+pageC.pages[15].ImageIndex=-1
+pageTitle(15).Text=Code::Blocks
+getPageConstantLabel(15).Caption=
+getPageContentHeaderLabel(15).Caption=
+pageKeywords(15).Text=
+pageC.pages[16].ImageIndex=-1
+pageTitle(16).Text=Foire aux questions
+getPageConstantLabel(16).Caption=
+getPageContentHeaderLabel(16).Caption=
+pageKeywords(16).Text=FAQ;MoveWindow;
+pageC.pages[17].ImageIndex=-1
+pageTitle(17).Text=Résolution des problèmes
+getPageConstantLabel(17).Caption=
+getPageContentHeaderLabel(17).Caption=
+pageKeywords(17).Text=Problèmes
+pageC.pages[18].ImageIndex=-1
+pageTitle(18).Text=Historique
+getPageConstantLabel(18).Caption=
+getPageContentHeaderLabel(18).Caption=
+pageKeywords(18).Text=
+pageC.pages[19].ImageIndex=-1
+pageTitle(19).Text=Remerciements
+getPageConstantLabel(19).Caption=
+getPageContentHeaderLabel(19).Caption=
+pageKeywords(19).Text=Download;Téléchargement
+------------ end of page titles / full text of pages follow ------------
+----- SHM ---- page 0 ---- 
+<boxl><b>Bienvenue</b></box>
+
+Free-VCL est une bibliothèque de composants permettant de créer des IHM (interfaces homme-machine), autrement dit des boîtes de dialogues.
+
+Cette librairie a été créée dans le but d'être compatible avec les composants VCL du logiciel C++ Builder. Une bonne connaissance de ce logiciel et de ses composants est essentielle pour comprendre et utiliser Free-VCL. En particulier, de nombreux élément de l'aide en ligne de C++ Builder ne sont pas reproduits dans cette aide. Veuillez vous reporter à l'aide de ce logiciel si vous désirez des précisions supplémentaires.
+
+L'installation contient également des exemples de programmes. Ils vous permettront de vous familiariser avec le fonctionnement de cette librairie.
+
+Pour fonctionner, cette librairie a besoin d'un compilateur C++, non fourni dans l'installation. Je l'ai testée avec Visual Studio, Embedded Visual C++ et Code::block, je suppose qu'elle marche également avec DEV-CPP. Il est également possible de faire des programmes compatibles avec C++ Builder, au prix de nombreuses macros et redéfinition (dans ce cas on utilise la VCL native). Pour les autres compilateurs, je ne sais pas.
+
+<b><u>Téléchargement de compilateurs</u></b>: voir <jump=SHM_contents0020>Remerciements</jump>
+----- SHM ---- page 1 ---- 
+Après avoir installé FreeVCL, vous devrez certainement configurer certaines options de votre compilateur.
+
+<chiclet.bmp> <b>Chemin des headers et le librairies.</b>
+Cette configuration dépend de votre compilateur, mais en général il suffit d'indiquer (dans options, ou préférences, par exemple ? ) le chemin des fichier H et des fichiers LIB de FreeVCL. Parfois, c'est dans les options du projet. Comme en plus certains compilateurs ne comprennent pas les chemins relatifs, il se peut que même les programmes d'exemple ne se compilent pas tant que vous n'aurez pas redéfini ces valeurs.
+
+Voir configuration dans <jump=SHM_contents0014>Visual Studio 6</jump>, <jump=SHM_contents0015>Visual Studio Express</jump> ou dans <jump=SHM_contents0016>Code::Blocks</jump>
+
+<chiclet.bmp> <b>Activer RTTI.</b>
+La RTTI (Run-time type information) doit être activée pour que les nombreux <b><color=10>dynamic_cast</color></b> de la librairie renvoient des valeurs correctes. En général, c'est dans les options du projet... Sauf pour Windows CE où j'ai dû modifier les options du projet directement dans le fichier VCP.
+----- SHM ---- page 2 ---- 
+Nous allons étudier ensemble la création d'un programme minimum qui s'appelle "Bonjour mot" (traduction de "Hello word", le premier qui ricane de mon anglais pourri recevra toute ma collection de virus par e-mail). Le code complet de ce programme se trouve dans le répertoire "Samples\\BonjourMot".
+
+Ce programme contient une simple fenêtre (on va l'appeler TForm_Principale) avec écrit "Bonjour mot", et un menu avec l'option "quitter".
+
+<boxl><b>BonjourMot.cpp</b></box>
+
+Le premier fichier du projet est le fichier <b>BonjourMot.cpp</b>. Il contient le point d'entrée Windows <b>WinMain</b>. En général, cette fonction est toujours à peu près la même, le plus rapide est de faire un copié-collé d'un autre projet. Le jour où les programmes Free-VCL seront intégrés à un EDI, ce fichier sera généré automatiquement:
+
+<b><color=7>//---------------------------------------------------------------------------
+// Fonction principale:
+//---------------------------------------------------------------------------</color>
+
+<color=10>int</color> PASCAL WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, <color=10>int</color> nCmdShow) \{
+  <color=10>int</color> Retour;
+  TForm_Principale * Form_Principale;
+
+
+  <color=10>try</color> \{
+
+    HInstance = hInstance;
+
+    Form_Principale = <color=10>new</color> TForm_Principale(NULL, _T(<color=3>"TForm_Principale"</color>));
+
+    Retour = Application->Run();
+
+    <color=10>delete</color> Form_Principale;
+
+  \}
+  <color=10>catch</color> (...) \{
+
+    MessageBox(NULL,
+               _T(<color=3>"\\"Bonjour mot\\" a planté avec succès"</color>),
+               _T(<color=3>"Erreur exception"</color>),
+               MB_OK | MB_ICONSTOP);
+
+    Retour = -1;
+
+  \}
+
+  <color=10>return</color> Retour;
+\}</b>
+
+Il faut inclure les fichiers suivants:
+
+<onestep.bmp> Le fichier qui contient la description des composants Free-VCL:
+
+<b><color=10>#include <FreeVcl.h></color></b>
+
+
+<onestep.bmp> Et le fichier qui va contenir la description de la fenêtre (on y revient tout de suite) :
+
+<b><color=10>#include "TForm_Principale.h"</color></b>
+
+
+<boxl><b>TForm_Principale.dfm</b></box>
+
+Ensuite, il faut décrire la fenêtre principale. Ceci est fait dans un fichier ayant l'extension <b>dfm</b>, <b>TForm_Principale.dfm</b> par exemple dans notre cas précis:
+
+<b>object Form_Principale: TForm_Principale
+  Left = 100
+  Top = 50
+  Width = 300
+  Height = 200
+  Constraints.MinWidth = 300
+  Constraints.MinHeight = 140
+  Position = poScreenCenter
+  Caption = 'Bonjour mot'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu
+  OldCreateOrder = False
+  DesignSize = (
+    866
+    598)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu: TMainMenu
+    Left = 0
+    Top = 0
+    object MenuItem_Fichiers: TMenuItem
+      Caption = 'Fichiers'
+      object MenuItem_Quitter: TMenuItem
+        Caption = 'Quitter'
+        OnClick = MenuItem_QuitterClick
+      end
+    end
+  end
+  object Label_Bonjour: TLabel
+    Left = 0
+    Top = 20
+    Width = 300
+    Height = 20
+    Alignment = taCenter
+    Anchors = [akLeft, akTop, akRight]
+    Caption = 'Bonjour mot !'
+  end
+  object Button_Ok: TButton
+    Left = 110
+    Top = 120
+    Width = 80
+    Height = 21
+    Anchors = [akLeft, akBottom]
+    Caption = 'Ok'
+    OnClick = Button_OkClick
+  end
+end
+</b>
+
+Là encore, ce fichier devra un jour être saisi via une interface. Pour l'instant, il doit être saisi à la main. Le format est exactement le même que les fichiers de même nom dans C++ Builder.
+
+<boxl><b>TForm_Principale.h</b></box>
+
+La classe de la fenêtre principale est décrite comme suit:
+
+<b><color=10>class</color> TForm_Principale : <color=10>public</color> TForm \{
+<color=10>private:</color>
+<color=10>public:</color>
+  FVCL_BEGIN_COMPONENTS
+  TMenuItem *MenuItem_Quitter;
+  TMenuItem *MenuItem_Fichiers;
+  TMainMenu *MainMenu;
+  TLabel *Label_Bonjour;
+  TButton *Button_Ok;
+  FVCL_END_COMPONENTS
+
+  FVCL_BEGIN_EVENTS
+  <color=10>void</color> FASTCALL MenuItem_QuitterClick(TObject *Sender);
+  <color=10>void</color> FASTCALL Button_OkClick(TObject *Sender);
+  FVCL_END_EVENTS
+
+  TForm_Principale(HWND hWndParent, LPSTR szName);
+  <color=10>virtual</color> ~TForm_Principale(<color=10>void</color>);
+\};
+</b>
+
+On constate des différences notables par rapport au fichier équivalent de C++ Builder:
+
+<bullet.bmp> Le mot-clé <b><color=10>__published</color></b> n'est pas présent (ce mot-clé est une spécificité Builder et n'est pas portable). Les objets publiés sont dans la section <b><color=10>public</color></b>.
+<bullet.bmp> La déclaration des composants est encadrée par les macros <b>FVCL_BEGIN_COMPONENTS</b> et <b>FVCL_END_COMPONENTS</b>. <u><b>Attention</b></u>: Ces composants doivent être dans le même ordre que dans le fichier DFM, dans l'ordre des mots <b>end</b> dans le cas de composants imbriqués (par exemple, ici, le TMenuItem "MenuItem_Fichiers" est après le TMenuItem "MenuItem_Quitter" parce que le mot-clé <b>end</b> correspondant à "MenuItem_Fichiers" est après le mot-clé <b>end</b> correspondant à "MenuItem_Quitter").
+<bullet.bmp> Les déclarations des méthodes de traitement des évènements sont encadrées par les macros <b>FVCL_BEGIN_EVENTS</b> et <b>FVCL_END_EVENTS</b>.
+<bullet.bmp> la macro <b>FASTCALL</b> est utilisée au lieu du mot-clé <b><color=10>__fastcall</color></b> (là encore pour compatibilité entre compilateurs).
+<bullet.bmp> Le prototype du constructeur de la classe est légèrement différent.
+<bullet.bmp> les <b><color=10>#pragma</color></b> spécifiques Builder sont absents.
+
+Et il faut bien évidemment inclure le fichier FreeVCL en début de fichier :
+
+<b><color=10>#include <FreeVcl.h></color></b>
+
+
+<boxl><b>TForm_Principale.cpp</b></box>
+
+Les méthodes sont ensuite implémentées dans le fichier cpp:
+
+<b><color=8>//---------------------------------------------------------------------------</color>
+TForm_Principale::TForm_Principale(HWND hWndParent, LPSTR szName)
+  : TForm(hWndParent, szName, FVCL_ARG_SUPP) \{
+
+\}
+
+<color=8>//---------------------------------------------------------------------------</color>
+TForm_Principale::~TForm_Principale(<color=10>void</color>) \{
+\}
+
+<color=8>//---------------------------------------------------------------------------</color>
+<color=10>void</color> TForm_Principale::CallEvent(AnsiString asEvent, TObject *Sender, ...) \{
+  BYTE *pArgs;
+
+
+  pArgs = (BYTE *) &Sender;
+  pArgs += <color=10>sizeof</color>(TObject *);
+
+  <color=10>if</color> (asEvent == _T(<color=3>"MenuItem_QuitterClick"</color>)) MenuItem_QuitterClick(Sender);
+  <color=10>else if</color> (asEvent == _T(<color=3>"Button_OkClick"</color>)) Button_OkClick(Sender);
+
+\}
+
+<color=8>//---------------------------------------------------------------------------</color>
+<color=10>void</color> FASTCALL TForm_Principale::MenuItem_QuitterClick(TObject *Sender) \{
+  Close();
+\}
+
+<color=8>//---------------------------------------------------------------------------</color>
+<color=10>void</color> FASTCALL TForm_Principale::Button_OkClick(TObject *Sender) \{
+  Close();
+\}
+
+<color=8>//---------------------------------------------------------------------------</color>
+</b>
+
+Là encore, il y a quelques petites différence par rapport au programme Builder qui ferait la même chose:
+
+<bullet.bmp> Le constructeur de la classe est différent.
+<bullet.bmp> FASTCALL au lieu de <b><color=10>__fastcall</color></b>, toujours.
+<bullet.bmp> Et surtout, il y a une nouvelle méthode, qui doit obligatoirement être implémentée pour toute fenêtre (et même tout objet) pouvant recevoir des évènements: la méthode <b>CallEvent</b> (voir ci-dessous).
+
+La méthode <b>CallEvent</b> est chargée de ventiler les évènements reçus des composants, ou éventuellement d'autres fenêtres. Comme toujours, l'écriture de cette méthode devrait être automatique, mais comme elle ne l'est pas encore, c'est à vous de l'écrire. Le corps de la fonction est toujours le même (un p'tit copié-collé s'impose), seules les instructions <b><color=10>if</color></b> sont à écrire. En général, c'est pas trop compliqué. Par exemple, si nous avions d'autres items dans le menu :
+
+<b>  <color=10>if</color> (asEvent == _T(<color=3>"MenuItem_NouveauFichierClick"</color>)) MenuItem_NouveauFichierClick(Sender);
+  <color=10>else if</color> (asEvent == _T(<color=3>"MenuItem_OuvrirClick"</color>)) MenuItem_OuvrirClick(Sender);
+  <color=10>else if</color> (asEvent == _T(<color=3>"MenuItem_EnregistrerClick"</color>)) MenuItem_EnregistrerClick(Sender);
+  <color=10>else if</color> (asEvent == _T(<color=3>"MenuItem_EnregistrerSousClick"</color>)) MenuItem_EnregistrerSousClick(Sender);
+  <color=10>else if</color> (asEvent == _T(<color=3>"MenuItem_QuitterClick"</color>)) MenuItem_QuitterClick(Sender);
+  ... etc
+</b>
+
+A cause du prototype de la méthode avec un nombre variable d'arguments, ça se complique un peu pour les évènements qui ont plus que l'argument <b>Sender</b>, il faut utiliser la macro <b>FVCL_ARG_EVENT</b>. Par exemple, supposons que nous ayons un évènement <b>OnClose</b> dans le DFM:
+
+<b>  <color=10>else if</color> (asEvent == _T(<color=3>"FormClose"</color>)) \{
+    FVCL_ARG_CALLEVENT(TCloseAction *, Action)
+    FormClose(Sender, *Action);
+  \}
+</b>
+
+Et pour un évènement OnMouseDown, c'est carrément la galère:
+
+<b>  <color=10>else if</color> (asEvent == _T(<color=3>"Form_MouseDown"</color>)) \{
+    FVCL_ARG_CALLEVENT(TMouseButton, Button)
+    FVCL_ARG_CALLEVENT(TShiftState *, Shift)
+    FVCL_ARG_CALLEVENT(<color=10>int</color>, X)
+    FVCL_ARG_CALLEVENT(<color=10>int</color>, Y)
+    Form_MouseDown(Sender, Button, *Shift, X, Y);
+  \}
+</b>
+
+La règle est simple: pour chaque argument de la méthode gérant l'évènement, utiliser la macro <b>FVCL_ARG_CALLEVENT</b> avec le type et le nom de l'argument. Appeler ensuite la méthode avec les variables ainsi déclarées. Sauf si l'argument doit être passé par référence (exemple <b>Shift</b> ci-dessus, ou <b>Action</b> plus haut) : dans ce cas le type devient un pointeur sur le type (<b>TShiftState *</b> au lieu de <b>TShiftState</b>), et on passe l'adresse de la variable à la méthode au lieu de passer la variable elle-même (<b>*Shift</b> au lieu de <b>Shift</b>).
+
+N'ayez crainte, bientôt cette méthode sera générée automatiquement. En attendant, il faut se prendre la tête une fois et user ensuite abondamment du copié-collé.
+
+<boxl><b>BonjourMot.rc</b></box>
+
+Enfin, il faut déclarer le fichier DFM dans les ressources. C'est très simple, ça se fait comme suit dans le fichier rc:
+
+<b><color=10>#include "windows.h"</color>
+
+TFORM_PRINCIPALE DFM MOVEABLE PURE   <color=3>"TForm_Principale.dfm"</color>
+</b>
+
+<boxl><b>Le projet</b></box>
+
+En dernier, il vous faut créer un projet et y insérer ces cinq sources. Pour créer un projet, ça dépend de votre compilateur, mais en général c'est assez simple. Choisir l'option "Application Win32" (ou quelque chose qui y ressemble), et "créer un projet vide" (pas de stdafx et autres excentricités). Insérer les sources dans le projet, dans les option du link insérez les fichiers suivants:
+
+<b>comdlg32.a</b> ou <b>comdlg32.lib</b> (c'est selon)
+<b>comctl32.a</b> ou <b>comctl32.lib</b> (pareil)
+<b>FreeVcl.a</b> ou <b>FreeVcl.lib</b> (vous avez compris)
+
+Compilez, lancez le programme, et si tout va bien vous devez voir apparaître la fenêtre suivante:
+
+\par\qc\{bmc screenshot_BonjourMot.bmp\}\par\ql
+
+Voili, voilà. Vous avez réussi votre premier programme en FVCL.
+
+----- SHM ---- page 3 ---- 
+Les propriétés permettent à l'utilisateur d'un composant d'affecter ou de lire une valeur comme si c'était un attribut public, mais en fait c'est une fonction qui est effectuée, ce qui permet des traitements qu'un simple attribut ne permettrait pas. Par exemple, l'utilisateur va écrire:
+<b>Button->Left = 10;</b>
+Mais en fait, cette écriture est équivalente à:
+<b>Button->Set_Left(10);</b>
+Et dans la méthode <b>Set_Left</b>, le programmeur a prévu un <b>MoveWindow</b> qui fait que le bouton se déplace effectivement suite à cette instruction.
+
+<boxl><b>Déclaration</b></box>
+
+Dans les programmes normaux, il n'est en général pas besoin de déclarer des propriétés. Vous en aurez surtout besoin si vous créez des composants.
+
+Il y a quatre macros-instructions pour déclarer les propriétés, suivant leur nature:
+
+<b><i><u>Propriétés en lecture seule</u></i> :</b>
+
+<b>DECLARE_PROPERTY_GET( base, type, var )</b>
+
+<b><i><u>Propriétés en lecture-écriture</u></i> :</b>
+
+<b>DECLARE_PROPERTY( base, type, var )</b>
+
+<b><i><u>Propriétés en lecture seule d'un tableau</u></i> :</b>
+
+<b>DECLARE_PROPERTY_TAB_GET( base, type, var )</b>
+
+<b><i><u>Propriétés en lecture-écriture d'un tableau</u></i> :</b>
+
+<b>DECLARE_PROPERTY_TAB( base, type, var )</b>
+
+Ces quatre macros ont pour arguments:
+
+<b>base</b> : Nom de la classe dans laquelle est définie la propriété.
+<b>type</b> : Type de la propriété
+<b>var</b> : Nom de la propriété
+
+<boxl><b>Implémentation</b></box>
+
+Les fonction d'implémentation des propriétés n'ont pas besoin d'être déclarées (elles le sont automatiquement dans la macro <b>DECLARE_PROPERTY</b>). Leur nom est déterminé comme suit:
+
+Fonction servant à lire la propriété: <b>Get_</b> + le nom de la propriété.
+Fonction servant à écrire la propriété: <b>Set_</b> + le nom de la propriété.
+
+Par exemple, pour la propriété <b>Left</b>, les prototypes des fonctions sont:
+
+<b><color=10>virtual int</color> Get_Left(<color=10>void</color>);
+<color=10>virtual bool</color> Set_Left(<color=10>int</color> NewLeft);
+</b>
+
+Autre exemple avec la propriété <b>Selected</b> de l'objet <b>ListBox</b>, qui est une propriété de forme tableau:
+
+<b><color=10>virtual bool</color> Get_Selected(<color=10>int</color> i);
+<color=10>virtual bool</color> Set_Selected(<color=10>int</color> i, <color=10>bool</color> NewSelected);
+</b>
+----- SHM ---- page 4 ---- 
+Les évènements servent à faire un traitement spécifique lorsqu'une action donnée est effectuée (L'exemple le plus classique: l'utilisateur clique sur un bouton ou sur un élément du menu).
+
+<boxl><b>Déclaration</b></box>
+
+Comme les propriétés, vous n'aurez en général pas besoin de déclarer des évènements, sauf si vous créez des composants.
+
+La déclaration se fait très simplement avec les macros suivante:
+
+<b>DECLARE_EVENT_1( event, TypeArgument1 );</b>
+<b>DECLARE_EVENT_2( event, TypeArgument1, TypeArgument2 );</b>
+<b>DECLARE_EVENT_3( event, TypeArgument1, TypeArgument2, TypeArgument3 );</b>
+etc...
+
+Exemple:
+
+<b>DECLARE_EVENT_1( OnChange, TObject * );</b>
+
+<boxl><b>Appel de l'évènement</b></box>
+
+L'appel se fait exactement comme sous Builder, comme si c'était une méthode:
+
+<b>event ( var1 )</b>
+<b>event ( var1, var2 )</b>
+<b>event ( var1, var2, var3 )</b>
+etc...
+
+<b>event</b>: Nom de l'évènement.
+<b>var1, var2, var3, ...</b> : Arguments de la méthode de traitement.
+
+Exemple:
+
+<b>OnChange ( <color=10>this</color>)</b>
+
+<boxl><b>Affectation d'un évènement</b></box>
+
+L'évènement est généralement affecté de manière classique dans le DFM, avec une ligne du genre:
+
+<b>OnChange = ListBoxChange</b>
+
+Où <b>ListBoxChange</b> est le nom de la méthode à appeler.
+
+Cependant, il est quelquefois nécessaire d'affecter un évènement par programme. Dans un fichier CPP, on utilise alors la macro <b>SET_EVENT</b>:
+
+<b>SET_EVENT(event, base, fnct)</b>
+
+<b>event</b>: Nom complet de l'évènement (objet -> évènement)
+<b>base</b> : Objet contenant la méthode de traitement de l'évènement.
+<b>fnct</b> : Nom de la méthode de traitement.
+
+Exemple:
+
+<b>SET_EVENT(ListBox->OnChange, <color=10>this</color>, ListBoxChange);</b>
+
+<boxl><b>Traitement d'un évènement</b></box>
+
+Tous les évènement appellent la méthode "CallEvent" de l'objet destination, cette méthode est chargée d'appeler la méthode appropriée en fonction d'un argument de type <b>AnsiString</b>. Le prototype est le suivant:
+
+<b><color=10>void</color> CallEvent(AnsiString asEvent, TObject *Sender, ...)</b>
+
+Cette méthode calcule éventuellement les arguments qui suivent Sender (lorsque le nombre d'arguments est supérieur à un), puis appelle ensuite la méthode correspondante à l'évènement <b>asEvent</b>. La macro <b>FVCL_ARG_CALLEVENT</b> peut être utilisée pour calculer les arguments qui suivent l'argument Sender:
+
+<b><color=10>void</color> TObjetDestination::CallEvent(AnsiString asEvent, TObject *Sender, ...) \{
+  BYTE *pArgs;
+
+
+  pArgs = (BYTE *) &Sender;
+  pArgs += <color=10>sizeof</color>(TObject *);
+
+  <color=10>if</color> (asEvent == _T(<color=3>"ListBoxChange"</color>)) ListBoxChange(Sender);
+  <color=10>else if</color> (asEvent == _T(<color=3>"ListBoxMouseDown"</color>)) \{
+    FVCL_ARG_CALLEVENT(TMouseButton, Button)
+    FVCL_ARG_CALLEVENT(TShiftState *, Shift)
+    FVCL_ARG_CALLEVENT(<color=10>int</color>, X)
+    FVCL_ARG_CALLEVENT(<color=10>int</color>, Y)
+    ListBoxMouseDown(Sender, Button, *Shift, X, Y);
+  \}
+  <color=10>else if</color> (asEvent == _T(<color=3>"ButtonClick"</color>)) ButtonClick(Sender);
+
+\}
+</b>
+
+Lorsqu'un argument doit être passé par référence (&), il est passé par adresse (*) dans la fonction CallEvent. C'est pour cela qu'on a un <b>TShiftState *</b> au lieu d'avoir un <b>TShiftState</b>. Il faut ensuite rétablir le niveau d'indirection dans l'appel de la fonction de traitement (on a donc <b>*Shift</b>).
+
+
+----- SHM ---- page 5 ---- 
+FreeVCL est totalement compatible avec l'unicode (caractères sur deux octets). Ceci était indispensable pour Windows CE, et peut également être utile dans vos programmes.
+
+<boxl><b>Passer en unicode</b></box>
+
+Pour ceci, il suffit de définir la variable préprocesseur <b>UNICODE</b>. En général ça se fait dans les options du projet (certains compilateurs le font même gentiment pour vous). Au pire, un simple <color=10><b>#define UNICODE</b></color> en tout début de chaque fichier source devrait faire l'affaire.
+
+<boxl><b>Les chaînes de caractères</b></box>
+
+Lorsque l'unicode est activé, toutes les chaînes littérales doivent également passer en unicode. Il faut ajouter un <b>L</b> devant la chaîne de caractère pour indiquer que c'est de l'unicode:
+
+L<color=3><b>"ButtonClick"</b></color>
+
+ Mais le mieux est d'utiliser la macro <b>_T</b>. Cette macro définit les chaînes en unicode si la variable <b>UNICODE</b> est définie, ou en simple chaîne de <color=10><b>char</b></color> sinon. Ceci permet d'avoir une totale compatibilité entre les différents compilateurs et les différents systèmes:
+
+_T(<color=3><b>"ButtonClick"</b></color>)
+
+<boxl><b>Les AnsiString</b></box>
+
+Les <b>AnsiString</b>, qui sont normalement des chaînes de caractères 8 bits passent automatiquement en unicode si la variable <b>UNICODE</b> est définie. Si vous voulez absolument un type défini (pour écrire dans un fichier, par exemple), utilisez la classe <b>CharString</b> (chaînes de <color=10><b>char</b></color>) ou bien <b>WideString</b> (unicode), dont le type est indépendant des options. L'opérateur = a été redéfini pour ces classes, et permet de passer d'un type à l'autre.
+
+<u>Remarque</u>: Du coup, les <b>AnsiString</b> peuvent contenir bien plus que de l'ANSI. On conserve ce nom uniquement pour la compatibilité.
+----- SHM ---- page 6 ---- 
+<b><boxl>La classe TFactory</box></b>
+
+La première étape pour créer vos propres composants est de créer un descendant de la classe TFactory. Cette classe est prévue pour créer un composant à partir de son nom. En effet, le nom est la seule information que connait le système. Lorsque FreeVCL traite un fichier DFM pour créer une fenêtre, il lit par exemple la ligne suivante:
+
+<b>object Button_Ok: TButton</b>
+
+Il interroge ensuite tous les descendants de TFactory (qui sont liés par un système de chaînage), jusqu'à ce qu'il en trouve un capable de créer l'objet TButton.
+
+Lorsque vous créez un nouveau composant, ou un groupe de composants, vous devez donc créer une classe dérivée de TFactory. Son nom est par convention <b>TFactory_<i>QuelqueChose</i></b> (où <b><i>QuelqueChose</i></b> est par exemple le nom de votre groupe de composants).
+
+Il vous faudra ensuite implémenter les deux fonctions virtuelles suivantes:
+
+<b><color=10>bool</color> GetListObjectsVirt(TStrings *ListObjects);</b>
+<b>TComponent * CreateObjectVirt(TComponent* AOwner, AnsiString asNom);</b>
+
+<onestep.bmp> La première méthode indique la liste des composants que peut créer la classe. En général, elle se contente de faire un <b>Add</b> à la liste <b>ListObjects</b>:
+<b>
+  ListObjects->Add(_T(<color=3>"TComposant1"</color>));
+  ListObjects->Add(_T(<color=3>"TComposant2"</color>));
+  ListObjects->Add(_T(<color=3>"TComposant3"</color>));
+  <color=7>// etc...</color>
+
+  <color=10>return true</color>;
+</b>
+
+<onestep.bmp> La seconde méthode crée réellement le composant. Là encore, c'est généralement pas très compliqué:
+<b>
+  <color=10>if</color> (asNom == _T(<color=3>"TComposant1"</color>)) <color=10>return new</color> TComposant1(AOwner);
+  <color=10>if</color> (asNom == _T(<color=3>"TComposant2"</color>)) <color=10>return new</color> TComposant2(AOwner);
+  <color=10>if</color> (asNom == _T(<color=3>"TComposant3"</color>)) <color=10>return new</color> TComposant3(AOwner);
+  <color=7>// etc...</color>
+
+  <color=10>return</color> NULL;
+</b>
+
+<b><boxl>Le composant lui-même</box></b>
+
+Suivant que votre composant est graphique ou pas, qu'il contient ou pas une fenêtre Windows, qu'il peut ou non déclencher des évènements, il va dériver d'une classe générique comme <b>TComponent</b>, <b>TControl</b>, ou <b>TWinControl</b> ou bien d'un composant plus spécifique comme <b>TButton</b>, <b>TEdit</b>, par exemple. Dans tous les cas, ce sera un descendant direct ou indirect de <b>TComponent</b>. Il doit donc implémenter les fonction virtuelles suivantes:
+<b>
+  <color=10>virtual void</color> GetListProperties(TStrings *ListProperties);
+  <color=10>virtual</color> TYPEPROPERTY GetTypeProperty(AnsiString asProperty, AnsiString *asInfos);
+  <color=10>virtual</color> AnsiString GetDefaultProperty(AnsiString asProperty);
+  <color=10>virtual</color> AnsiString GetProperty(AnsiString asProperty);
+  <color=10>virtual bool</color> SetProperty(AnsiString asProperty, AnsiString asValue, TPersistent *Sender);
+</b>
+
+<onestep.bmp> La méthode <b>GetListProperties</b> permet à l'éditeur de propriétés de lister les propriétés de l'objet. L'implémentation de cette méthode doit ressembler à ceci:
+<b>
+  TClasseParente::GetListProperties(ListProperties);
+
+  ListProperties->Add(_T(<color=3>"AutoExpand"</color>));
+  ListProperties->Add(_T(<color=3>"BorderStyle"</color>));
+  ListProperties->Add(_T(<color=3>"Canvas"</color>));
+</b>
+
+<i><u>Attention</u></i>: avant traitement, appeler la méthode <b>GetListProperties</b> de la classe parente pour qu'elle ajoute à la liste ses propres propriétés. Chaque classe implémente ainsi en cascade cette méthode dans laquelle ellet passe la main à sa classe parente jusqu'à l'objet de base TComponent. De ce fait, ne pas mettre à zéro la liste en début de traitement, car il se peut que cette méthode ait elle-même été appelée par une classe dérivée.
+
+<onestep.bmp> La méthode <b>GetTypeProperties</b> permet à l'éditeur de propriétés d'afficher un choix, une case à cocher, etc..., en fonction du type de la propriété.
+----- SHM ---- page 7 ---- 
+FreeVCL a été spécialement prévu pour vous faciliter la traduction de vos programmes en différentes langues, chose qui est généralement peu pratique avec la plupart des EDI.
+
+
+<boxl><b>Nouvelles méthodes de TApplication</b></box>
+
+Ces méthodes ont été ajoutées à la classe TApplication:
+
+
+<u>Méthode Translate:</u>
+
+<b>AnsiString Translate(AnsiString asInput);</b>
+
+Cette méthode traduit un texte. Elle doit donc être appelée à chaque fois qu'un texte est dépendant de la langue d'affichage.
+
+Exemple:
+
+<b>MessageBox(Handle, Application->Translate(<color=3>"Toto fait du vélo"</color>), Application->Translate(<color=3>"C'est un test"</color>), MB_OK);</b>
+
+<u>Méthode ChooseLanguage:</u>
+
+<b><color=10>bool</color> ChooseLanguage(<color=10>void</color>);</b>
+
+Cette méthode ouvre un menu popup permettant de choisir une langue parmi toutes celles disponibles. Les langues disponibles sont toutes celles pour lesquelle un fichier <b>lng</b> est présent dans le même répertoire que l'application. Cette méthode est généralement insérée dans le traitement d'une action utilisateur, par exemple suite à un clic sur un bouton langue ou une option du menu, ça me semble une bonne idée.
+
+<u>Méthode SetLanguage:</u>
+
+<b><color=10>bool</color> SetLanguage(AnsiString asNewLanguage);</b>
+
+Cette méthode force une langue particulière. Elle est utilisée par la méthode ChooseLanguage, mais elle peut aussi être appelée directement (par exemple s'il y a un bouton pour chaque langue).
+
+
+<boxl><b>Dans les DFM</b></box>
+
+Tous les libellés visibles des boîtes de dialogues (labels, titre des boutons, etc...) passent par la méthode <b>Translate</b> ce qui permet de les traduire directement lors du chargement.
+
+Quelques propriétés non visibles appellent également automatiquement la méthode Translate. Par exemple la propriété <b>HelpFile</b> est traduite, ce qui permet d'avoir un fichier d'aide différent pour chaque langue.
+
+
+<boxl><b>Les fichiers LNG</b></box>
+
+Il y a un fichier LNG par langue de traduction. Leur nom est le libellé qui apparaîtra dans le menu popup de choix. Leur contenu est tout simplement en format texte (comme un fichier TXT). La langue de référence est le français: c'est normal, c'est la langue la plus facile à apprendre (La preuve ? Je l'ai apprise sans difficultés à trois ans, alors qu'en vingt ans d'efforts acharnés je ne parle toujours pas anglais). Sur chaque ligne, donc, il y a le texte français et le texte correspondant dans la langue du fichier, les deux libellés sont séparés par le caractère <b>¤</b>. Les nouveaux libellés dont le programme ne trouve pas la traduction sont automatiquement ajoutés en fin de fichier, mais avec le caractère de séparation <b>µ</b>. Il vous suffit donc de rechercher et de traduire chaque ligne contenant ce caractère pour traduire entièrement votre logiciel.
+
+
+<boxl><b>Comment procéder</b></box>
+
+Il y a plusieurs manières de procéder possible, en voici par exemple une:
+
+<onestep.bmp> Copiez le fichier Translate.dll (présent dans le répertoire <b>redist</b>) dans le même répertoire que votre application.
+
+<onestep.bmp> Insérez l'appel de la méthode ChooseLanguage d'une manière ou d'une autre dans votre logiciel (bouton ou menu, c'est vous qui voyez).
+
+<onestep.bmp> Créez, dans le même répertoire que votre application, un fichier English.lng vide avec le bloc-note ou n'importe quel éditeur. Lancez ensuite votre logiciel, choisissez la langue English, puis exécutez votre programme en ayant soin d'ouvrir toutes les boîtes de dialogues possible.
+
+<onestep.bmp> Fermez votre application, puis éditez à nouveau le fichier LNG. Vous verrez que le programme a automatiquement ajouté les libellés trouvés pendant l'exécution de l'application. Traduisez la seconde partie de chaque ligne et remplacez les caractères <b>µ</b> par des <b>¤</b>. Vous pouvez aussi ajouter manuellement les libellés qui ne l'ont pas été automatiquement (messages d'erreurs, ou autres messages qui n'apparaîssent pas lors du déroulement normal). Vous pourrez de la même manière périodiquement vérifier ensuite que des messages n'ont pas été oubliés, ou ajoutés par l'évolution de votre logiciel.
+
+<onestep.bmp> N'oubliez pas d'intégrer le fichier Translate.dll à votre package d'installation, ainsi que les fichiers lng que vous aurez créé.
+
+
+<boxl><b>Remarques</b></box>
+
+La langue choisie est mémorisée dans la base de registres, et s'applique ensuite à toutes les applications FreeVCL (à condition bien sûr qu'un fichier langue correspondant soit trouvé).
+
+Le fichier Translate.dll est bien évidemment nécessaire pour la traduction. Mais si votre application n'a pas à être traduite, la dll n'est pas indispensable au fonctionnement du programme. Dans ce cas, vous pouvez donc distribuer votre logiciel sans cette dll.
+
+La traduction étant faite au chargement de la fenêtre, il sera parfois nécessaire de sortir et de revenir dans votre programme pour appliquer un changement de langue.
+----- SHM ---- page 8 ---- 
+Malgré mes efforts, il subsiste quelques problèmes auquels je n'ai pas trouvé de solution. Si vous avez des idées pour les résoudre, elles sont les bienvenues.
+
+<b><i><u>Problème de compilation avec certaines propriétés:</u></i></b>
+
+Avec le compilateur code-block, certaines syntaxes provoquent des erreurs de compilation. Par exemple:
+<b>i = Button->Caption.ToInt();</b>
+provoque l'erreur suivante:
+Error: 'struct _dp_GetCaption_SetCaption' has no members named 'ToInt'
+
+<u>Contournement du problème</u>:
+<onestep.bmp> Il faut effectuer l'opération en deux étapes:
+<b>AnsiString asTemp = Button->Caption;
+i = asTemp.ToInt();</b>
+
+<onestep.bmp> Ou bien utiliser un cast:
+<b>i = ((AnsiString) Button->Caption).ToInt();</b>
+
+<b><i><u>Affectation d'une propriété de type tableau:</u></i></b>
+
+Je n'ai pas réussi à faire une propriété de type tableau en lecture-écriture. Quand on fait "ListBox->Selected[i] = <b><color=10>true</color></b>", le "Selected[i]" est interprété comme un "Get_Selected(i)" (application de l'opérateur []) et ensuite le "=" fait une erreur "Non-lvalue in assignment".
+
+<u>Contournement du problème</u>: il faut utiliser la méthode "Set_..." que j'ai donc mis en <color=10><b>public:</b></color>
+<b>ListBox->Set_Selected(i, <color=10>true</color>);</b>
+
+<b><i><u>Lecture des propriétés après la fermeture d'une fenêtre:</u></i></b>
+
+Il est impossible de lire les propriétés d'un contrôle après fermeture de la fenêtre (car les objets GDI sont détruits dès la fermeture). Par exemple, si on fait :
+
+<b>MaFenetre->Show();
+MaFenetre->Close();
+i = MaFenetre->ListBox->ItemIndex;</b>
+
+L'objet GDI sous-jacent à ListBox est détruit dès la sortie du <b>ShowModal</b>, et <b>ItemIndex</b> renvoie donc un LB_ERR (c'est à dire -1).
+
+<u>Contournement du problème</u>:
+<onestep.bmp> Solution 1: Mémoriser les valeurs dans une variable intermédiaire avant la destruction de la fenêtre.
+<onestep.bmp> Solution 2: Dans l'évènement <b>OnClose</b>, cacher la fenêtre (<b>Action = caHide</b>), ainsi les contrôles ne sont pas détruits.
+
+<u>A noter</u>: Le problème ne se pose pas lorsqu'on fait un <b>ShowModal</b>, la fenetre étant automatiquement cachée dans le <b>OnClose</b>.
+
+<b><i><u>Evénements lors de la construction d'une fenêtre:</u></i></b>
+
+La fenêtre étant créée dans le constructeur de la classe, les méthodes virtuelles ne sont à ce moment pas encore actives. En particulier la méthode <b>OnEvent</b> qui ventile les évènements. De ce fait, les évènements qui surviennent lors de cette création ne sont pas traités. Par exemple la méthode <b>OnActivate</b>.
+
+<u>Contournement du problème</u>:
+Appeler explicitement la méthode de traitement de l'évènement dans le constructeur de la fenêtre.
+
+<b><i><u>Problème d'affectation d'une propriété de type objet:</u></i></b>
+
+Lorsqu'une propriété fait référence à un autre objet, cet objet n'est pas trouvé s'il se trouve après dans l'ordre de création. Par exemple:
+
+<b>object PageControl: TPageControl
+  ActivePage = TabSheet1
+  ...
+  object TabSheet1: TTabSheet</b>
+
+<u>Contournement du problème</u>:
+<onestep.bmp> Inverser l'ordre de création des objets dans le DFM.
+<onestep.bmp> Ou bien utiliser d'autres propriétés lorsque c'est possible (<b>ActivePageIndex</b> dans l'exemple ci-dessus).
+----- SHM ---- page 9 ---- 
+La syntaxe et le comportement des objets ont été prévus pour être au maximum compatibles avec C++ Builder. Il y a cependant quelques petites différences, soit parce que ce n'était pas possible de faire autrement, soit dans un but d'amélioration.
+
+En plus des différences signalées dans les pages précédentes, voici une liste (sans doute non exhaustive) de différences et d'amélioration:
+
+
+<boxl><b>Sur les classes en général</b></box>
+
+<onestep.bmp> FreeVCL étant entièrement programmé en C++, on n'a plus les limitations d'héritages qu'on avait dans C++ Builder (où une classe VCL ne peut hériter d'une classe non VCL que si cette dernière est virtuelle pure et sans attributs... Autant dire vide).
+
+<onestep.bmp> Nouveau composant TTrayIcon pour permettre de mettre une icône dans la zone de notification (à coté de l'horloge).
+
+<onestep.bmp> Les classes TForm et TFrame descendent tous deux de la classe TFormFrame (mise en commun du code d'interprétation des DFM).
+
+<onestep.bmp> TOpenDialog et TSaveDialog descendent tous deux de la classe TOpenSaveDialog (mise en commun des propriétés).
+
+<onestep.bmp> TMenu dérive de TMenuItem (pour mise en commun de la propriété Handle et construction plus simple).
+
+<onestep.bmp> Ajout de la propriété DragAcceptFiles et de l'évènement OnDropFile sur tous les composants TWinControl pour permettre un drag and drop depuis l'explorateur.
+
+
+<boxl><b>Sur les types chaîne</b></box>
+
+<onestep.bmp> AnsiString (en fait CharString ou WideString selon le flag UNICODE) dérive de std::string ou std::wstring (donc toutes les méthodes de ces dernières sont donc disponibles).
+
+<onestep.bmp> La gestion des erreurs par déclenchement d'exception étant souvent envahissante, ces exceptions ont été supprimées à de nombreux endroits. Par exemple AnsiString.ToInt() ne produit pas d'exception lorsque la chaîne passée en argument n'est pas strictement numérique.
+
+<onestep.bmp> Méthode "Translate" et appel de cette méthode pour tous les libellés de DFM (pour faciliter l'internationalisation).
+
+<onestep.bmp> CaseSensitive est une propriété de TStrings (et pas seulement de TStringList).
+
+
+<boxl><b>Sur les objets</b></box>
+
+<onestep.bmp> TModalResult est un enum plutôt que des #define (plus sûr au niveau programmation).
+
+<onestep.bmp> TParaAttributes de TRichEdit a des nouvelles propriétés (espacement des caractères, indice ou exposant, ...).
+
+<onestep.bmp> TForm et TFrame peuvent lire des ressources 'DIALOGUE' du RC.
+
+<onestep.bmp> Tous les graphiques ont la méthode LoadFromResourceName (et pas seulement les TBitmaps).
+
+<onestep.bmp> Les évènement OnQueryEndSession et OnEndSession, qui manquent cruellement dans Builder, ont été rajoutées à l'objet TApplication (traitement des messages Windows WM_QUERYENDSESSION et WM_ENDSESSION).
+
+<onestep.bmp> Nouvelle propriété TApplication->ExePath.
+
+<onestep.bmp> Nouvelle propriété RightJustify de TMenuItem pour aligner un menu à droite de la fenêtre.
+
+<onestep.bmp> OnShow et OnHide sont des évènements de toutes les classes héritant de TWinControl (et non uniquement TForm et TTabSheet).
+
+
+<boxl><b>Interface EDI</b></box>
+
+Des méthodes ont été ajoutées pour faciliter la réalisation d'éditeurs de propriétés. Ces méthodes permettent de lister, de lire et d'écrire les propriétés, mais aussi de créer les objets:
+
+<b><color=10>void</color> GetListObjects(TStrings *ListObjects);</b>
+Liste des objets pouvant être créés
+
+<b>TComponent *CreateObject(TComponent* AOwner, AnsiString asNom);</b>
+Création d'un objet
+
+<b><color=10>virtual bool</color> GetListProperties(TStrings *ListProperties);</b>
+Liste les propriétés publiées.
+
+<b><color=10>virtual</color> TYPEPROPERTY GetTypeProperty(AnsiString asProperty, AnsiString *asInfos);</b>
+Lecture du type d'une propriété.
+
+<b><color=10>virtual</color> AnsiString GetDefaultProperty(AnsiString asProperty);</b>
+Lecture de la valeur par défaut d'une propriété
+
+<b><color=10>virtual</color> AnsiString GetProperty(AnsiString asProperty);</b>
+Lecture de la valeur d'une propriété
+
+<b><color=10>virtual bool</color> SetProperty(AnsiString asProperty, AnsiString asValue, TPersistent *Sender);</b>
+Ecriture d'une propriété
+
+
+Toutes ces méthodes sont décrites en détail dans la doc DOXYGEN.
+----- SHM ---- page 10 ---- 
+Voici la liste des exemples de programmes fournis dans l'installation. Ces exemples sont installés dans le sous-répertoire "Sample" du répertoire d'installation. Ils contiennent les sources, et les projets au format Visual Studio 6, Code::blocks et lorsque cela est possible, Embedded Visual C. En principe, si votre compilateur est bien configuré (voir <jump=SHM_contents0002>Configuration</jump>), il vous suffit d'ouvrir le projet et de compiler pour obtenir l'exécutable. Cependant, il y a parfois des problèmes avec les chemins relatifs et, selon le répertoire d'installation, il vous faudra peut-être modifier certains chemins (accès aux .lib, notamment).
+
+<b><u>BonjourMot</u></b>
+
+\par\ql\{bml screenshot_BonjourMot.bmp\}\par\ql
+
+Programme minimaliste. Voir toutes les explications <jump=SHM_contents0003>ici</jump>
+
+<b><u>RTFExpert</u></b>
+
+Petit traitement de texte permettant de lire et d'enregistrer des fichiers au format RTF. Ce projet utilise la librairie FreeVCL_RichEdit.
+
+<b><u>TestMetafile</u></b>
+
+Crée un fichier metafile (EMF) contenant une image, quelques textes et graphiques. Ce projet utilise la librairie FreeVCL_XFiles.
+
+<b><u>TestPdf</u></b>
+
+Crée un fichier au format PDF contenant les mêmes éléments que le programme précédent. Ce projet utilise la librairie FreeVCL_XFiles.
+
+<b><u>TestCppWebBrowser</u></b>
+
+Exemple d'utilisation de l'objet TCppWebBrowser (navigateur internet). Ce projet utilise la librairie FreeVCL_Web.
+
+<b><u>TestSocket</u></b>
+
+Exemple d'utilisation des sockets. Il se décompose en deux parties: TestSocketServer et TestSocketClient. Ce projet utilise la librairie FreeVCL_Web.
+
+<b><u>TestWebCam</u></b>
+
+\par\ql\{bml screenshot_testwebcam.bmp\}\par\ql
+
+Exemple d'utilisation de l'objet TWebcam. Visualisation et capture d'une image. Ce projet utilise la librairie FreeVCL_Multimed.
+----- SHM ---- page 11 ---- 
+<u><b>Outil de migration VCL2FreeVCL</b></u>
+
+L'outil <b>VCL2FreeVCL</b> vous facilite la transformations des programmes VCL en programmes FreeVCL. Il traite automatiquement les petites différences de syntaxe, c'est à dire:
+
+<onestep.bmp> Transformation des <color=10><b>#include <vcl.h></b></color> en <color=10><b>#include <FreeVCL.h></b></color>.
+
+<onestep.bmp> Transformation des <color=10><b>__fastcall</b></color> en <b>FASTCALL</b>.
+
+<onestep.bmp> Suppression des mot-clés et pragmas spécifiques à Builder <color=10><b>__published</b></color>, <color=10><b>#pragma hdrstop</b></color> et <color=10><b>#pragma package</b></color>.
+
+<onestep.bmp> Ajout des macros <b>FVCL_BEGIN_COMPONENTS</b> / <b>FVCL_END_COMPONENTS</b> et <b>FVCL_BEGIN_EVENTS</b> / <b>FVCL_END_EVENTS</b>.
+
+<onestep.bmp> Ordre des composants en accord avec le DFM.
+
+<onestep.bmp> Ajout de la méthode CallEvent.
+
+<onestep.bmp> Création automatique du RC s'il n'existe pas.
+
+<onestep.bmp> Eventuellement, ajout de la macro _T( ).
+
+Tous les fichiers sources (.cpp, .h) du répertoire choisi (et des sous répertoires si vous avez coché la case) sont transformés. Les anciens fichiers sont renommés en .old (.cpp.old et .h.old).
+
+L'option "Chaînes unicode" permet de rajouter automatiquement la macro _T( ) à toutes vos chaînes. Il est conseillé de laisser cette option cochée car ça vous évitera un traitement ultérieur, même si vous ne souhaitez pas transformer dans l'immédiat votre projet en unicode (la macro n'a aucun d'effet si l'option UNICODE n'est pas activée dans le projet). Voir <jump=SHM_contents0006>Unicode</jump> pour plus de détails.
+
+
+<u><b>Il vous restera ensuite à transformer à la main les derniers points suivants:</b></u>
+
+<onestep.bmp> Ajout du mot-clé <color=10><b>const</b></color> (que Builder gère de façon assez peu rigoureuse) lorsque c'est nécessaire.
+
+<onestep.bmp> Changement du prototype de constructeur des TForm.
+
+<onestep.bmp> Quelques petits aménagements à faire dans le WinMain du projet principal: <color=10><b>new</b></color> et <color=10><b>delete</b></color> de la fenêtre principale, par exemple (voir <jump=SHM_contents0003>Mon premier programme</jump>).
+
+Le programme met un commentaire aux principaux endroits où un traitement manuel doit être fait, de cette manière:
+<color=7><b>//! @todo [VCL2FreeVCL] ...</b></color>
+
+----- SHM ---- page 12 ---- 
+<u><b>Outil de création automatique d'unité</b></u>
+
+<b>CreateUnit</b> vous permet de créer facilement une nouvelle boîte de dialogue. Entrez le nom de l'unité, le répertoire où enregistrer cette unité, et les champs à saisir (même syntaxe que dans une structure struct), par exemple :
+
+\par\qc\{bmc screenshot_createunit_16.bmp\}\par\ql
+
+Et en un clic, les fichiers <b>TTest3.cpp</b>, <b>TTest3.h</b> et <b>TTest3.dfm</b> sont créés, contenant le code correspondant à la fenêtre suivante:
+
+\par\qc\{bmc screenshot_createunit2_16.bmp\}\par\ql
+
+Attention, les commentaires dans la structure sont importants: ils servent à construire les textes de gauche.
+Le bouton "Parcourir" (et son code correspondant) est automatiquement ajouté lorsque le texte associé au contrôle contient le mot "Chemin", ou "Fichier" ("Fichier photo" dans l'exemple).
+
+Evidemment, quelques ajustements seront sans doute nécessaires:
+
+<onestep.bmp> Par exemple, ici, un contrôle UpDown n'est pas adapté à la saisie d'un code postal. Mais il est plus facile de supprimer des composants que d'en créer des nouveaux.
+<onestep.bmp> Il vous faudra aussi écrire le code exécuté lorsqu'on clique sur "Ok" ou "Annuler" (ça, aucun outil ne pourra l'écrire automatiquement à votre place).
+----- SHM ---- page 13 ---- 
+<boxl><b>Chemin des inclusions</b></box>
+
+Dans le menu, choisir "Tools", puis "Options". Puis, dans la boîte de dialogue suivante, choisir l'onglet "Directories", sélectionner "Include Files" dans la liste déroulante, puis cliquez sur l'icône "New". Entrez le chemin des fichiers .h et enfin validez avec le bouton "Ok".
+
+\par\qc\{bmc Config_Include_V6_16.bmp\}\par\ql
+
+<boxl><b>Chemin des librairies</b></box>
+
+Même chose à peu de choses près pour le chemin des .lib.
+
+\par\qc\{bmc Config_Lib_V6_16.bmp\}\par\ql
+
+----- SHM ---- page 14 ---- 
+<boxl><b>Chemin des inclusions</b></box>
+
+Dans le menu, choisir "Tools", puis "Options". Puis, dans la boîte de dialogue suivante, choisir dans le tree-view "VC++ Directories", sélectionner "Include Files" dans la liste déroulante, puis cliquez sur le bouton "New". Entrez le chemin des fichiers .h et enfin validez avec le bouton "Ok".
+
+\par\qc\{bmc Config_Include_VE_16.bmp\}\par\ql
+
+<boxl><b>Chemin des librairies</b></box>
+
+Même chose à peu de choses près pour le chemin des .lib.
+
+\par\qc\{bmc Config_Lib_VE_16.bmp\}\par\ql
+
+----- SHM ---- page 15 ---- 
+<boxl><b>Chemin des inclusions</b></box>
+
+Dans le menu, choisir "Settings", puis "Compiler and debugger". Puis, dans la boîte de dialogue suivante, choisir "Global compiler settings" dans la fenêtre de gauche, sélectionner les onglets "Search directories" et "Compiler", puis cliquez sur le bouton "Add". Entrez le chemin des fichiers .h et enfin validez avec le bouton "Ok".
+
+\par\qc\{bmc Config_Include_CB_256.bmp\}\par\ql
+----- SHM ---- page 16 ---- 
+<b><u>Pourquoi mes fenêtres ne font pas la taille que j'ai indiqué dans le DFM ?</u></b>
+
+La taille des fenêtres dépend du thème Windows. En effet, selon le thème, la taille de la barre de titre, des bordures peut varier. Si on gardait la taille définie dans le DFM, la zone utile serait augmentée ou réduite en fonction des paramètres d'affichage, et rendrait problématique le positionnement des composants à l'intérieur. La taille des boîtes de dialogue est donc définie pour une configuration standard (Thème "Windows Classique") dans le DFM, et elle est légèrement agrandie ou réduite pour que le rectangle client soit indépendant du thème.
+----- SHM ---- page 17 ---- 
+<boxc><b>Erreurs de compilation</b></box>
+
+<b><u>"Error: 'struct _dp_Getxxxx_Setxxxx' has no members ..."</u></b>
+
+Voir <jump=SHM_contents0009>Problèmes connus</jump>
+
+
+<b><u>"Error: Non-lvalue in assignment"</u></b>
+
+Voir <jump=SHM_contents0009>Problèmes connus</jump>
+
+
+<b><u>"Error: unresolved external symbol (<i>quelque chose avec char *</i>)</u></b>
+
+Vous avez certainement compilé un programme UNICODE avec une lib non UNICODE (à moins que ce ne soit le contraire). Les .lib qui sont dans VisualStudio et dans WinCE sont toutes en UNICODE. Les autres (c'est à dire celles qui sont dans VisualStudio_6 et CodeBlocks) ne le sont pas.
+
+
+<boxc><b>Windows CE</b></box>
+
+<b><u>Message d'erreur "Impossible de trouver le programme (...) ou l'un de ses composants"</u></b>
+
+Vous avez sans doute un système Windows CE 3.0 ou antérieur. Les librairies Windows CE on été compilées avec Embedded Visual C .Net, donc compatibles avec Windows CE 4 ou 5 minimum.
+
+
+<b><u>Message d'erreur "Ce programme n'est pas une application Windows CE valide"</u></b>
+
+Vous avez sans doute compilé le programme avec une plate-forme qui ne correspond pas à votre système. Dans Embedded Visual C, il faut indiquer (dans la combo-box en haut à droite) le type du système destination (modèle de processeur, essentiellement).
+
+----- SHM ---- page 18 ---- 
+Voici un rapide résumée des versions de Free VCL et de leurs améliorations:
+
+<b><u>Free VCL 1.1.1.1</u></b>
+
+Béta-version
+
+<b><u>Free VCL 1.1.1.2</u></b>
+
+Nombreux bugs corrigés
+
+<b><u>Free VCL 1.1.2.1</u></b>
+
+Portage Windows CE
+Compatibilité unicode
+Classe TTreeView implémentée
+Classe TListView améliorée
+Composants FreeVCL_XFile (Permet de générer des fichiers PDF et DBF)
+Composants FreeVCL_Web (TCppWebBrowser et sockets)
+Nouveaux exemples
+Doc en anglais en plus du français
+
+<b><u>Free VCL 1.1.2.2</u></b>
+
+Correction d'un bug qui provoquait l'erreur "Cette application n'est pas une application valide" sous windows CE.
+Nombreux bugs dans la classe TCanvas.
+
+<b><u>Free VCL 1.1.3.1</u></b>
+
+La classe TCanvas dérive maintenant d'une classe abstraite TCustomCanvas.
+Ajout de la classe TMetafile.
+Ajout d'un exemple d'utilisation d'un objet TMetafile.
+
+<b><u>Free VCL 1.1.4.1</u></b>
+
+Ajout de la classe TLink.
+Ajout des classes TStream, TMemoryStream, TFileStream.
+
+<b><u>Free VCL 1.1.5.1</u></b>
+
+Ajout des classes TAction et TColorBox.
+
+<b><u>Free VCL 1.2.1.1</u></b>
+
+Compatibilité 64 bits.
+Réorganisation et renommage des répertoires.
+----- SHM ---- page 19 ---- 
+Je n'aurait jamais pu créer ce logiciel sans les outils suivants:
+
+
+<boxl><b>Code::Blocks {\uldb http://www.codeblocks.org}{\v !ExecFile(http://www.codeblocks.org,,9,)}</b></box>
+
+Compilateur gratuit, qui n'a rien à envier à d'autres compilateurs payants et très chers que je suis contraint d'utiliser quotidiennement (Et que je ne peux hélas pas nommer).
+
+Simple, clair, et évolutif grâce à une interface permettant le développement de plugins.
+
+
+
+<boxl><b>Embedded Visual C .Net {\uldb http://www.microsoft.com/downloads/details.aspx}{\v !ExecFile(http://www.microsoft.com/downloads/details.aspx?FamilyId=1DACDB3D-50D1-41B2-A107-FA75AE960856&displaylang=en,,9,)}</b></box>
+
+Je me dois également de remercier monsieur Microsoft, qui fournit gratuitement cet outil (pour des raisons commerciales, mais bon, on va pas chipoter) pour programmer en Windows CE. Pas toujours facile d'utilisation, mais ça marche.
+
+
+
+<boxl><b>Inno Setup  {\uldb http://www.innosetup.com}{\v !ExecFile(http://www.innosetup.com,,9,)}</b></box>
+
+Programme d'installation. L'essayer c'est l'adopter.
+
+
+
+<boxl><b>DOXYGEN  {\uldb http://www.doxygen.org/index.html}{\v !ExecFile(http://www.doxygen.org/index.html,,9,)}</b></box>
+
+Documentation automatique des sources. Vous n'avez plus rien à faire pour avoir une doc toujours à jour.
+
+
+
+<boxl><b>Shalom Help Maker  {\uldb http://www.danish-shareware.dk/soft/shelpm}{\v !ExecFile(http://www.danish-shareware.dk/soft/shelpm,,9,)}</b></box>
+
+Programme de création d'aide. Celle que vous êtes en train de lire. Comme vous pouvez le voir, il n'y a rien à reprocher.

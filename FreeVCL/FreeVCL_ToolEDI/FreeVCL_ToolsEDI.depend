@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1589477518 source:c:\sources\freevcl\freevcl\freevcl_tooledi\tcustomeditor.cpp
+	<FreeVcl.h>
+	<TCustomEditor.h>
+
+1545950481 source:c:\sources\freevcl\freevcl\freevcl_tooledi\tdictionnary.cpp
+	<FreeVcl.h>
+	"TDictionnary.h"
+
+1545950481 source:c:\sources\freevcl\freevcl\freevcl_tooledi\tfactory_fvcl_toolsedi.cpp
+	<FreeVcl.h>
+	<FreeVCL_ToolsEDI.h>
+
+1589477722 source:c:\sources\freevcl\freevcl\freevcl_tooledi\thexaeditor.cpp
+	<FreeVcl.h>
+	<THexaEditor.h>
+	<TDictionnary.h>
+
+1603954464 source:c:\sources\freevcl\freevcl\freevcl_tooledi\ttexteditor.cpp
+	<FreeVcl.h>
+	<TTextEditor.h>
+	<TTextEditorLines.h>
+	<TDictionnary.h>
+	"TTooltip.h"
+
+1545950481 source:c:\sources\freevcl\freevcl\freevcl_tooledi\ttexteditorlines.cpp
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+
+1545950481 source:c:\sources\freevcl\freevcl\freevcl_tooledi\ttooltip.cpp
+	<FreeVcl.h>
+	<TTooltip.h>
+
+1545950481 source:c:\sources\freevcl\freevcl\freevcl_tooledi\tundoredo.cpp
+	<FreeVcl.h>
+	"TUndoRedo.h"
+

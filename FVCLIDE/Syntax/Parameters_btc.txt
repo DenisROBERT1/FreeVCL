@@ -1,0 +1,3 @@
+AlphaChars=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_
+CaseSensitive=false
+CommentSingle=\

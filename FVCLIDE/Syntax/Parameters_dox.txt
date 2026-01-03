@@ -1,0 +1,5 @@
+AlphaChars=abcdefghijklmnopqrstuvwxyzéèêëîïôöùûüÿçABCDEFGHIJKLMNOPQRSTUVWXYZÉÈÊËÎÏÔÖÙÛÜŸÇ_[]
+CaseSensitive=true
+CommentSingleBeg=#
+QuoteBegin="
+QuoteEnd="

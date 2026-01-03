@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1545950480 source:c:\sources\freevcl\freevcl\freevcl_multimed\tfactory_fvcl_multimed.cpp
+	<FreeVcl.h>
+	<FreeVCL_Multimed.h>
+
+1591774093 source:c:\sources\freevcl\freevcl\freevcl_multimed\twebcam.cpp
+	<FreeVcl.h>
+	<FreeVcl_Multimed.h>
+
+1591774093 source:c:\sources\freevcl\freevcl\freevcl_multimed\tanimate.cpp
+	<FreeVcl.h>
+	"TAnimate.h"
+

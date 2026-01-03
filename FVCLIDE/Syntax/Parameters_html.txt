@@ -1,0 +1,9 @@
+AlphaChars=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_
+CaseSensitive=false
+CommentBegin=<!--
+CommentEnd=-->
+QuoteBegin="
+QuoteEnd="
+QuoteBegin2='
+QuoteEnd2='
+CodeFormat=HTML

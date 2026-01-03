@@ -1,0 +1,796 @@
+    %s (%i, 1): Inclusion de "%s"¤    %s (%i, 1): Include of "%s"
+  %s (%i, %i): "!DOCTYPE" inattendu¤  %s (%i, %i): "!DOCTYPE" unexpected
+  %s (%i, %i): "<" inattendu dans la balise <%s>¤  %s (%i, %i): "<" unexpected in tag <%s>
+  %s (%i, %i): ">" inattendu¤  %s (%i, %i): ">" unexpected
+  %s (%i, %i): ">" manquant dans la balise %s¤  %s (%i, %i): ">" is missing in tag %s
+  %s (%i, %i): "end" manquant¤  %s (%i, %i): "end" missing
+  %s (%i, %i): "}" inattendu¤  %s (%i, %i): "}" unexpected
+  %s (%i, %i): "}" manquant¤  %s (%i, %i): "}" missing
+  %s (%i, %i): Balise inattendue <%s> (attendue : </%s>)¤  %s (%i, %i): Tag unexpected <%s> (expected : </%s>)
+  %s (%i, %i): Balise inattendue <%s>¤  %s (%i, %i): Tag unexpected <%s>
+  %s (%i, %i): Balise manquante </%s>¤  %s (%i, %i): Tag missing </%s>
+  %s (%i, %i): balise vide¤  %s (%i, %i): Empty tag
+  %s (%i, %i): Caractère incorrect : %c¤  %s (%i, %i): incorrect character : %c
+  %s (%i, %i): Chaîne non terminée¤  %s (%i, %i): String not terminated
+  %s (%i, %i): Code PHP non terminé¤  %s (%i, %i): PHP code not terminated
+  %s (%i, %i): Commentaire non terminé¤  %s (%i, %i): Comment not terminated
+  %s (%i, %i): Nom de balise incorrect <%s>¤  %s (%i, %i): Incorrect tag name<%s>
+  %s (%i, %i): Retour à la ligne dans chaîne constante¤  %s (%i, %i): New line in const string
+  %s (%i, 0): Erreur de syntaxe¤  %s (%i, 0): Syntax error
+  %s (%i, 1): #elif sans #if %s¤  %s (%i, 1): #elif without #if %s
+  %s (%i, 1): #else sans #if %s¤  %s (%i, 1): #else without #if %s
+  %s (%i, 1): #endif sans #if¤  %s (%i, 1): #endif without #if
+  %s (%i, 1): #if sans #endif¤  %s (%i, 1): #if without #endif
+  %s (%i, 1): Commande inconnue %s¤  %s (%i, 1): Unknown command %s
+  %s (%i, 1): Erreur de syntaxe %s¤  %s (%i, 1): Syntax error %s
+  %s (%i, 1): Erreur de syntaxe¤  %s (%i, 1): Syntax error
+  %s (%i, 1): Fichier inexistant "%s"¤  %s (%i, 1): File not found "%s"
+  %s (%i, 1): Impossible d'ouvrir le fichier %s %s¤  %s (%i, 1): Cannot open the file %s %s
+  %s (%i, 1): Inclusion de "%s"¤  %s (%i, 1): Include of "%s"
+  %s (%i, 1): Parenthèses dépareillées %s¤  %s (%i, 1): Mismatched parenthesis %s
+  %s (%i, 1): Précédente définition : %s¤  %s (%i, 1): Previous definition : %s
+  %s (%i, 1): Variable déjà définie %s¤  %s (%i, 1): Variable already defined %s
+  %s (1, 1): Inclusion circulaire :¤  %s (1, 1): Circular include :
+-¤-
+...¤...
+(Nom de la classe = T + nom unité)¤(Class name = T + unit name)
+(Projet inclus dans le workspace)¤(Project included in workspace)
+[AUTOCOMP]¤[AUTOCOMP]
+*.bas;¤*.bas;
+*.c;*.cpp;*.h;¤*.c;*.cpp;*.h;
+*.gpp;¤*.gpp;
+*.pas;*.hpp;¤*.pas;*.hpp;
+&Ajouter des fichiers existants au projet¤&Add existing files to project
+&Ajouter un projet existant¤&Add existing project
+&Arrêter le débogage¤&Stop debug
+&Construire ce projet¤&Build this project
+&Construire le projet courant¤&Build current project
+&Construire tous les projets¤&Build all projects
+&Copier la ligne¤&Copy line
+&Dialogues¤&Dialogs
+&Editer le fichier¤&Edit file
+&Enlever¤&Remove
+&Enregistrer l'espace de travail¤&Save workspace
+&Enregistrer le dialogue¤&Save dialog
+&Enregistrer le fichier¤&Save file
+&Enregistrer le graphique¤&Save graphic
+&Espaces de travail¤&Workspaces
+&Exécuter¤&Run
+&Fermer le fichier sélectionné¤&Close selected file
+&Fermer¤&Close
+&Fichiers¤&Files
+&Graphiques¤&Graphics
+&Lancer le débogueur¤&Run debug
+&Langue¤&Language
+&Modifier¤&Modify
+&Nouveau dialogue¤&New dialog
+&Nouveau fichier¤&New file
+&Nouveau graphique¤&New graphic
+&Nouveau projet¤&New project
+&Nouvel espace de travail¤&New workspace
+&Ouvrir avec le programme associé¤&Open with associated program
+&Ouvrir un dialogue¤&Open dialog
+&Ouvrir un espace de travail¤&Open workspace
+&Ouvrir un fichier ...¤&Open file ...
+&Ouvrir un graphique (Image, icône, curseur)¤&Open graphic (Image, icon, cursor)
+&Ouvrir un projet¤&Open project
+&Pas à pas (instruction suivante)¤&Step to step (next instruction)
+&Pré-compiler ce projet¤&Pre-compile this project
+&Pré-compiler le projet courant¤&Pre-compile current project
+&Pré-compiler tous les projets¤&Pre-compile all projects
+&Projets¤&Projects
+&Propriétés¤&Properties
+&Quitter¤&Exit
+&Reconstruire ce projet¤&Rebuild this project
+&Reconstruire le projet courant¤&Rebuild current project
+&Renommer¤&Rename
+&Tout Copier¤&Copy all
+&Tout fermer¤&Close all
+&Voir le fichier de sortie¤&View output file
+%i caractère(s)¤%i character(s)
+%i Erreur(s)¤%i Error(s)
+%i erreurs détectées¤%i errors detected
+%i fichier(s) traité(s)¤%i file(s) processed
+%i ligne(s) de code + commentaire(s)¤%i code line(s) + comment(s)
+%i ligne(s) de code¤%i code line(s)
+%i ligne(s) de commentaire(s) vide(s)¤%i empty comment line(s)
+%i ligne(s) de commentaire(s)¤%i comment line(s)
+%i ligne(s) vide(s)¤%i empty line(s)
+%i ligne(s)¤%i line(s)
+<<<<<<<<<< La génération de "%s" a échoué <<<<<<<<<<¤<<<<<<<<<< Build of "%s" failed <<<<<<<<<<
+<<<<<<<<<< La génération de "%s" a réussi <<<<<<<<<<¤<<<<<<<<<< Build of "%s" success <<<<<<<<<<
+<<¤<<
+>>>>>>>>>> Génération de "%s" >>>>>>>>>>¤>>>>>>>>>> Build of "%s" >>>>>>>>>>
+>>¤>>
+À droite¤À droite
+À partir d'une fenêtre existante¤From an existing window
+À partir d'une structure¤From a struct
+À partir du curseur¤From cursor
+À propos¤About
+Accolades en fin de ligne¤Brackets en fin de ligne
+Activer l'autocomplétion¤Autocompletion on
+Activer la transparence des fenêtres¤Activate window transparency
+Afficher les ancrages¤Show anchors
+Afficher les icônes d'état¤Show status icons
+Afficher les numéros de ligne¤Show lines numbers
+Afficher¤Show
+Aide de l'éditeur¤Editor help
+Aide en ligne (syntaxe)¤Online help (syntax)
+Aide en ligne¤Online help
+Aide Free VCL¤Free VCL help
+Aide¤Help
+Ajout d'un fichier¤Add a file
+Ajout d'un projet¤Add a project
+Ajout d'une image¤Add an image
+Ajout d'une variable¤Adding a variable
+Ajout impossible¤Impossible to add
+Ajout/suppression des commentaires¤Add/delete comments
+Ajout¤Add
+Ajouter un &nouveau fichier au projet¤Add a &new file to project
+Ajouter un &nouveau projet¤Add a &new project
+Ajouter un marque-page¤Add a bookmark
+Ajouter un nouveau fichier¤Add a new file
+Ajouter un nouveau projet¤Add a new project
+Ajouter un point d'arrêt¤Add a breakpoint
+Ajouter une image¤Add an image
+Alignement horizontal sur le centre¤Horizontal alignment on the center
+Alignement sur la droite¤Alignment on right
+Alignement sur la gauche¤Alignment on left
+Alignement sur la grille¤Alignment on grid
+Alignement sur le bas¤Alignment on bottom
+Alignement sur le haut¤Alignment on top
+Alignement vertical sur le centre¤Vertical alignment on the center
+Aligner en déplaçant¤Align by moving
+Aligner en redimensionnant¤Align by resizing
+Aligner les boutons¤Align buttons
+Aligner sur l'élément parent¤Align on parent element
+Aligner sur la grille¤Align on grid
+Aligner¤Align
+Aller à la ligne numéro ...¤Go to line number ...
+Aller à la ligne¤Go to line
+Ancrages prédéfinis¤Predefined anchors
+Ancrages¤Anchors
+Ancré sur le centre¤Anchored on center
+Ancré sur les quatre cotés¤Anchored on four sides
+Annuler¤Cancel
+août¤august
+Aperçu :¤Overview :
+Aperçu¤Overview
+Application d'un modèle¤Applying a template
+Application FreeVCL¤FreeVCL Application
+Après¤After
+Argument¤Argument
+Arguments :¤Arguments :
+Arrangement des boutons à droite¤Buttons arrangement on right
+Arrangement des boutons en bas¤Buttons arrangement on bottom
+Arrêt manuel du debogueur¤Manual debugger stop
+Arrêter en début de fichier¤Stop at begin of file
+Arrêter en fin de fichier¤Stop at end of file
+Arrêter l'enregistrement¤Stop recording
+Arrêter¤Stop
+ASCII (8 bits)¤ASCII (8 bits)
+Aspect¤Aspect
+Assembleur¤Assembly
+Attention !\nLes commandes "%s" et "%s" ont le même raccourci¤Warning !\nCommands "%s" and "%s" had the same shortcut
+Attention¤Warning
+Aucun algorithme de formatage pour les fichiers de type ¤No formatting algorithm for type files 
+Aucun projet courant n'a été défini.\nVeuillez définir un projet courant dans la liste des projets.¤No current project was defined.\nPlease define a current project in projects list.
+Aucun texte sélectionné¤No text selected
+Aucune macro enregistrée.¤No macro recorded.
+Auto-complétion¤Auto-completion
+Autres fichiers¤Other files
+Avant¤Before
+avril¤april
+Bitmaps Windows|*.bmp|Tous|*.*¤Windows Bitmaps|*.bmp|All|*.*
+Boîte de dialogue vide¤Empty dialog box
+Boîtes¤Boxes
+Boucler en fin de fichier¤Loop at end of file
+Boutons "Ok", "Annuler" et "Aide"¤Buttons "Ok", "Cancel" and "Help"
+Builder¤Builder
+Catégories :¤Categories :
+cbl¤cbl
+Ce fichier existe déjà, voulez-vous l'écraser ?\n¤This file already exists, do you want to overwrite it?\n
+Ce projet ne permet pas de positionner un point d'arrêt.¤This project does not allow to set a breakpoint.
+Ce projet ne peut être débuggé. Veuillez lancer un des sous-projet.¤This project cannot be debugged. Please launch one of the sub-projects.
+Ce projet ne peut être lancé directement. Veuillez lancer un des sous-projet.¤This project cannot be launched directly. Please launch one of the sub-projects.
+Centre bas¤Center bottom
+Centre droit¤Center right
+Centre gauche¤Center left
+Centre haut¤Center top
+Centrer horizontalement¤Centrer horizontally
+Centrer verticalement¤Centrer vertically
+Texte "%s" non trouvé¤Text "%s" not found
+Texte "%s" remplacé %i fois¤Text "%s" remplaced %i time(s)
+Texte "%s" trouvé %i fois¤Text "%s" found %i time(s)
+Chaîne ASCII:¤String ASCII:
+Chaîne hexa:¤String hexa:
+Chaîne UNICODE:¤String UNICODE:
+Chaînes¤Strings
+Chercher :¤Search:
+Chercher / remplacer¤Search / replace
+Chercher dans des fichiers¤Search in files
+Chercher dans¤Search in
+Chercher et remplacer un texte¤Search and replace a text
+Chercher l'implémentation de ¤Find implementation of 
+Chercher la déclaration de ¤Find declaration of 
+Chercher précédent¤Find previous
+Chercher suivant¤Find next
+Chercher texte sélectionné suivant¤Find next selected text
+Chercher texte sélectionné précédent¤Find previous selected text
+Chercher¤Search
+Cliquer sur les carrés pour définir les ancrages ou choisir une position prédéfinie à droite¤Click on the squares to define the anchors or choose a predefined position on the right
+Code :¤Code :
+Code::Blocks¤Code::Blocks
+Coin inférieur droit¤Lower right corner
+Coin inférieur gauche¤Lower left corner
+Coin supérieur droit¤Upper right corner
+Coin supérieur gauche¤Upper left corner
+Coller¤Paste
+Coloration syntaxique¤Syntax highlighting
+ComboBox¤ComboBox
+Commande¤Command
+Commentaires¤Comments
+Commenter¤Comment
+Compilation "%s"¤Compilation "%s"
+Compiler¤Compile
+Configurer les outils¤Configure tools
+Conserver la casse¤Keep the case
+Construction du projet "%s" car ce projet n'a encore jamais été construit¤Must build project "%s" because this project has never been built yet
+Construction du projet "%s" car construction "%s" plus récente que "%s"¤Must build project "%s" because build of "%s" more recent than "%s"
+Construction du projet "%s" car construction "%s" plus récente que la dernière construction¤Must build project "%s" because build of "%s" more recent than last build
+Construction du projet "%s" car dernière modification du projet plus récente que "%s"¤Must build project "%s" because last modification of project more recent than "%s"
+Construction du projet "%s" car dernière modification du projet plus récente que la dernière construction¤Must build project "%s" because last modification of project more recent than last build
+Construction du projet "%s" car fichier "%s" inexistant¤Must build project "%s" because file "%s" does not exists
+Construction du projet "%s" car fichier "%s" plus récent que "%s"¤Must build project "%s" because file "%s" more recent than "%s"
+Construction du projet "%s" car fichier "%s" plus récent que la dernière construction¤Must build project "%s" because file "%s" more recent than last build
+Construction du projet "%s" car le projet "%s" n'est pas à jour¤Must build project "%s" because project "%s" is not up to date
+Construction du projet "%s" car projet "%s" plus récent que "%s"¤Must build project "%s" because projet "%s" more recent than "%s"
+Construction du projet "%s" car projet "%s" plus récent que la dernière construction¤Must build project "%s" because projet "%s" more recent than last build
+Construction¤Build
+Construire¤Build
+Construit le :¤Built on :
+Continue¤Continue
+Contrôles courants¤Usual controls
+Contrôles étendus¤Extended controls
+Contrôles¤Controls
+Conversion de nombres¤Numbers conversion
+Convertir en décimal  0x%X -> %s¤Convert in decimal  0x%X -> %s
+Convertir en hexa  %i -> %s¤Convert in hexa  %i -> %s
+Coordonnées absolues¤Absolute coordinates
+Coordonnées relatives aux points d'ancrage¤Coordinates relative to anchor points
+Copier le nom complet¤Copy full name
+Copier le raccourci¤Copy shortcut
+Copier¤Copy
+Couleurs :¤Colors :
+Couper¤Cut
+Courier New¤Courier New
+cpp¤cpp
+Création automatique d'unité¤Automatic creation of unit
+Création d'un objet ¤Creation of an object 
+Création d'une méthode de traitement d'évènement¤Creation of a method of event process
+Création¤Creation
+Créer¤Create
+Cumuler les résultats¤Cumulate the results
+Curseur après la fin de ligne¤Cursor after end of line
+Dans le texte sélectionné¤In selected text
+Dans tout le texte¤In all text
+Débogage¤Debug
+Déboguer¤Debug
+Débug impossible¤Impossible to debug
+Début de fichier passé¤File start passed
+décembre¤décember
+Déclaration d'une variable¤Declaration of a variable
+Décommenter¤Decomment
+Défaire¤Undo
+Définir comme projet &courant¤Define as &current project
+Définir sélectionné comme projet &courant¤Define selected as &current project
+Définition de classe (.h et .cpp)¤Definition of class (.h et .cpp)
+Définition des raccourcis¤Definition of shortcuts
+Démarrage du debogueur¤Start debugger
+Déplacement curseur¤Cursor move
+Déplacement multiple¤Multiple deplacement
+Déplacement objet ¤Move object 
+Déplacer après le contrôle suivant¤Move after next control
+Déplacer avant le contrôle précédent¤Move before previous control
+Déplacer comme enfant du contrôle précédent¤Move as child of previous control
+Déplacer comme frère du contrôle parent¤Move as sibling of parent control
+Depuis le début¤From start
+Destination :¤Destination :
+Détermine quelle touche est enfoncée¤Define what key is pressed
+Détermine si la touche ALT est enfoncée¤Define if ALT key is pressed
+Détermine si la touche CTRL est enfoncée¤Define if CTRL key is pressed
+Détermine si la touche SHIFT est enfoncée¤Define if SHIFT key is pressed
+dfm¤dfm
+Dialogue non trouvé ou incorrect¤Dialog not found or incorrect
+Dialogues :¤Dialogs :
+Dialogues¤Dialogs
+Différentier MAJ/min¤Case sensitive
+dimanche¤sunday
+Dimensionnement multiple¤Multiple resize
+Dimensionnement objet ¤Resize object 
+Dimensionnement sur la droite¤Resize on right
+Dimensionnement sur la gauche¤Resize on left
+Dimensionnement sur le bas¤Resize on bottom
+Dimensionnement sur le haut¤Resize on top
+Dimensions¤Dimensions
+Direction¤Direction
+Document¤Document
+EditBox¤EditBox
+Editer l'image¤Edit bitmap
+Edition¤Edition
+Effacer tous les marque-pages¤Delete all bookmarks
+Effacer tous les points d'arrêt¤Delete all breakpoints
+Emplacement :¤Location :
+En bas¤Down
+En début de ligne¤At begin of line
+En fin de ligne¤At end of line
+En-tête de fichier (BOM)¤File header (BOM)
+Enfant¤Child
+Enlever l'image¤Remove the bitmap
+Enregistrement fichier .dfm¤Saving file .dfm
+Enregistrement fichier .h¤Saving file .h
+Enregistrement fichier¤Saving file
+Enregistrement¤Save
+Enregistrer &tous les fichiers¤Save &all files
+Enregistrer l'espace de travail &sous ...¤Save workspace &as ...
+Enregistrer l'image¤Save bitmap
+Enregistrer le dialogue &sous ...¤Save dialog &as ...
+Enregistrer le fichier &sous ...¤Save file &as ...
+Enregistrer le graphique &sous ...¤Save graphic &as ...
+Enregistrer sous¤Save as
+Enregistrer tout¤Save all
+Enregistrer une macro¤Record a macro
+Enregistrer¤Save
+Entier 16 bits:¤16 bits integer:
+Entier 32 bits:¤32 bits integer:
+Entier 64 bits:¤64 bits integer:
+Entrer le numéro de ligne :¤Enter line number :
+Entrez vos remarques ici ...¤Write your comments here ...
+Environnement de Développement Intégré Free VCL¤Free VCL Integrated Development Environment
+Erreur création¤Creation error
+Erreur de plugin¤Plugin error
+Erreur de syntaxe dans le DFM¤Syntax error in DFM
+Erreur debogage¤Debug error
+Erreur enregistrement fichier ICO¤Error saving ICO file
+Erreur exception¤Exception error
+Erreur ouverture¤Open error
+Erreur point d'arrêt¤Breakpoint error
+Erreur saisie¤Input error
+Erreur système %i¤Système error %i
+Erreur système¤Système error
+Erreur: Construction du projet "%s" impossible car le projet "%s" n'a pas été construit¤Error: Cannot build "%s" because the project "%s" has not been built
+Erreur: impossible d'ouvrir "%s"¤Error: connot open "%s"
+Erreur: impossible de lire la date de modification du projet "%s"¤Error: cannot read the modification date of project "%s"
+Erreur: l'élément "%s" n'a pas de projet associé.¤Error: element "%s" has no associated project.
+Erreur: le noeud "%s" n'a pas de fichier associé.¤Error: node "%s" has no associated file.
+Erreur: projet "%s" non défini¤Error: project "%s" undefined
+Erreur(s) lors de l'exécution¤Error(s) while running
+Erreur¤Error
+Espace après parenthèses¤Space after parenthesis
+Espaces -> tabulations (en début de ligne)¤Spaces -> tabulations (at begin of line)
+Espaces -> tabulations¤Spaces -> tabulations
+exe¤exe
+Exécuter une macro¤Play a macro
+Exécuter¤Execute
+Exécution de "%s"¤Execution of "%s"
+Exécution réussie¤Execution successfull
+Exemple¤Example
+Expression régulière¤Regular expression
+Extensions¤Extensions
+Fenêtre %08X non trouvée¤Window %08X not found
+Fermer tous les &autres¤Close all &others
+Fermeture auto des parenthèses¤Automatic close of parenthesis
+Fermeture d'un projet¤Close of a project
+février¤february
+Fichier :¤File :
+Fichier courant non défini¤Current file not defined
+Fichier cpp non défini¤cpp file not defined
+Fichier détruit ou déplacé¤File deleted or moved
+Fichier header (.h)¤Header file (.h)
+Fichier inexistant¤File not found
+Fichier modifié¤File modified
+Fichier source C (.c)¤C source file (.c)
+Fichier source C++ (.cpp)¤C++ source file (.cpp)
+Fichier supprimé¤Deleted file
+Fichier¤File
+Fichiers d'entête¤Header file
+Fichiers de ressource¤Resource file
+Fichiers de tous les projets¤All projects files
+Fichiers dfm|*.dfm|Fichiers rc|*.rc|Fichiers frm|*.frm|Tous (*.*)|*.*¤dfm files|*.dfm|rc files|*.rc|frm files|*.frm|All (*.*)|*.*
+Fichiers dfm|*.dfm|Fichiers rc|*.rc|Tous (*.*)|*.*¤dfm files|*.dfm|rc files|*.rc|All (*.*)|*.*
+fichiers dfm|*.dfm|fichiers rc|*.rc¤dfm files|*.dfm|rc files|*.rc
+Fichiers du projet¤Project files
+Fichiers graphiques (*.bmp;*.ico;*.cur)|*.bmp;*.ico;*.cur|Tous (*.*)|*.*¤Graphics files (*.bmp;*.ico;*.cur)|*.bmp;*.ico;*.cur|All (*.*)|*.*
+Fichiers ouverts¤Opened files
+Fichiers source¤Source files
+Fichiers¤Files
+Fin de fichier atteinte¤End of file reached
+Fin de fichier passée¤File end passed
+Fin de lignes¤End of lines
+Fin du debogage¤Stop debug
+Fonctions avancées¤Advanced features
+Fonctions du programme :¤Commands of program:
+Fond :¤Background :
+Form_¤Form_
+Format de caractères¤Characters format
+Format de fichier¤File format
+Format du fichier texte¤Text file format
+Formatage de code¤Code format
+Formatage du code¤Code format
+FreeVCL Défaut¤FreeVCL Default
+FreeVCL EDI a rencontré un problème grave\n¤FreeVCL EDI encountered a serious problem\n
+FreeVCL Fond noir¤FreeVCL black background
+Frère¤Sibling
+fvcl¤fvcl
+gpp¤gpp
+gpp¤gpp
+Gras¤Bold
+Grille¤Grid
+Handle de DLL null¤DLL Handle is null
+Hauteur¤Height
+html¤html
+Icônes d'état¤Status icon
+Im&primer¤&Print
+ImageListPopup¤ImageListPopup
+Images (*.bmp;*.jpg;*.png)|*.bmp;*.jpg;*.png|Tous (*.*)|*.*¤Bitmaps (*.bmp;*.jpg;*.png)|*.bmp;*.jpg;*.png|All (*.*)|*.*
+Implémentation d'une variable¤Implementation of a variable
+Impossible d'ajouter des fichiers à ce projet.¤Cannot add files at this project.
+Impossible d'écrire dans la clé "FVCLIDE\\AutoResp".¤Cannot write in key "FVCLIDE\\AutoResp".
+Impossible d'écrire dans le stream :\n%s¤Cannot write in stream :\n%s
+Impossible d'enregistrer l'en-tête BITMAPINFOHEADER¤Cannot write the header BITMAPINFOHEADER
+Impossible d'enregistrer l'en-tête HEADERCURICO¤Cannot write the header HEADERCURICO
+Impossible d'enregistrer l'en-tête HEADERCURICOFILE¤Cannot write the header HEADERCURICOFILE
+Impossible d'enregistrer l'en-tête HEADERGIFFILE¤Cannot write the header HEADERGIFFILE
+Impossible d'enregistrer l'en-tête¤Cannot write the header
+Impossible d'enregistrer l'image (écriture octet %u/%u)¤Cannot write the bitmap (writing byte %u/%u)
+Impossible d'enregistrer la configuration¤Cannot save the configuration
+Impossible d'enregistrer le fichier "%s": %s¤Cannot save the file "%s": %s
+Impossible d'enregistrer le fichier "%s"¤Cannot save the file "%s"
+Impossible d'enregistrer les paramètres¤Cannot save the parameters
+Impossible d'enregistrer un espace de travail vide¤Cannot save an empty workspace
+Impossible d'exécuter une macro dans ce type de fichier.¤Cannot play a macro in this type of file.
+Impossible d'insérer du code dans ce type de fichier.¤Cannot insert code in this type of file.
+Impossible d'ouvrir ce fichier¤Cannot open this file
+Impossible d'ouvrir le fichier "%s": %s¤Cannot open file "%s": %s
+Impossible d'ouvrir le fichier "%s"¤Cannot open file "%s"
+Impossible d'ouvrir le fichier:\n¤Cannot open file:\n
+Impossible d'ouvrir le fichier¤Cannot open file
+Impossible d'ouvrir le plugin %s:\nFonction non trouvée.¤Cannot open plugin %s:\nFunction not found.
+Impossible d'ouvrir le plugin %s:\nInit a renvoyé faux.¤Cannot open plugin %s:\nInit retuns false.
+Impossible d'ouvrir le plugin %s¤Cannot open plugin %s
+Impossible d'ouvrir ou de créer la clé "FVCLIDE\\AutoResp".¤Cannot open or create the key "FVCLIDE\\AutoResp".
+Impossible de créer le composant (peut-être avez-vous oublié le init() ?)¤Cannot create the component (have you forgot the init() ?)
+Impossible de lire l'en-tête du bloc¤Cannot read the block header
+Impossible de lire l'en-tête du fichier¤Cannot read the file header
+Impossible de lire la clé "FVCLIDE\\AutoResp".¤Cannot read the key "FVCLIDE\\AutoResp".
+Impossible de lire le stream :\n%s¤Cannot read the stream :\n%s
+Impossible de lister "%s": %s¤Cannot list "%s": %s
+Impossible de positionner un point d'arrêt sur ce type de fichier¤Cannot set a breakpoint on this type of file
+Impossible de pré-compiler ce type de projet.¤Cannot precompile this type of project.
+Impossible de renommer des fichiers dans ce projet.¤Cannot rename files in this project.
+Impossible de sauvegarder le fichier¤Cannot save the file
+Impossible de supprimer des fichiers de ce projet.¤Cannot delete files of this project.
+Inclusion en double : %s¤Double include : %s
+Inclusion¤Include
+Indentation / désindentation¤Indent / unindent
+Indentation automatique¤Automatic indent
+Information¤Information
+Informations complémentaires¤Other informations
+Insertion d'un modèle de code¤Inserting a code template
+Insertion d'un modèle¤Inserting a template
+Insertion de données du presse-papier¤Inserting data from the clipboard
+Insertion de texte¤Inserting texte
+Instructions préprocesseur¤Preprocessor instructions
+Inversion du sens des octets¤Big endian
+Italique¤Italic
+janvier¤january
+jeudi¤thursday
+juillet¤july
+juin¤june
+La hauteur¤The height
+La largeur¤The width
+La taille (largeur + hauteur)¤The size (width + height)
+Label¤Label
+Lancement des projets enfants :¤Launching child projects:
+Lancement impossible¤Cannot launch 
+Langage :¤Language :
+Largeur¤Width
+Le dialogue n'a pas de nom. Enregistrez-le avant de compléter le code.¤The dialog has no name. Save it before completing the code.
+Le fichier "%s" a été supprimé ou déplacé.\nVoulez-vous le rechercher ?¤The file "%s" has been deleted or moved.\nDo you want search it ?
+Le plugin n'a pas pu être chargé.¤The plugin cannot be loaded.
+Le projet "%s" est à jour¤The project "%s" is up to date
+Le projet "%s" n'est pas à jour,\nvoulez-vous le construire ?¤The project "%s" is not up to date,\ndo you want to build it ?
+Le projet "%s" ne peut pas être débogué,\nvoulez-vous le lancer sans dégogage ?¤The "%s" cannot be debugged,\ndo you want to launch it without debug ?
+Le projet "%s" ne peut pas être lancé directement¤The project "%s" cannot be launched directly
+Linux (LF)¤Linux (LF)
+Liste de fichiers¤Files list
+Liste des fenêtres existantes :¤Existing windows list:
+Liste des outils¤Tools list
+Liste des raccourcis:¤Shortcuts list:
+lundi¤monday
+Macros¤Macros
+mai¤may
+mardi¤Tuesday
+Marque-pages¤Bookmarks
+mars¤march
+Masque :¤Mask :
+Me contacter¤Contact me
+mercredi¤wednesday
+Mettre après¤Move after
+Mettre avant¤Move before
+Mettre comme enfant¤Move as child
+Mettre comme frère¤Move as sibling
+Mettre en majuscules¤Set uppercase
+Mettre en minuscules¤Set lowercase
+Mettre un objet après¤Move an object after
+Mettre un objet avant¤Move an object before
+Mettre un objet comme enfant¤Move an object as child
+Mettre un objet comme frère¤Move an object as sibling
+Mise à jour¤Updates
+Mise à zéro¤Reset
+Mode selection¤Selection mode
+Mode¤Mode
+Modèle :¤Template:
+Modèle de code¤Code template
+Modèle déjà existant (%s),\nvoulez-vous le remplacer ?¤Templace already exists (%s),\ndo you want to overwrite it?
+Modèles de code¤Code templates
+Modification¤Modification
+Modification d'une image¤Modification of a bitmap
+Modification de propriétés¤Modification of properties
+Modification hotspot¤Modification hotspot
+Modification parent d'un élément¤Modification parent of an element
+Modifications ancrages¤Modifications anchors
+Modifié le :¤Modified the:
+Moitié droite¤Right half
+Moitié gauche¤Left half
+Moitié inférieure¤Bottom half
+Moitié supérieure¤Top half
+Mot entier¤Whole word
+Mots clés¤Keywords
+Ne pas enlever cette étiquette¤Do not remove this tag
+Ne plus afficher ce message¤Do not show this message again
+Ni le projet "%s" ni aucun de ses sous-projets ne peut être débogué.¤Neither the project "%s" nor none of its sub-projects can be debugged.
+Nom :¤Name :
+Nom de l'élément :¤Name of element:
+Nom et position¤Name and position
+Nom unité :¤Unit name:
+Nombre d'espaces des tabulations :¤Space number of tabulations:
+Nombre de répétitions :¤Repeat number:
+Nombres¤Numbers
+Non¤No
+Nous vous prions de nous en excuser\n¤Please forgive us\n
+Nouveau dialogue¤New dialog
+Nouveau fichier &binaire¤New &binary file
+Nouveau fichier &BMP¤New &BMP file
+Nouveau fichier &CUR¤New &CUR file
+Nouveau fichier &ICO¤New &ICO file
+Nouveau fichier &texte¤New &text file
+Nouveau fichier¤New file
+Nouveau projet¤New project
+Nouveau¤New
+Nouvel espace de travail¤New workspace
+Nouvelle unité (.h, .cpp et .dfm)¤New unit (.h, .cpp and .dfm)
+Nouvelle¤New
+novembre¤november
+Numéros de lignes¤Line numbers
+Objet à créer :¤Object to create:
+Octet de poids fort en premier (big endian)¤Most significant byte first (big endian)
+octobre¤october
+Ok¤Ok
+OK¤OK
+Onglets sur plusieurs lignes¤Multiline tabs
+Opération impossible¤Cannot process
+Opération interrompue par l'utilisateur¤Process aborted by user
+Options générales de l'éditeur¤General options of editor
+Options générales¤General options
+Options¤Options
+Origine¤Origin
+Oui¤Yes
+Outil déjà existant (%s),\nvoulez-vous le remplacer ?¤Tool already exists (%s),\ndo you want to overwrite it?
+Outil utilisateur¤User tool
+Outils utilisateur¤User tools
+Outils¤Tools
+Ouverture projet¤Project openning
+Ouverture¤Openning
+Ouvrir "%s"¤Open "%s"
+Ouvrir le fichier .dfm¤Open the file .dfm
+Ouvrir le fichier .h¤Open the file .h
+Ouvrir le répertoire du fichier¤Open the file folder
+Ouvrir un fichier &binaire¤Open a &binary file
+Ouvrir un fichier &texte¤Open a &text file
+Ouvrir¤Open
+PaintBox¤PaintBox
+Paramètres de coloration syntaxique¤Syntax highlighting parameters
+Paramètres de formatage de code¤Code format parameters
+Paramètres de formatage¤Format parameters
+Paramètres¤Parameters
+Parcourir ...¤Browse ...
+Parcourir¤Browse
+Pas à pas (&entrer dans la fonction)¤Step by step (&enter in function)
+Pas à pas (&sortir de la fonction)¤Step by step (&exit from function)
+pas¤pas
+Permet de saisir directement le raccourci¤Allow to enter the shortcut directly
+Personnaliser...¤Personnalise...
+Pile d'appel¤Call stack
+pixels¤pixels
+Point d'arrêt¤Breakpoint
+Point inférieur droit¤Lower right corner
+Point supérieur gauche¤Upper left corner
+Points d'arrêt¤Breakpoints
+Police de caractères¤Font
+Portée¤Scope
+Positionner un marque-page¤Set a bookmark
+Positionner un point d'arrêt¤Set a breakpoint
+Pour nous aider à le résoudre, un rapport a été édité¤Pour nous aider à le résoudre, un rapport a été édité
+Pré-compilation "%s"¤Precompilation "%s"
+Pré-compilation impossible¤Cannot precompile
+Première inclusion :¤First include:
+Programme :¤Program:
+Programme "Compilateur" pas ou mal installé¤Program "Compilator" not or bad installed
+Programme à lancer¤Program to launch
+Programme¤Program
+Programmes (*.c;*.cpp;*.h)|*.c;*.cpp;*.h|Ressources (*.rc;*.dfm)|*.rc;*.dfm|Tous (*.*)|*.*¤Programs (*.c;*.cpp;*.h)|*.c;*.cpp;*.h|Resources (*.rc;*.dfm)|*.rc;*.dfm|All (*.*)|*.*
+Programmes (*.exe)|*.exe|Tous (*.*)|*.*|¤Programs (*.exe)|*.exe|All (*.*)|*.*|
+Projet à construire¤Project to build
+Projet à lancer¤Project to launch
+Projet à pré-compiler¤Project to precompile
+Projets FreeVCL (*.fvcl)|*.fvcl|Tous (*.*)|*.*¤FreeVCL Projects (*.fvcl)|*.fvcl|All (*.*)|*.*
+Propriétés de ¤Properties of 
+Propriétés du fichier¤File properties
+Propriétés¤Properties
+Quitter¤Exit
+Raccourci¤Shortcut
+Raccourcis clavier¤Shortcuts
+Recherche chaîne "%s"¤Search text "%s"
+Recherche de l'implémentation¤Find implementation
+Recherche de la déclaration¤Find declaration
+Recherche¤Search
+Rechercher¤Search
+Reconstruire &tous les projets¤Rebuild &all projects
+Redimensionnement fenêtre principale¤Resize main window
+Réel double:¤Double float:
+Réel:¤Float:
+Refaire¤Redo
+Référence précédente¤Previous reference
+Référence suivante¤Next reference
+Remplacement automatique des déclarations FVCL¤Automatic replacement of declarations FVCL
+Remplacement de la chaîne "%s" par "%s"¤Replacement of text "%s" by "%s"
+Remplacement systématique¤Systematic replacement
+Remplacer dans des fichiers¤Replace in files
+Remplacer par :¤Replace by:
+Remplacer¤Replace
+Renommage impossible¤Cannot rename
+Renumérotation des TabOrder¤Renumbering of TabOrder
+Renuméroter automatiquement les TabOrder¤Automatic renumbering of TabOrder
+Renuméroter¤Renumber
+Répertoire :¤Folder:
+Répertoire d'exécution¤Execution folder
+Répertoire de recherche¤Search folder
+Répertoire¤Folder
+Répéter une macro...¤Repeat a macro...
+Répéter une macro¤Repeat a macro
+Réponse automatique¤Automatic response
+Réponses par défaut¤Default responses
+Rétablit les valeurs par défaut¤Restores default values
+Rotation à droite¤Right rotation
+Rotation à gauche¤Left rotation
+Saisie texte¤Input text
+samedi¤saturday
+Sauvegarde¤Save
+Sauver les modifications avant compilation¤Save modifications before compilation
+ScrollBar¤ScrollBar
+Seconde inclusion :¤Second include :
+Sélection¤Selection
+Sélectionner la parenthèse¤Select parenthesis
+Sélectionner le bloc¤Select block
+Sélectionner¤Select
+Sélectionnez l'onglet du dialogue.¤Select dialog tab.
+Sélectionnez le répertoire de création¤Select creation folder
+Sens¤Direction
+septembre¤september
+Signé¤Signed
+Sortie¤Exit
+Sous-répertoires¤Subfolders
+Standard¤Standard
+Statistiques ¤Statistics 
+Statistiques¤Statistics
+Structure à saisir. Par exemple:\nchar Nom[128]; // Nom\nchar Prenom[128]; // Prénom¤Input structure. For example:\nchar Name[128]; // Name\nchar FirstName[128]; // First name
+Suivant¤Next
+Suppression d'une image¤Deletion of an image
+Suppression de composants¤Deletion of components
+Suppression de texte¤Deletion of text
+Suppression des espaces de fin¤Deletion of ending spaces
+Suppression des points d'arrêt¤Deletion of breakpoints
+Suppression impossible¤Cannot delete
+Suppression¤Deletion
+Supprime le raccourci sélectionné¤Delete the selected shortcut
+Supprime tous les raccourcis¤Delete all shortcuts
+Supprimer le marque-page¤Delete bookmark
+Supprimer le point d'arrêt¤Delete breakpoint
+Supprimer les espaces de fin¤Delete ending spaces
+Supprimer¤Delete
+Sur le bord bas¤On bottom side
+Sur le bord droit¤On right side
+Sur le bord gauche¤On left side
+Sur le bord haut¤On top side
+Sur les fichiers d'un répertoire :¤On files in a folder:
+Sur les fichiers du projet¤On project files
+Sur les fichiers ouverts¤On open files
+Système¤System
+T¤T
+TabOrder¤TabOrder
+Tabulations -> espaces¤Tabulations -> spaces
+Taper¤Insert
+TCheckBox¤TCheckBox
+Texte :¤Text:
+Texte normal¤Normal text
+Texte sélectionné¤Selected text
+Titre fenêtre :¤Window title:
+Tous (*.*)|*.*|¤All (*.*)|*.*|
+Tout &Réduire¤&Collapse all
+Tout Dé&velopper¤&Expand all
+Tout sélectionner¤Select all
+Tout¤All
+Traitement "%s"¤Processing "%s"
+Traitement terminé¤Process terminated
+Traitements¤Processes
+Transformation de formats¤Numbers conversion
+Transformation des espaces en tabulations¤Convert spaces to tabs
+Transformation des tabulations en espaces (débuts de ligne)¤Convert tabs to spaces (begin of lines)
+Transformation des tabulations en espaces¤Convert tabs to spaces
+TShape¤TShape
+Type de composant "%s" inconnu¤Unknown type of component "%s"
+Type de dialogue à créer¤Type of dialog to create
+Type de fichier à ajouter :¤Type of file to add:
+Type de fichier incorrect¤Incorrect file type
+Type de projet à ajouter :¤Type of project to add:
+Un programme externe a modifié ce fichier:\n¤An extern program has modified this file:\n
+Un programme externe a supprimé ce fichier:\n¤An extern program has deleted this file:\n
+Undo/redo des déplacements curseur¤Undo/redo of cursor moves
+UNICODE (16 bits)¤UNICODE (16 bits)
+Uniformisation dimension¤Standardization size
+Uniformisation hauteur¤Standardization height
+Uniformisation largeur¤Standardization width
+Uniformiser la taille¤Standardize size
+Uniformiser¤Standardize
+Uniquement dans les commentaires¤Only in comments
+Uniquement dans les guillemets¤Only in quotes
+Uniquement hors des commentaires¤Only out of comments
+Uniquement hors des guillemets¤Only out of quotes
+Unité {{{FILE_NAME}}}¤Unit {{{FILE_NAME}}}
+UTF 8 (7 bits)¤UTF 8 (7 bits)
+Valeurs par défaut¤Default values
+Variable non trouvée : ¤Variable not found: 
+vbs¤vbs
+vendredi¤friday
+Vers le bas¤Down
+Vers le haut¤Up
+version ¤version 
+Version utilisée: ¤Used version: 
+Veuillez choisir la fenêtre dans la liste¤Please choose a window in the list
+Veuillez choisir un type de fichier.¤Please choose a file type.
+Veuillez choisir un type de projet.¤Please choose a project type.
+Veuillez donner un nom au fichier.¤Please give a name to file.
+Veuillez donner un nom au projet.¤Veuillez give a name to project.
+Veuillez sélectionner un fichier¤Please select a file
+Visual¤Visual
+Voir le &code uniquement¤View &code only
+Voir le code uniquement¤View code only
+Voulez_vous réellement supprimer tous les points d'arrêt ?¤Do you really want to delete all breakpoints?
+Voulez-vous abandonner le traitement en cours ?¤Do you want to abort the current process?
+Voulez-vous arrêter le débogage en cours ?¤Do you want to abort the current debug?
+Voulez-vous créer un fichier par dialogue ?¤Do you want to create one file by dialog?
+Voulez-vous enregistrer les modifications ?\n¤Do you want to save modifications?\n
+Voulez-vous enregistrer les modifications ?¤Do you want to save modifications?
+Voulez-vous le chercher à un autre emplacement ?\n¤Do you want to search it in an other place?\n
+Voulez-vous le garder en mémoire ?\n¤Do you want to keep it in memory?\n
+Voulez-vous le recharger ?\n¤Do you want to reload it?\n
+Voulez-vous recréer le projet %s ?¤Do you want to recreate the project %s?
+Vous pouvez paramétrer les réponses automatiques en allant dans "Options", puis "Réponses par défaut".¤You can configure automatic responses by going to "Options", then "Default responses".
+Windows (CR LF)¤Windows (CR LF)
+X =¤X =
+X hotspot¤X hotspot
+X:¤X:
+Y =¤Y =
+Y hotspot¤Y hotspot
+Y:¤Y:

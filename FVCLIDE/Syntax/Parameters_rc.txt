@@ -1,0 +1,12 @@
+AlphaChars=abcdefghijklmnopqrstuvwxyzéèêëîïôöùûüÿçABCDEFGHIJKLMNOPQRSTUVWXYZÉÈÊËÎÏÔÖÙÛÜŸÇ_
+CaseSensitive=false
+CommentSingle=//
+CommentBegin=/*
+CommentEnd=*/
+PreProc=#
+EscapeString="
+MultiLine=\
+QuoteBegin="
+QuoteEnd="
+QuoteBegin2='
+QuoteEnd2='

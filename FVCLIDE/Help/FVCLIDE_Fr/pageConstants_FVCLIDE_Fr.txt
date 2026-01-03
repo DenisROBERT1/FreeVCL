@@ -1,0 +1,7 @@
+  const int HLP_CONTENTS         = 1;
+  const int HLP_MENU             = 2;
+  const int HLP_PROJECTS_WINDOWS = 3;
+  const int HLP_EDIT_WINDOW      = 4;
+  const int HLP_RESULTS_WINDOW   = 5;
+  const int HLP_EDIOPTIONS       = 6;
+

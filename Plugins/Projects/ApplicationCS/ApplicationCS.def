@@ -1,0 +1,19 @@
+EXPORTS
+    Plugin_Init=_Plugin_Init@4
+    Plugin_Install=_Plugin_Install@0
+    Plugin_GetBitmap20=_Plugin_GetBitmap20@0
+    Plugin_GetBitmap32=_Plugin_GetBitmap32@0
+    Plugin_GetBitmap48=_Plugin_GetBitmap48@0
+    Plugin_GetDescription=_Plugin_GetDescription@8
+    Plugin_Create=_Plugin_Create@12
+    Plugin_Open=_Plugin_Open@12
+    Plugin_GetInputs=_Plugin_GetInputs@12
+    Plugin_Free_GetInputs=_Plugin_Free_GetInputs@4
+    Plugin_GetOutput=_Plugin_GetOutput@12
+    Plugin_Free_GetOutput=_Plugin_Free_GetOutput@4
+    Plugin_AddFile=_Plugin_AddFile@12
+    Plugin_RemoveFile=_Plugin_RemoveFile@12
+    Plugin_RenameFile=_Plugin_RenameFile@16
+    Plugin_PreCompil=_Plugin_PreCompil@12
+    Plugin_Build=_Plugin_Build@8
+    Plugin_Run=_Plugin_Run@8

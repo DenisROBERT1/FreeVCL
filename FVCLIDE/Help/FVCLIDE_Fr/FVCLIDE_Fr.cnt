@@ -1,0 +1,70 @@
+:Base FVCLIDE_Fr.hlp
+:Title Free-VCL
+:Index dummy=dummy.hlp ;(This is necessary when using KLinks - because of a bug in the help
+:Link dummy.hlp        ; compiler. Without this only the first keyword would be looked up!)
+1 Sommaire=SHM_contents9999@FVCLIDE_Fr.hlp
+1 Introduction=SHM_contents0001@FVCLIDE_Fr.hlp
+1 Prise en main
+2 Configuration=SHM_contents0002@FVCLIDE_Fr.hlp
+2 Mon premier programme=SHM_contents0003@FVCLIDE_Fr.hlp
+1 Syntaxe C++
+2 Les propriétés=SHM_contents0004@FVCLIDE_Fr.hlp
+2 Les évènements=SHM_contents0005@FVCLIDE_Fr.hlp
+2 Unicode=SHM_contents0006@FVCLIDE_Fr.hlp
+2 Création d'un composant=SHM_contents0007@FVCLIDE_Fr.hlp
+2 Internationalisation=SHM_contents0008@FVCLIDE_Fr.hlp
+2 Problèmes connus=SHM_contents0009@FVCLIDE_Fr.hlp
+2 Différences par rapport à C++ Builder=SHM_contents0010@FVCLIDE_Fr.hlp
+2 Exemples de programmes=SHM_contents0011@FVCLIDE_Fr.hlp
+1 Editeur intégré
+2 Généralités=SHM_contents0012@FVCLIDE_Fr.hlp
+2 Présentation générale
+3 Le menu principal=SHM_contents0013@FVCLIDE_Fr.hlp
+3 La fenêtre espace de travail=SHM_contents0014@FVCLIDE_Fr.hlp
+3 La fenêtre d'édition=SHM_contents0015@FVCLIDE_Fr.hlp
+3 La fenêtre de résultats=SHM_contents0016@FVCLIDE_Fr.hlp
+2 Les commandes du menu
+3 Le menu fichiers=SHM_contents0017@FVCLIDE_Fr.hlp
+3 Le menu édition=SHM_contents0018@FVCLIDE_Fr.hlp
+3 Le menu recherche=SHM_contents0019@FVCLIDE_Fr.hlp
+3 Le menu macros=SHM_contents0020@FVCLIDE_Fr.hlp
+3 Le menu construction=SHM_contents0021@FVCLIDE_Fr.hlp
+3 Le menu outils=SHM_contents0022@FVCLIDE_Fr.hlp
+3 Le menu options=SHM_contents0023@FVCLIDE_Fr.hlp
+3 Le menu aide=SHM_contents0024@FVCLIDE_Fr.hlp
+2 Détail des fonctionnalités
+3 Fonctionnalités par catégories
+4 Installation et configuration=SHM_contents0025@FVCLIDE_Fr.hlp
+4 Espaces de travail=SHM_contents0026@FVCLIDE_Fr.hlp
+4 Création et modification d'un projet=SHM_contents0027@FVCLIDE_Fr.hlp
+4 Edition de fichiers=SHM_contents0028@FVCLIDE_Fr.hlp
+4 Les marque-pages=SHM_contents0029@FVCLIDE_Fr.hlp
+4 Modification d'une fenêtre de dialogue=SHM_contents0030@FVCLIDE_Fr.hlp
+4 Les macros=SHM_contents0031@FVCLIDE_Fr.hlp
+4 Lancement en ligne de commande=SHM_contents0032@FVCLIDE_Fr.hlp
+3 Boîtes de dialogue
+4 Messages d'information et d'erreur=SHM_contents0033@FVCLIDE_Fr.hlp
+4 Recherche et remplacement=SHM_contents0034@FVCLIDE_Fr.hlp
+4 Saisie de modèles=SHM_contents0035@FVCLIDE_Fr.hlp
+4 Statistiques=SHM_contents0036@FVCLIDE_Fr.hlp
+4 Conversion de nombres=SHM_contents0037@FVCLIDE_Fr.hlp
+4 Outils utilisateurs=SHM_contents0038@FVCLIDE_Fr.hlp
+4 Options générales de l'éditeur=SHM_contents0039@FVCLIDE_Fr.hlp
+4 Définition des raccourcis=SHM_contents0040@FVCLIDE_Fr.hlp
+4 Coloration syntaxique=SHM_contents0041@FVCLIDE_Fr.hlp
+4 Police de caractères=SHM_contents0042@FVCLIDE_Fr.hlp
+4 Paramètres de formatage de code=SHM_contents0043@FVCLIDE_Fr.hlp
+4 Réponses par défaut=SHM_contents0044@FVCLIDE_Fr.hlp
+4 Création d'une nouvelle fenêtre de dialogue=SHM_contents0045@FVCLIDE_Fr.hlp
+4 Propriétés d'un contrôle=SHM_contents0046@FVCLIDE_Fr.hlp
+1 Outils
+2 VCL2FreeVCL=SHM_contents0047@FVCLIDE_Fr.hlp
+1 Configurations spécifiques
+2 Visual Studio 6=SHM_contents0048@FVCLIDE_Fr.hlp
+2 Visual Studio Express=SHM_contents0049@FVCLIDE_Fr.hlp
+2 Code::Blocks=SHM_contents0050@FVCLIDE_Fr.hlp
+1 Divers
+2 Foire aux questions=SHM_contents0051@FVCLIDE_Fr.hlp
+2 Résolution des problèmes=SHM_contents0052@FVCLIDE_Fr.hlp
+2 Historique=SHM_contents0053@FVCLIDE_Fr.hlp
+2 Remerciements=SHM_contents0054@FVCLIDE_Fr.hlp

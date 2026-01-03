@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="{{{PROJECT_NAME}}}" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="CodeBlocks\MBCS_32bits\$(Build)\{{{PROJECT_NAME}}}.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="CodeBlocks\MBCS_32bits\$(Build)\objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="libcomdlg32.a" />
+					<Add library="libcomctl32.a" />
+					<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl.a" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Debug" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="CodeBlocks\MBCS_32bits\$(Build)\{{{PROJECT_NAME}}}.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="CodeBlocks\MBCS_32bits\$(Build)\objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libcomdlg32.a" />
+					<Add library="libcomctl32.a" />
+					<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl.a" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Release" />
+				</Environment>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-W" />
+		</Compiler>
+		<Linker>
+			<Add library="libcomdlg32.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl.a" />
+		</Linker>
+		<Unit filename="{{{PROJECT_NAME}}}.cpp" />
+		<Unit filename="{{{PROJECT_NAME}}}.rc">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43CD75DF-325A-4E88-BA23-C0E8A4B15EAD}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\VisualStudio\UNICODE_32bits\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\VisualStudio\UNICODE_64bits\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\VisualStudio\UNICODE_32bits\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\VisualStudio\UNICODE_64bits\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\VisualStudio\UNICODE_32bits\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\VisualStudio\UNICODE_64bits\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\VisualStudio\UNICODE_32bits\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\VisualStudio\UNICODE_64bits\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Sources\FreeVCL\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Sources\FreeVCL\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Sources\FreeVCL\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Sources\FreeVCL\Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Sources\FreeVCL\Lib\VisualStudio\UNICODE_32bits\$(Configuration);$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Sources\FreeVCL\Lib\VisualStudio\UNICODE_64bits\$(Configuration);$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Sources\FreeVCL\Lib\VisualStudio\UNICODE_32bits\$(Configuration);$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Sources\FreeVCL\Lib\VisualStudio\UNICODE_64bits\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeaderOutputFile>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\VisualStudio\UNICODE_32bits\$(Configuration)\</AssemblerListingLocation>
+      <ObjectFileName>.\VisualStudio\UNICODE_32bits\$(Configuration)\</ObjectFileName>
+      <ProgramDataBaseFileName>.\VisualStudio\UNICODE_32bits\$(Configuration)\</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;odbc32.lib;odbccp32.lib;Version.lib;FreeVcl.lib;FreeVcl_ToolsEDI.lib;FreeVcl_Web.lib;FreeVcl_XFiles.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeaderOutputFile>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\VisualStudio\UNICODE_64bits\$(Configuration)\</AssemblerListingLocation>
+      <ObjectFileName>.\VisualStudio\UNICODE_64bits\$(Configuration)\</ObjectFileName>
+      <ProgramDataBaseFileName>.\VisualStudio\UNICODE_64bits\$(Configuration)\</ProgramDataBaseFileName>
+      <BrowseInformation>false</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;odbc32.lib;odbccp32.lib;Version.lib;FreeVcl.lib;FreeVcl_ToolsEDI.lib;FreeVcl_Web.lib;FreeVcl_XFiles.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeaderOutputFile>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\VisualStudio\UNICODE_32bits\$(Configuration)\</AssemblerListingLocation>
+      <ObjectFileName>.\VisualStudio\UNICODE_32bits\$(Configuration)\</ObjectFileName>
+      <ProgramDataBaseFileName>.\VisualStudio\UNICODE_32bits\$(Configuration)\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;odbc32.lib;odbccp32.lib;Version.lib;FreeVcl.lib;FreeVcl_Web.lib;FreeVcl_ToolsEDI.lib;FreeVcl_XFiles.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\VisualStudio\UNICODE_32bits\$(Configuration)\FVCLIDE.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeaderOutputFile>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\VisualStudio\UNICODE_64bits\$(Configuration)\</AssemblerListingLocation>
+      <ObjectFileName>.\VisualStudio\UNICODE_64bits\$(Configuration)\</ObjectFileName>
+      <ProgramDataBaseFileName>.\VisualStudio\UNICODE_64bits\$(Configuration)\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;odbc32.lib;odbccp32.lib;Version.lib;FreeVcl.lib;FreeVcl_Web.lib;FreeVcl_ToolsEDI.lib;FreeVcl_XFiles.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\VisualStudio\UNICODE_64bits\$(Configuration)\FVCLIDE.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\Forms\TForm_APropos.cpp" />
+    <ClCompile Include="FVCLIDE.cpp" />
+    <ClCompile Include="TConfig.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TControlSizer.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TControlSizer_Collection.cpp" />
+    <ClCompile Include="TElemBase.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TElemVCL.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TFileASCII.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TFileForm.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TForm_AddNewFile.cpp" />
+    <ClCompile Include="TForm_AddNewProject.cpp" />
+    <ClCompile Include="TForm_Autocompletion.cpp" />
+    <ClCompile Include="TForm_CodeFormatParams.cpp" />
+    <ClCompile Include="TForm_ConvertNumbers.cpp" />
+    <ClCompile Include="TForm_DefaultResponses.cpp" />
+    <ClCompile Include="TForm_DisplayError.cpp" />
+    <ClCompile Include="TForm_EdiOptions.cpp" />
+    <ClCompile Include="TForm_FileFormat.cpp" />
+    <ClCompile Include="TForm_FileProperties.cpp" />
+    <ClCompile Include="TForm_Models.cpp" />
+    <ClCompile Include="TForm_NewDialog.cpp" />
+    <ClCompile Include="TForm_Principale.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TForm_Proprietes.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TForm_RepeatMacro.cpp" />
+    <ClCompile Include="TForm_SaisieColors.cpp" />
+    <ClCompile Include="TForm_SaisieDialog.cpp" />
+    <ClCompile Include="TForm_SaisieModel.cpp" />
+    <ClCompile Include="TForm_SaisieRacc.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TForm_SaisieTools.cpp" />
+    <ClCompile Include="TForm_SearchAndReplace.cpp" />
+    <ClCompile Include="TForm_Statistics.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TForm_Tools.cpp" />
+    <ClCompile Include="TFrame_EditFichierHexa.cpp" />
+    <ClCompile Include="TFrame_EditFichierText.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TFrame_FVCLIDEBase.cpp" />
+    <ClCompile Include="TFrame_SaisieCursor.cpp" />
+    <ClCompile Include="TFrame_SaisieDialog.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TFrame_SaisieIcon.cpp" />
+    <ClCompile Include="TFVCLIDEAutomation.cpp" />
+    <ClCompile Include="TListTypeProjects.cpp" />
+    <ClCompile Include="TNumVersion.cpp" />
+    <ClCompile Include="TProject.cpp" />
+    <ClCompile Include="TTypeProject.cpp" />
+    <ClCompile Include="Utilit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\Forms\TForm_APropos.h" />
+    <ClInclude Include="..\Plugins\Include\Plugin.h" />
+    <ClInclude Include="TConfig.h" />
+    <ClInclude Include="TControlSizer.h" />
+    <ClInclude Include="TControlSizer_Collection.h" />
+    <ClInclude Include="TElemBase.h" />
+    <ClInclude Include="TElemVCL.h" />
+    <ClInclude Include="TFileASCII.h" />
+    <ClInclude Include="TFileForm.h" />
+    <ClInclude Include="TForm_AddNewFile.h" />
+    <ClInclude Include="TForm_AddNewProject.h" />
+    <ClInclude Include="TForm_Autocompletion.h" />
+    <ClInclude Include="TForm_CodeFormatParams.h" />
+    <ClInclude Include="TForm_ConvertNumbers.h" />
+    <ClInclude Include="TForm_DefaultResponses.h" />
+    <ClInclude Include="TForm_DisplayError.h" />
+    <ClInclude Include="TForm_EdiOptions.h" />
+    <ClInclude Include="TForm_FileFormat.h" />
+    <ClInclude Include="TForm_FileProperties.h" />
+    <ClInclude Include="TForm_Models.h" />
+    <ClInclude Include="TForm_NewDialog.h" />
+    <ClInclude Include="TForm_Principale.h" />
+    <ClInclude Include="TForm_Proprietes.h" />
+    <ClInclude Include="TForm_RepeatMacro.h" />
+    <ClInclude Include="TForm_SaisieColors.h" />
+    <ClInclude Include="TForm_SaisieDialog.h" />
+    <ClInclude Include="TForm_SaisieModel.h" />
+    <ClInclude Include="TForm_SaisieRacc.h" />
+    <ClInclude Include="TForm_SaisieTools.h" />
+    <ClInclude Include="TForm_SearchAndReplace.h" />
+    <ClInclude Include="TForm_Statistics.h" />
+    <ClInclude Include="TForm_Tools.h" />
+    <ClInclude Include="TFrame_EditFichierHexa.h" />
+    <ClInclude Include="TFrame_EditFichierText.h" />
+    <ClInclude Include="TFrame_FVCLIDEBase.h" />
+    <ClInclude Include="TFrame_SaisieCursor.h" />
+    <ClInclude Include="TFrame_SaisieDialog.h" />
+    <ClInclude Include="TFrame_SaisieIcon.h" />
+    <ClInclude Include="TFVCLIDEAutomation.h" />
+    <ClInclude Include="TListTypeProjects.h" />
+    <ClInclude Include="TNumVersion.h" />
+    <ClInclude Include="TProject.h" />
+    <ClInclude Include="TTypeProject.h" />
+    <ClInclude Include="Utilit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Common\Forms\TForm_APropos.dfm" />
+    <None Include="FVCLIDE.ICO" />
+    <None Include="SIZE2.CUR" />
+    <None Include="TForm_AddNewFile.dfm" />
+    <None Include="TForm_AddNewProject.dfm" />
+    <None Include="TForm_Autocompletion.dfm" />
+    <None Include="TForm_CodeFormatParams.dfm" />
+    <None Include="TForm_ConvertNumbers.dfm" />
+    <None Include="TForm_DefaultResponses.dfm" />
+    <None Include="TForm_DisplayError.dfm" />
+    <None Include="TForm_EdiOptions.dfm" />
+    <None Include="TForm_FileFormat.dfm" />
+    <None Include="TForm_FileProperties.dfm" />
+    <None Include="TForm_Models.dfm" />
+    <None Include="TForm_NewDialog.dfm" />
+    <None Include="TForm_Principale.dfm" />
+    <None Include="TForm_Proprietes.dfm" />
+    <None Include="TForm_RepeatMacro.dfm" />
+    <None Include="TForm_SaisieColors.dfm" />
+    <None Include="TForm_SaisieDialog.dfm" />
+    <None Include="TForm_SaisieModel.dfm" />
+    <None Include="TForm_SaisieRacc.dfm" />
+    <None Include="TForm_SaisieTools.dfm" />
+    <None Include="TForm_SearchAndReplace.dfm" />
+    <None Include="TForm_Statistics.dfm" />
+    <None Include="TForm_Tools.dfm" />
+    <None Include="TFrame_EditFichierHexa.dfm" />
+    <None Include="TFrame_EditFichierText.dfm" />
+    <None Include="TFrame_SaisieCursor.dfm" />
+    <None Include="TFrame_SaisieDialog.dfm" />
+    <None Include="TFrame_SaisieIcon.dfm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FVCLIDE.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FreeVCL\FreeVCL\FreeVCL.vcxproj">
+      <Project>{f4369bf2-1e61-4f13-9e09-e8119d30d612}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\FreeVCL\FreeVCL_ToolEDI\FreeVCL_ToolsEDI.vcxproj">
+      <Project>{711800ef-8a41-4a5b-9978-c22b0daf8148}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

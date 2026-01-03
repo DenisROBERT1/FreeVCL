@@ -1,0 +1,970 @@
+Bienvenue
+
+Free-VCL est une bibliothèque de composants permettant de créer des IHM (interfaces homme-machine), autrement dit des boîtes de dialogues.
+
+Cette librairie a été créée dans le but d'être compatible avec les composants VCL du logiciel C++ Builder. Une bonne connaissance de ce logiciel et de ses composants est essentielle pour comprendre et utiliser Free-VCL. En particulier, de nombreux élément de l'aide en ligne de C++ Builder ne sont pas reproduits dans cette aide. Veuillez vous reporter à l'aide de ce logiciel si vous désirez des précisions supplémentaires.
+
+Pour fonctionner, cette librairie a besoin d'un compilateur, non fourni dans l'installation. Je l'ai testée avec Visual Studio et Code::block, je suppose qu'elle marche également avec DEV-CPP. Elle ne peut probablement pas marcher avec C++ Builder (trop de conflits avec les typedef et les enums). Pour les autres compilateurs, je ne sais pas.
+
+
+
+Après avoir installé FreeVCL, vous devrez certainement configurer certaines options de votre compilateur.
+
+ Chemin des headers et le librairies.
+Cette configuration dépend de votre compilateur, mais en général il suffit d'indiquer (dans options, ou préférences, par exemple ? ) le chemin des fichier H et des fichiers LIB de FreeVCL.
+
+ Activer RTTI.
+La RTTI (Run-time type information) doit être activée pour que les nombreux <color=10>dynamic_cast de la librairie renvoient des valeurs correctes.
+
+
+Nous allons étudier ensemble la création d'un programme minimum qui s'appelle "Bonjour mot" (traduction de "Hello word", le premier qui ricane de mon anglais pourri recevra toute ma collection de virus par e-mail). Le code complet de ce programme se trouve dans le répertoire "Samples\\BonjourMot".
+
+Ce programme contient une simple fenêtre (on va l'appeler TForm_Principale) avec écrit "Bonjour mot", et un menu avec l'option "quitter".
+
+BonjourMot.cpp
+
+Le premier fichier du projet est le fichier BonjourMot.cpp. Il contient le point d'entrée Windows WinMain. En général, cette fonction est toujours à peu près la même, le plus rapide est de faire un copié-collé d'un autre projet. Le jour où les programmes Free-VCL seront intégrés à un EDI, ce fichier sera généré automatiquement:
+
+Ensuite, il faut décrire la fenêtre principale. Ceci est fait dans un fichier ayant l'extension dfm, TForm_Principale.dfm par exemple dans notre cas précis:
+
+Là encore, ce fichier devra un jour être saisi via une interface. Pour l'instant, il doit être saisi à la main. Le format est exactement le même que les fichiers de même nom dans C++ Builder.
+
+TForm_Principale.h
+
+La classe de la fenêtre principale est décrite comme suit:
+
+
+On constate des différences notables par rapport au fichier équivalent de C++ Builder:
+
+ Le mot-clé <color=10>__published n'est pas présent (ce mot-clé est une spécificité Builder et n'est pas portable). Les objets publiés sont dans la section <color=10>public.
+ La déclaration des composants est encadrée par les macros FVCL_BEGIN_COMPONENTS et FVCL_END_COMPONENTS. <u>Attention</u>: Ces composants doivent être dans le même ordre que dans le fichier DFM, dans l'ordre des mots end dans le cas de composants imbriqués (par exemple, ici, le TMenuItem "MenuItem_Fichiers" est après le TMenuItem "MenuItem_Quitter" parce que le mot-clé end correspondant à "MenuItem_Fichiers" est après le mot-clé end correspondant à "MenuItem_Quitter").
+ Les déclarations des méthodes de traitement des événements sont encadrées par les macros FVCL_BEGIN_EVENTS et FVCL_END_EVENTS.
+ la macro FASTCALL est utilisée au lieu du mot-clé <color=10>__fastcall (là encore pour compatibilité entre compilateurs).
+ Le prototype du constructeur de la classe est légèrement différent.
+ les <color=10>#pragma spécifiques Builder sont absents.
+
+Et il faut bien évidemment inclure le fichier FreeVCL en début de fichier :
+
+TForm_Principale.cpp
+
+Les méthodes sont ensuite implémentées dans le fichier cpp:
+
+Là encore, il y a quelques petites différence par rapport au programme Builder qui ferait la même chose:
+
+ Le constructeur de la classe est différent.
+ FASTCALL au lieu de <color=10>__fastcall, toujours.
+ Et surtout, il y a une nouvelle méthode, qui doit obligatoirement être implémentée pour toute fenêtre (et même tout objet) pouvant recevoir des événements: la méthode CallEvent (voir ci-dessous).
+
+La méthode CallEvent est chargée de ventiler les événements reçus des composants, ou éventuellement d'autres fenêtres. Comme toujours, l'écriture de cette méthode devrait être automatique, mais comme elle ne l'est pas encore, c'est à vous de l'écrire. Le corps de la fonction est toujours le même (un p'tit copié-collé s'impose), seules les instructions <color=10>if sont à écrire. En général, c'est pas trop compliqué. Par exemple, si nous avions d'autres items dans le menu :
+
+
+A cause du prototype de la méthode avec un nombre variable d'arguments, ça se complique un peu pour les événements qui ont plus que l'argument Sender, il faut utiliser la macro FVCL_ARG_EVENT. Par exemple, supposons que nous ayons un événement OnClose dans le DFM:
+
+
+Et pour un événement OnMouseDown, c'est carrément la galère:
+
+
+La règle est simple: pour chaque argument de la méthode gérant l'événement, utiliser la macro FVCL_ARG_CALLEVENT avec le type et le nom de l'argument. Appeler ensuite la méthode avec les variables ainsi déclarées. Sauf si l'argument doit être passé par référence (exemple Shift ci-dessus, ou Action plus haut) : dans ce cas le type devient un pointeur sur le type (TShiftState * au lien de TShiftState), et on passe l'adresse de la variable à la méthode au lieu de passer la variable elle-même (*Shift au lieu de Shift).
+
+N'ayez crainte, bientôt cette méthode sera générée automatiquement. En attendant, il faut se prendre la tête une fois et user ensuite abondament du copié-collé.
+
+BonjourMot.rc
+
+Enfin, il faut déclarer le fichier DFM dans les ressources. C'est très simple, ça se fait comme suit dans le fichier rc:
+
+Le projet
+
+En dernier, il vous faut créer un projet et y insérer ces cinq sources. Pour créer un projet, ça dépend de votre compilateur, mais en général c'est assez simple. Choisir l'option "Application Win32" (ou quelque chose qui y ressemble), et "créer un projet vide" (pas de stdafx et autres excentricités). Insérer les sources dans le projet, dans les option du link insérez les fichiers suivants:
+
+libcomdlg32.a ou comdlg32.lib (c'est selon)
+libcomctl32.a ou comctl32.lib (pareil)
+libFreeVcl.a ou FreeVcl.lib (vous avez compris)
+
+Compilez, lancez le programme, et si tout va bien vous devez voir apparaître la fenêtre suivante:
+
+Voili, voilà. Vous avez réussi votre premier programme en FVCL.
+
+Les propriétés permettent à l'utilisateur d'un composant d'affecter ou de lire une valeur comme si c'était un attribut public, mais en fait c'est une fonction qui est effectuée, ce qui permet des traitements qu'un simple attribut ne permettrait pas. Par exemple, l'utilisateur va écrire:
+Button->Left = 10;
+Mais en fait, cette écriture est équivalente à:
+Button->Set_Left(10);
+Et dans la méthode Set_Left, le programmeur a prévu un MoveWindow qui fait que le bouton se déplace effectivement suite à cette instruction.
+
+Déclaration
+
+Dans les programmes normaux, il n'est en général pas besoin de déclarer des propriétés. Vous en aurez surtout besoin si vous créez des composants.
+
+Il y a quatre macros-instructions pour déclarer les propriétés, suivant leur nature:
+
+<u>Propriétés en lecture seule</u> :
+
+DECLARE_PROPERTY_GET( base, type, var )
+
+<u>Propriétés en lecture-écriture</u> :
+
+DECLARE_PROPERTY( base, type, var )
+
+<u>Propriétés en lecture seule d'un tableau</u> :
+
+DECLARE_PROPERTY_TAB_GET( base, type, var )
+
+<u>Propriétés en lecture-écriture d'un tableau</u> :
+
+DECLARE_PROPERTY_TAB( base, type, var )
+
+Ces quatre macros ont pour arguments:
+
+base : Nom de la classe dans laquelle est définie la propriété.
+type : Type de la propriété
+var : Nom de la propriété
+
+Implémentation
+
+Les fonction d'implémentation des propriétés n'ont pas besoin d'être déclarées (elles le sont automatiquement dans la macro DECLARE_PROPERTY). Leur nom est déterminé comme suit:
+
+Fonction servant à lire la propriété: Get_ + le nom de la propriété.
+Fonction servant à lire la propriété: Set_ + le nom de la propriété.
+
+Par exemple, pour la propriété Left, les prototypes des fonctions sont:
+
+<color=10>virtual int Get_Left(<color=10>void);
+<color=10>virtual bool Set_Left(<color=10>int NewLeft);
+
+
+Autre exemple avec la propriété Selected de l'objet ListBox, qui est une propriété de forme tableau:
+
+<color=10>virtual bool Get_Selected(<color=10>int i);
+<color=10>virtual bool Set_Selected(<color=10>int i, <color=10>bool NewSelected);
+
+
+
+Les événements servent à faire un traitement spécifique lorsqu'une action donnée est effectuée (L'exemple le plus classique: l'utilisateur clique sur un bouton ou sur un élément du menu).
+
+Déclaration
+
+Comme les propriétés, vous n'aurez en général pas besoin de déclarer des événements, sauf si vous créez des composants.
+
+La déclaration se fait très simplement avec la macro suivante:
+
+DECLARE_EVENT( event );
+
+Exemple:
+
+DECLARE_EVENT(OnChange);
+
+Appel de l'événement
+
+Le nombre d'arguments étant variable, il y a une macro pour chaque nombre:
+
+CALL_EVENT_1(event,var1)
+CALL_EVENT_2(event,var1,var2)
+CALL_EVENT_3(event,var1,var2,var3)
+etc...
+
+Ces macros ont pour arguments:
+
+event: Nom de l'événement.
+var1, var2, var3, ... : Arguments de la méthode de traitement.
+
+Exemple:
+
+CALL_EVENT_1(OnChange, <color=10>this)
+
+Affectation d'un événement
+
+L'événement est généralement affecté de manière classique dans le DFM, avec une ligne du genre:
+
+OnChange = ListBoxChange
+
+Où ListBoxChange est le nom de la méthode à appeler.
+
+Cependant, il est quelquefois nécessaire d'affecter un événement par programme. Dans un fichier CPP, on utilise alors la macro SET_EVENT:
+
+SET_EVENT(event, base, fnct)
+
+event: Nom complet de l'événement (objet -> événement)
+base : Objet contenant la méthode de traitement de l'événement.
+fnct : Nom de la méthode de traitement.
+
+Exemple:
+
+SET_EVENT(ListBox->OnChange, <color=10>this, ListBoxChange);
+
+Traitement d'un événement
+
+Tous les événement appellent la méthode "CallEvent" de l'objet destination, cette méthode est chargée d'appeler la méthode appropriée en fonction d'un argument de type AnsiString. Le prototype est le suivant:
+
+<color=10>void CallEvent(AnsiString asEvent, TObject *Sender, ...)
+
+Cette méthode calcule éventuellement les arguments qui suivent Sender (lorsque le nombre d'arguments est supérieur à un), puis appelle ensuite la méthode correspondante à l'événement asEvent. La macro FVCL_ARG_CALLEVENT peut être utilisée pour calculer les arguments suivant Sender:
+
+Lorsqu'un argument doit être passé par référence (&), il est passé par adresse (*) dans la fonction CallEvent. C'est pour cela qu'on a un TShiftState * au lieu d'avoir un TShiftState. Il faut ensuite rétablir le niveau d'indirection dans l'appel de la fonction de traitement (on a donc *Shift).
+
+
+La classe TFactory
+
+La première étape pour créer vos propres composants est de créer un descendant de la classe TFactory. Cette classe est prévue pour créer un composant à partir de son nom. En effet, le nom est la seule information que connait le système. Lorsque FreeVCL traite un fichier DFM pour créer une fenêtre, il lit par exemple la ligne suivante:
+
+object Button_Ok: TButton
+
+Il interroge ensuite tous les descendants de TFactory (qui sont liés par un système de chaînage), jusqu'à ce qu'il en trouve un capable de créer l'objet TButton.
+
+Lorsque vous créez un nouveau composant, ou un groupe de composants, vous devez donc créer une classe dérivée de TFactory. Son nom est par convention TFactory_QuelqueChose (où QuelqueChose est par exemple le nom de votre groupe de composants).
+
+Il vous faudra ensuite implémenter les deux fonctions virtuelles suivantes:
+
+<color=10>bool GetListObjectsVirt(TStrings *ListObjects);
+TComponent * CreateObjectVirt(TComponent* AOwner, AnsiString asNom);
+
+ La première méthode indique la liste des composants que peut créer la classe. En général, elle se contente de faire un Add à la liste ListObjects:
+
+  ListObjects->Add(<color=3>"TComposant1");
+  ListObjects->Add(<color=3>"TComposant2");
+  ListObjects->Add(<color=3>"TComposant3");
+  <color=7>// etc...
+
+  <color=10>return true;
+
+
+ La seconde méthode crée réellement le composant. Là encore, c'est généralement pas très compliqué:
+
+  <color=10>if (asNom == <color=3>"TComposant1") <color=10>return new TComposant1(AOwner);
+  <color=10>if (asNom == <color=3>"TComposant2") <color=10>return new TComposant2(AOwner);
+  <color=10>if (asNom == <color=3>"TComposant3") <color=10>return new TComposant3(AOwner);
+  <color=7>// etc...
+
+  <color=10>return NULL;
+
+
+Le composant lui-même
+
+Suivant que votre composant est graphique ou pas, qu'il contient ou pas une fenêtre Windows, qu'il peut ou non déclencher des événements, il va dériver d'une classe générique comme TComponent, TControl, ou TWinControl ou bien d'un composant plus spécifique comme TButton, TEdit, par exemple. Dans tous les cas, ce sera un descendant direct ou indirect de TComponent. Il doit donc implémenter les fonction virtuelles suivantes:
+
+  <color=10>virtual bool GetListProperties(TStrings *ListProperties);
+  <color=10>virtual TYPEPROPERTY GetTypeProperty(AnsiString asProperty, AnsiString *asChoix);
+  <color=10>virtual AnsiString GetDefaultProperty(AnsiString asProperty);
+  <color=10>virtual AnsiString GetProperty(AnsiString asProperty);
+  <color=10>virtual bool SetProperty(AnsiString asProperty, AnsiString asValeur,
+                           TPersistent *Sender);
+
+
+ La méthode GetListProperties permet à l'éditeur de propriétés de lister les propriétés de l'objet. L'implémentation de cette méthode doit ressembler à ceci:
+
+  ListProperties->Add(<color=3>"AutoExpand");
+  ListProperties->Add(<color=3>"BorderStyle");
+  ListProperties->Add(<color=3>"Canvas");
+
+  <color=10>return TClasseParente::GetListProperties(ListProperties);
+
+
+<u>Attention</u>: en fin de traitement, appeler la méthode GetListProperties de la classe parente pour qu'elle ajoute à la liste ses propres propriétés. Chaque classe implémente ainsi en cascade cette méthode et passe ensuite la main à sa classe parente jusqu'à l'objet de base TComponent. De ce fait, ne pas mettre à zéro la liste en début de traitement, car il se peut que cette méthode ait elle-même été appelée par une classe dérivée.
+
+ La méthode GetTypeProperties permet à l'éditeur de propriétés d'afficher un choix, une case à cocher, etc..., en fonction du type de la propriété.
+
+FreeVCL a été spécialement prévu pour vous faciliter la traduction de vos programmes en différentes langues, chose qui est généralement peu pratique avec la plupart des EDI.
+
+
+Nouvelles méthodes de TApplication
+
+Ces méthodes ont été ajoutées à la classe TApplication:
+
+
+<u>Méthode Translate:</u>
+
+AnsiString Translate(AnsiString asInput);
+
+Cette méthode traduit un texte. Elle doit donc être appelée à chaque fois qu'un texte est dépendant de la langue d'affichage.
+
+Exemple:
+
+MessageBox(Handle, Application->Translate(<color=3>"Toto fait du vélo"), Application->Translate(<color=3>"C'est un test"), MB_OK);
+
+<u>Méthode ChooseLanguage:</u>
+
+<color=10>bool ChooseLanguage(<color=10>void);
+
+Cette méthode ouvre un menu popup permettant de choisir une langue parmi toutes celles disponibles. Les langues disponibles sont toutes celles pour lesquelle un fichier lng est présent dans le même répertoire que l'application. Cette méthode est généralement insérée dans le traitement d'une action utilisateur, par exemple suite à un clic sur un bouton langue ou une option du menu, ça me semble une bonne idée.
+
+<u>Méthode SetLanguage:</u>
+
+<color=10>bool SetLanguage(AnsiString asNewLanguage);
+
+Cette méthode force une langue particulière. Elle est utilisée par la méthode ChooseLanguage, mais elle peut aussi être appelée directement (par exemple s'il y a un bouton pour chaque langue).
+
+
+Dans les DFM
+
+Tous les libellés visibles des boîtes de dialogues (labels, titre des boutons, etc...) passent par la méthode Translate ce qui permet de les traduire directement lors du chargement.
+
+Quelques propriétés non visibles appellent également automatiquement la méthode Translate. Par exemple la propriété HelpFile est traduite, ce qui permet d'avoir un fichier d'aide différent pour chaque langue.
+
+
+Les fichiers LNG
+
+Il y a un fichier LNG par langue de traduction. Leur nom est le libellé qui apparaîtra dans le menu popup de choix. Leur contenu est tout simplement en format texte (comme un fichier TXT). La langue de référence est le français: c'est normal, c'est la langue la plus facile à apprendre (La preuve ? Je l'ai apprise sans difficultés à trois ans, alors qu'en vingt ans d'efforts acharnés je ne parle toujours pas anglais). Sur chaque ligne, donc, il y a le texte français et le texte correspondant dans la langue du fichier, les deux libellés sont séparés par le caractère ¤. Les nouveaux libellés dont le programme ne trouve pas la traduction sont automatiquement ajoutés en fin de fichier, mais avec le caractère de séparation µ. Il vous suffit donc de rechercher et de traduire chaque ligne contenant ce caractère pour traduire entièrement votre logiciel.
+
+
+Comment procéder
+
+Il y a plusieurs manières de procéder possible, en voici par exemple une:
+
+ Copiez le fichier Translate.dll (présent dans le répertoire redist) dans le même répertoire que votre application.
+
+ Insérez l'appel de la méthode ChooseLanguage d'une manière ou d'une autre dans votre logiciel (bouton ou menu, c'est vous qui voyez).
+
+ Créez, dans le même répertoire que votre application, un fichier English.lng vide avec le bloc-note ou n'importe quel éditeur. Lancez ensuite votre logiciel, choisissez la langue English, puis exécutez votre programme en ayant soin d'ouvrir toutes les boîtes de dialogues possible.
+
+ Fermez votre application, puis éditez à nouveau le fichier LNG. Vous verrez que le programme a automatiquement ajouté les libellés trouvés pendant l'exécution de l'application. Traduisez la seconde partie de chaque ligne et remplacez les caractères µ par des ¤. Vous pouvez aussi ajouter manuellement les libellés qui ne l'ont pas été automatiquement (messages d'erreurs, ou autres messages qui n'apparaîssent pas lors du déroulement normal). Vous pourrez de la même manière périodiquement vérifier ensuite que des messages n'ont pas étés oubliés, ou ajoutés par l'évolution de votre logiciel.
+
+ N'oubliez pas d'intégrer le fichier Translate.dll à votre package d'installation, ainsi que les fichiers lng que vous aurez créé.
+
+
+Remarques
+
+La langue choisie est mémorisée dans la base de registres, et s'applique ensuite à toutes les applications FreeVCL (à condition bien sûr qu'un fichier langue correspondant soit trouvé).
+
+Le fichier Translate.dll est bien évidemment nécessaire pour la traduction. Mais si votre application n'a pas à être traduite, la dll n'est pas indispensable au fonctionnement du programme. Dans ce cas, vous pouvez donc distribuer votre logiciel sans cette dll.
+
+La traduction étant faite au chargement de la fenêtre, il sera parfois nécessaire de sortir et de revenir dans votre programme pour appliquer un changement de langue.
+
+
+Malgré mes efforts, il subsiste quelques problèmes auquels je n'ai pas trouvé de solution. Si vous avez des idées pour les résoudre, elles sont les bienvenues.
+
+<u>Problème de compilation avec certaines propriétés:</u>
+
+Avec le compilateur code-block, certaines syntaxes provoquent des erreurs de compilation. Par exemple:
+i = Button->Caption.ToInt();
+provoque l'erreur suivante:
+Error: 'struct _dp_GetCaption_SetCaption' has no members named 'ToInt'
+
+<u>Contournement du problème</u>:
+ Il faut effectuer l'opération en deux étapes:
+AnsiString asTemp = Button->Caption;
+i = asTemp.ToInt();
+
+ Ou bien utiliser un cast:
+i = ((AnsiString) Button->Caption).ToInt();
+
+<u>Affectation d'une propriété de type tableau:</u>
+
+Je n'ai pas réussi à faire une propriété de type tableau en lecture-écriture. Quand on fait "ListBox->Selected[i] = <color=10>true", le "Selected[i]" est interprété comme un "Get_Selected(i)" (application de l'opérateur []) et ensuite le "=" fait une erreur "Non-lvalue in assignment".
+
+<u>Contournement du problème</u>: il faut utiliser la méthode "Set_..." que j'ai donc mis en <color=10>public:
+ListBox->Set_Selected(i, <color=10>true);
+
+<u>Lecture des propriétés après la fermeture d'une fenêtre:</u>
+
+Il est impossible de lire les propriétés d'un contrôle après fermeture de la fenêtre (car les objets GDI sont détruits dès la fermeture). Par exemple, si on fait :
+
+MaFenetre->ShowModal();
+i = MaFenetre->ListBox->ItemIndex;
+
+L'objet GDI sous-jacent à ListBox est détruit dès la sortie du ShowModal, et ItemIndex renvoie donc un LB_ERR (c'est à dire -1).
+
+<u>Contournement du problème</u>:
+ Solution 1: Mémoriser les valeurs dans une variable intermédiaire avant la destruction de la fenêtre.
+ Solution 2: Dans l'événement "OnClose", cacher la fenêtre (Action = caHide), ainsi les contrôles ne sont pas détruits.
+
+<u>Evénements lors de la construction d'une fenêtre:</u>
+
+La fenêtre étant créée dans le constructeur de la classe, les méthodes virtuelles ne sont à ce moment pas encore actives. En particulier la méthode "OnEvent" qui ventile les événements. De ce fait, les événements qui surviennent lors de cette création ne sont pas traités. En particulier la méthode "OnActivate", par exemple.
+
+<u>Contournement du problème</u>:
+Appeler explicitement la méthode de traitement de l'événement dans le constructeur de la fenêtre.
+
+<u>Problème d'affectation d'une propriété de type objet:</u>
+
+Lorsqu'une propriété fait référence à un autre objet, cet objet n'est pas trouvé s'il se trouve après dans l'ordre de création. Par exemple:
+
+object PageControl: TPageControl
+  ActivePage = TabSheet1
+  ...
+  object TabSheet1: TTabSheet
+
+<u>Contournement du problème</u>:
+ Inverser l'ordre de création des objets dans le DFM.
+ Ou bien utiliser d'autres propriétés lorsque c'est possible (ActivePageIndex dans l'exemple ci-dessus).
+
+
+La syntaxe et le comportement des objets ont été prévus pour être au maximum compatibles avec C++ Builder. Il y a cependant quelques petites différences, soit parce que ce n'était pas possible de faire autrement, soit dans un but d'amélioration.
+
+En plus des différences signalées dans les pages précédentes, voici une liste (sans doute non exhaustive) de différences et d'amélioration:
+
+
+Sur les classes en général
+
+ FreeVCL étant entièrement programmé en C++, on n'a plus les limitations d'héritages qu'on avait dans C++ Builder (où une classe VCL ne peut hériter d'une classe non VCL que si cette dernière est virtuelle pure et sans attributs... Autant dire vide).
+
+ Nouveau composant TTrayIcon pour permettre de mettre une icône dans la zone de notification (à coté de l'horloge).
+
+ Les classes TForm et TFrame descendent tous deux de la classe TFormFrame (mise en commun du code d'interprétation des DFM).
+
+ TOpenDialog et TSaveDialog descendent tous deux de la classe TOpenSaveDialog (mise en commun des propriétés).
+
+ TMenu dérive de TMenuItem (pour mise en commun de la propriété Handle et construction plus simple).
+
+
+Sur les types chaîne
+
+ AnsiString dérive de std::string (donc toutes les méthodes de std::string sont donc disponibles).
+
+ La gestion des erreurs par déclenchement d'exception étant souvent envahissante, ces exceptions ont été supprimées à de nombreux endroits. Par exemple AnsiString.ToInt() ne produit pas d'exception lorsque la chaîne passée en argument n'est pas strictement numérique.
+
+ Méthode "Translate" et appel de cette méthode pour tous les libellés de DFM (pour faciliter l'internationalisation).
+
+
+Sur les objets
+
+ TModalResult est un enum plutôt que des #define (plus sûr au niveau programmation).
+
+ TParaAttributes de TRichEdit a des nouvelles propriétés (espacement des caractères, indice ou exposant, ...).
+
+ TForm et TFrame peuvent lire des ressources 'DIALOGUE' du RC.
+
+ Tous les graphiques ont la méthode LoadFromResourceName (et pas seulement les TBitmaps).
+
+ Nouvelle propriété TApplication->ExePath.
+
+ Nouvelle propriété RightJustify de TMenuItem pour aligner un menu à droite de la fenêtre.
+
+
+Interface EDI
+
+Des méthodes ont été ajoutées pour faciliter la réalisation d'éditeurs de propriétés. Ces méthodes permettent de lister, de lire et d'écrire les propriétés, mais aussi de créer les objets:
+
+<color=10>bool GetListObjects(TStrings *ListObjects);
+Liste des objets pouvant être créés
+
+TComponent *CreateObject(TComponent* AOwner, AnsiString asNom);
+Création d'un objet
+
+<color=10>virtual bool GetListProperties(TStrings *ListProperties);
+Liste les propriétés publiées.
+
+<color=10>virtual TYPEPROPERTY GetTypeProperty(AnsiString asProperty, AnsiString *asChoix);
+Lecture du type d'une propriété.
+
+<color=10>virtual AnsiString GetDefaultProperty(AnsiString asProperty);
+Lecture de la valeur par défaut d'une propriété
+
+<color=10>virtual AnsiString GetProperty(AnsiString asProperty);
+Lecture de la valeur d'une propriété
+
+<color=10>virtual bool SetProperty(AnsiString asProperty, AnsiString asValeur, TPersistent *Sender);
+Ecriture d'une propriété
+
+
+Toutes ces méthodes sont décrites en détail dans la doc DOXYGEN.
+
+
+Je n'aurait jamais pu créer ce logiciel sans les outils suivants:
+
+
+Code::Blocks {\uldb http://www.codeblocks.org}{\v !ExecFile(http://www.codeblocks.org,,9,)}
+
+Compilateur gratuit, qui n'a rien à envier à d'autres compilateurs payants et très chers que je suis contraint d'utiliser quotidiennement (Et que je ne peux hélas pas nommer).
+
+Simple, clair, et évolutif grâce à une interface permettant le développement de plugins.
+
+
+
+Inno Setup  {\uldb http://www.innosetup.com}{\v !ExecFile(http://www.innosetup.com,,9,)}
+
+Programme d'installation. L'essayer c'est l'adopter.
+
+
+
+DOXYGEN  {\uldb http://www.doxygen.org/index.html}{\v !ExecFile(http://www.doxygen.org/index.html,,9,)}
+
+Documentation automatique des sources. Vous n'avez plus rien à faire pour avoir une doc toujours à jour.
+
+
+
+Shalom Help Maker  {\uldb http://www.danish-shareware.dk/soft/shelpm}{\v !ExecFile(http://www.danish-shareware.dk/soft/shelpm,,9,)}
+
+Programme de création d'aide. Celle que vous êtes en train de lire. Comme vous pouvez le voir, il n'y a rien à reprocher.
+
+
+
+Welcome 
+
+Free-VCL is a library of components for creating MMI (man-machine interfaces), in other words Dialog. 
+
+This library was created in order to be compatible with software components VCL C + + Builder. A good knowledge of this software and its components is essential to understand and use Free-VCL. In particular, many elements of the online help C + + Builder are not reproduced in such assistance. Please refer to using this software if you want further clarification. 
+
+To work, this library needs a compiler, not included in the installation. I've tested with Visual Studio and Code: block, I suppose it also works with DEV-MPC. It probably can not walk with C + + Builder (too many conflicts with the typedef and enums). For other compilers, I do not know. 
+
+
+
+After installing FreeVCL, you will almost certainly need to set some options for your compiler. 
+
+  Chemin des headers and libraries. 
+This configuration depends on your compiler, but in general it is sufficient to indicate (in options or preferences, for example?) The path of the file H and files of LIB FreeVCL. 
+
+  Enable RTTI. 
+The RTTI (Run-time type information) must be enabled so many <color=10> dynamic_cast of the library return correct values. 
+
+
+We will study together the creation of a minimum programme called "Hello" (translation of "Hello word", the first of which ricane rotted my English will receive my full collection of viruses by e-mail). The complete code of this program is in the directory "Samples \ \ BonjourMot." 
+
+This programme contains a simple window (we'll call TForm_Principale) with writing "Hello" and a menu with the option "leave". 
+
+BonjourMot.cpp 
+
+The first draft of the file is the file BonjourMot.cpp. It contains the entry point WinMain Windows. In general, this function is still roughly the same, the fastest is to make a copied and pasted to another project. The day programs Free-VCL will be integrated into an EDI, this file will be generated automatically: 
+
+Secondly, we must describe the main window. This is done in a file with the extension dfm, TForm_Principale.dfm for example, in our case: 
+
+Again, this file will one day be seized via an interface. For now, it must be entered by hand. The format is exactly the same as the files of the same name in C + + Builder. 
+
+TForm_Principale.h 
+
+The class of the main window is described as follows:
+
+There are significant differences compared to the roster equivalent of C + + Builder: 
+
+  The keyword <color=10> __published is not present (keyword is a unique Builder and is not portable). The objects are published in the section <color=10> public. 
+  The statement components is framed by the macros FVCL_BEGIN_COMPONENTS and FVCL_END_COMPONENTS. <u> Warning </ u>: These components must be in the same order as in the file DFM, in the order of words end in the case of interlocking components (for example, here, TMenuItem "MenuItem_Fichiers" is after TMenuItem "MenuItem_Quitter" because the keyword end matching "MenuItem_Fichiers" east after the end keyword matching "MenuItem_Quitter"). 
+  Statements of treatment methods events are framed by macros FVCL_BEGIN_EVENTS and FVCL_END_EVENTS. 
+  Macro FASTCALL is used instead of keyword <color=10> __fastcall (again for compatibility between compilers). 
+  The prototype of the constructor of the class is slightly different. 
+  the <color=10> # pragma specific Builder are absent. 
+
+And we must obviously include the file FreeVCL early file: 
+
+TForm_Principale.cpp 
+
+The methods are then implemented in the cpp file: 
+
+Again, there are some small difference compared to Builder program, which would the same thing: 
+
+  The constructor of the class is different. 
+  FASTCALL instead <color=10> __fastcall, always. 
+  And most importantly, there is a new method, which must be implemented for the entire window (and indeed any object) that can receive events: the method CallEvent (see below). 
+
+The method CallEvent is responsible for breaking down the events received components, or possibly other windows. As always, writing this method should be automatic, but as it is not yet, it's up to you to write it. The body of the function is always the same (a little copied and pasted required), only if <color=10> instructions are to write. In general, it is not too complicated. For example, if we had other items on the menu: 
+
+
+Because the prototype of the method with a variable number of arguments, it is more difficult for events that have more than the argument Sender, we must use the macro FVCL_ARG_EVENT. For example, suppose that we have an event in the OnClose DFM: 
+
+
+And for an event OnMouseDown is squarely the galley: 
+
+
+The rule is simple: for each argument of the method managing the event, use the macro FVCL_ARG_CALLEVENT with the type and name of the argument. Calling then the method with variables and reported. Unless the argument must be passed by reference (Shift example above, or Action above): in this case the type is a pointer to type (TShiftState * link TShiftState), and pass on the address variable to the method instead spend the variable itself (* Shift instead Shift). 
+
+Do not worry, this method soon will be processed automatically. In the meantime, we must take the lead once and then abondament of user-copied stuck. 
+
+BonjourMot.rc 
+
+Finally, we must declare the file in DFM resources. It's very simple, it is as follows in the rc file: 
+
+The project 
+
+Finally, you must create a project and insert these five sources. To create a project, it depends on your compiler, but in general it's pretty simple. Choose the option "Win32 Application" (or something that resembles) and "create a vacuum" (no stdafx and other eccentricities). Insert sources in the project, in option link insert the following files: 
+
+libcomdlg32.a or comdlg32.lib (depending) 
+libcomctl32.a or comctl32.lib (same) 
+libFreeVcl.a or FreeVcl.lib (you understand) 
+
+Compile, run the program, and if everything goes well you should see the next window: 
+
+Voili, here. You've made your first program FVCL. 
+
+The properties allow the user to a component to affect or read a value as if it were an attribute public, but in fact it is a function that is carried out, allowing a simple treatment attribute would not. For example, the user will write: 
+Button-> Left = 10; 
+But in fact, this is equivalent to writing: 
+Button-> Set_Left (10); 
+And in the method Set_Left, the programmer has scheduled a MoveWindow that makes the button moves effectively with this direction. 
+
+Statement 
+
+In the regular programmes, it is usually not necessary to declare properties. You'll especially need it if you create components. 
+
+There are four macro-instructions to declare the properties, depending on their type: 
+
+<u> Properties read-only </ u>: 
+
+DECLARE_PROPERTY_GET (base, type, var) 
+
+<u> Properties read-write </ u>: 
+
+DECLARE_PROPERTY (base, type, var) 
+
+<u> Properties read only a table </ u>: 
+
+DECLARE_PROPERTY_TAB_GET (base, type, var) 
+
+<u> Properties read-write an array </ u>: 
+
+DECLARE_PROPERTY_TAB (base, type, var) 
+
+These macros are four arguments: 
+
+Background: Name of the class in which the property is defined. 
+type: Type of Property 
+var: Name of property
+
+Implementation 
+
+The function implementation properties need not be declared (they are automatically in the macro DECLARE_PROPERTY). Their name is determined as follows: 
+
+Function used to read the property: + Get_ the property name. 
+Function used to read the property: + Set the property name. 
+
+For example, for the Left property, prototypes functions are: 
+
+<color=10> virtual int Get_Left (<color=10> void); 
+<color=10> virtual bool Set_Left (<color=10> int NewLeft); 
+
+
+Another example with the Selected property of the object ListBox, which is owned by form table: 
+
+<color=10> virtual bool Get_Selected (<color=10> int i); 
+<color=10> virtual bool Set_Selected (<color=10> int i, <color=10> bool NewSelected); 
+
+
+
+The events used to special treatment when an action is carried out (the most classic example: the user clicks on a button or a menu item). 
+
+Statement 
+
+As the properties, you will generally not need to report events, unless you create components. 
+
+The declaration is very simply with the macro follows: 
+
+DECLARE_EVENT (event); 
+
+Example: 
+
+DECLARE_EVENT (OnChange); 
+
+Calling the event 
+
+The number of arguments is variable, there is a macro for each number: 
+
+CALL_EVENT_1 (event, var1) 
+CALL_EVENT_2 (event, var1, var2) 
+CALL_EVENT_3 (event, var1, var2, var3) 
+etc. ... 
+
+These macros are arguments: 
+
+event: Name of the event. 
+var1, var2, var3, ... Arguments of the treatment method. 
+
+Example: 
+
+CALL_EVENT_1 (OnChange, <color=10> this) 
+
+Assigning an event 
+
+The event is usually affected in the classic manner DFM, with a line like: 
+
+OnChange = ListBoxChange 
+
+ListBoxChange Where is the name of the method to call. 
+
+However, it is sometimes necessary to affect an event on the programme. In a file CPP, it uses the macro SET_EVENT: 
+
+SET_EVENT (event, base, fnct) 
+
+event: Full name of the event (subject -> event) 
+Background: Object containing the treatment method of the event. 
+fnct: Name of the treatment method. 
+
+Example: 
+
+SET_EVENT (ListBox-> OnChange, <color=10> this, ListBoxChange); 
+
+Treatment of an event 
+
+All event called the method "CallEvent" of the object destination, this method is responsible to call the appropriate method based on an argument type AnsiString. The prototype is as follows: 
+
+<color=10> void CallEvent (AnsiString asEvent, TObject * Sender, ...) 
+
+This method calculates the possible arguments after Sender (when the number of arguments is more than one) and then calls the method corresponding to the event asEvent. The macro FVCL_ARG_CALLEVENT can be used to calculate the following arguments Sender: 
+
+When an argument must be passed by reference (&), it rose by address (*) in the CallEvent. That's why we have a TShiftState * instead of having a TShiftState. Then restore the level of indirection in the call of the processing function (it was therefore * Shift). 
+
+
+The class TFactory 
+
+The first step to create your own components is to create a descendant of the class TFactory. This class is planned to create a component from its name. Indeed, the name is the only information that knows the system. When FreeVCL treats a file DFM to create a window, it reads, for example, the following line: 
+
+Object Button_Ok: TButton 
+
+It then interviews all descendants of TFactory (which are bound by a system chaining) until he found one capable of creating the object TButton. 
+
+When you create a new component, or a group of components, you must create a class derived from TFactory. His name is conventionally TFactory_QuelqueChose (where QuelqueChose is, for example, the name of your group of components). 
+
+You will then implement the two virtual functions: 
+
+<color=10> bool GetListObjectsVirt (TStrings * ListObjects); 
+TComponent CreateObjectVirt * (* TComponent AOwner, AnsiString asNom); 
+
+  The first method shows the list of components that can create the class. In general, she is content to make a Add to the list ListObjects: 
+
+   ListObjects-> Add (<color=3> "TComposant1"); 
+   ListObjects-> Add (<color=3> "TComposant2"); 
+   ListObjects-> Add (<color=3> "TComposant3"); 
+   <color=7> / / etc ... 
+
+   <color=10> return true; 
+
+
+  The second method creates real component. Again, it is usually not very complicated: 
+
+   <color=10> if (asNom == <color=3> "TComposant1") <color=10> return new TComposant1 (AOwner); 
+   <color=10> if (asNom == <color=3> "TComposant2") <color=10> return new TComposant2 (AOwner); 
+   <color=10> if (asNom == <color=3> "TComposant3") <color=10> return new TComposant3 (AOwner); 
+   <color=7> / / etc ... 
+
+   <color=10> return NULL;
+
+The component itself 
+
+Depending on whether your component is graphic or not, it contains a window or not Windows, it may or may not trigger events, it will derive a generic class as TComponent, TControl or TWinControl or a component more specific as TButton, TEdit, for example. In all cases, this will be a direct or indirect descendant of TComponent. It must implement the virtual function following: 
+
+   <color=10> virtual bool GetListProperties (TStrings * ListProperties); 
+   <color=10> virtual TYPEPROPERTY GetTypeProperty (AnsiString asProperty, AnsiString * asChoix); 
+   <color=10> virtual AnsiString GetDefaultProperty (AnsiString asProperty); 
+   <color=10> virtual AnsiString GetProperty (AnsiString asProperty); 
+   <color=10> virtual bool SetProperty (AnsiString asProperty, AnsiString asValeur, 
+                            TPersistent * Sender); 
+
+
+  The method GetListProperties allows the publisher to list properties properties of the object. The implementation of this method should look like this: 
+
+   ListProperties-> Add (<color=3> "AutoExpand"); 
+   ListProperties-> Add (<color=3> "BorderStyle"); 
+   ListProperties-> Add (<color=3> "Canvas"); 
+
+   <color=10> return TClasseParente: GetListProperties (ListProperties); 
+
+
+<u> Warning </ u>: at the end of treatment, call the method GetListProperties of the parent class to add to the list their own properties. Each class implements and cascade this method and then hand its superclass object to the basic TComponent. As a result, not to reset the list at the beginning of treatment, because it may be that this method has itself been called by a derived class. 
+
+  The method GetTypeProperties allows the properties editor display a choice, a checkbox, etc. ..., depending on the type of property. 
+
+FreeVCL has been specially adapted to facilitate the translation of your programs in different languages, something which is generally impractical with most EDI. 
+
+
+New methods of TApplication 
+
+These methods have been added to the class TApplication: 
+
+
+Translate <u> Method: </ u> 
+
+AnsiString Translate (AnsiString asInput); 
+
+This method translated text. It must therefore be called whenever a text is dependent on display language. 
+
+Example: 
+
+MessageBox (Handle, Application-> Translate (<color=3> "Toto makes bicycle"), Application-> Translate (<color=3> "This is a test"), MB_OK); 
+
+<u> ChooseLanguage Method: </ u> 
+
+<color=10> bool ChooseLanguage (<color=10> void); 
+
+This method opens a popup menu to choose a language among all those available. The languages available are those for lng lesquelle a file is present in the same directory as the application. This method is generally inserted in the treatment of a user, for example, following a click of a button language or a menu option, it seems a good idea. 
+
+<u> SetLanguage Method: </ u> 
+
+<color=10> bool SetLanguage (AnsiString asNewLanguage); 
+
+This method forces a particular language. It is used by the method ChooseLanguage, but it can also be called directly (for example if there is a button for each language). 
+
+
+In DFM 
+
+All labels visible Dialog (labels, as buttons, etc. ...) passing through the Translate method which allows them to translate directly during loading. 
+
+Some non-visible properties also automatically call the method Translate. For example HelpFile property is translated, which allows a help file for each language. 
+
+
+The files LNG 
+
+There is a file LNG per language translation. Their name is the wording that will appear in the popup menu of choices. Their content is simply a text format (as a TXT file). The language of reference is the french is normal, that is the language easier to learn (Proof? I've learned without difficulty in three years, whereas in twenty years of hard work I do still speaks English). On each line, so there is the french text and corresponding text in the language file, the two labels are separated by the ¤. The new labels whose programme is not translation are automatically added at the end of file, but with the separation µ. You just have to investigate and bring each row containing this character to fully translate your software. 
+
+
+How to proceed 
+
+There are several possible ways to proceed, here is an example: 
+
+  Copy the file Translate.dll (found in the directory redist) in the same directory as your application. 
+
+  Insert the call of the method ChooseLanguage in one way or another in your software (or menu button, you see). 
+
+  Create, in the same directory as your application, a file with the English.lng empty notepad or any publisher. Start your software then choose the English language, then run your program, taking care to open all possible dialogs. 
+
+  Close your application, then edit a new file LNG. You will see that the program automatically added the labels found during the execution of the application. Translate the second part of each line and replace the characters by µ ¤. You can also manually add labels that have not been automatically (error messages or other messages that do not appear during the normal course). You can in the same way then periodically verify that messages have not been forgotten, or added by changing your software. 
+
+  Do not forget to include the file Translate.dll your installation package, as well as lng files you create. 
+
+
+Remarks 
+
+The language is stored in the registry database, and then apply to all applications FreeVCL (provided of course that a file corresponding language is found). 
+
+The file Translate.dll is obviously needed for translation. But if your application does not have to be translated, the dll is not essential to the functioning of the programme. In this case, you can distribute your software without this dll. 
+
+The translation was made in loading the window, it is sometimes necessary to leave and return to your program to implement a change of language. 
+
+
+Despite my efforts, there remain some problems to which I have not found a solution. If you have ideas to solve them, they are welcome. 
+
+<u> compilation problem with certain properties: </ u> 
+
+With the compiler code-block, causing some syntax errors compilation. For example: 
+i = Button-> Caption.ToInt (); 
+cause the following error: 
+Error: 'struct _dp_GetCaption_SetCaption' has no members named 'ToInt' 
+
+<u> Circumvention of the problem </ u>: 
+  We must carry out the operation in two stages: 
+AnsiString asTemp = Button-> Caption; 
+i = asTemp.ToInt (); 
+
+  Or use a cast: 
+i = ((AnsiString) Button-> Caption). ToInt (); 
+
+<u> Assigning a property type table: </ u> 
+
+I have not succeeded in making a property-type table in the reading-writing. When you play "ListBox-> Selected [i] = <color=10> true", "Selected [i]" is interpreted as a "Get_Selected (i)" (application of the operator []) and then " = "Made a mistake" in Non-lvalue assignment. " 
+
+<u> Circumvention of the problem </ u>: we must use the "Set ..." I have therefore put in <color=10> public: 
+ListBox-> Set_Selected (i, <color=10> true); 
+
+<u> Reading properties after closing a window: </ u> 
+
+It is impossible to read the properties of a control after closing the window (as the GDI objects are destroyed as soon closing). For example, if you do: 
+
+MaFenetre-> ShowModal (); 
+i = MaFenetre-> ListBox-> ItemIndex; 
+
+The purpose GDI underlying ListBox is destroyed right out of ShowModal, and therefore a ItemIndex refers LB_ERR (ie -1). 
+
+<u> Circumvention of the problem </ u>: 
+  Solution 1: Remember the values in a variable intermediary before the destruction of the window. 
+  Solution 2: In the event "OnClose" hide the window (Action = caHide) and the controls are not destroyed. 
+
+<u> Events during the construction of a window: </ u> 
+
+The window was created in the constructor of the class, the virtual methods are at this moment not yet active. In particular the method "OnEvent" which breaks down the events. As a result, events that occur during this creation are not addressed. In particular the method "OnActivate", for example. 
+
+<u> Circumvention of the problem </ u>: 
+Calling explicitly the treatment method of the event in the constructor of the window. 
+
+<u> problems assignment of a property-type object: </ u> 
+
+When a property refers to another object, this object is not found after it is in the order of creation. For example: 
+
+Object PageControl: TPageControl 
+   ActivePage = TabSheet1 
+   ... 
+   Object TabSheet1: TTabSheet 
+
+<u> Circumvention of the problem </ u>: 
+  Reverse order of creation objects in the DFM. 
+  Or use other properties where feasible (ActivePageIndex in the example above). 
+
+
+The syntax and behaviour of objects were intended to be the maximum compatible with C + + Builder. There are some minor differences, or because it was not possible to do otherwise, or for the purpose of improvement. 
+
+In addition to differences reported in the preceding pages, here is a list (probably not exhaustive) of differences and improvements: 
+
+
+Of the classes in general 
+
+  FreeVCL being fully programmed in C + +, are no longer limitations legacies that we had in C + + Builder (VCL where a class can not inherit a class non VCL unless the latter is pure and without virtual attributes .. . So empty). 
+
+  New Component TTrayIcon to help put an icon in the notification area (near the clock). 
+
+  Classes TForm and TFrame down both Class TFormFrame (pooling of code interpretation DFM). 
+
+  TOpenDialog and TSaveDialog down both Class TOpenSaveDialog (pooling of properties). 
+
+  TMenu drift TMenuItem (for pooling of property and construction Handle simple).
+
+Of the types chain 
+
+  AnsiString drift std:: string (hence all methods of std:: string are available). 
+
+  The management of errors by triggering an exception is often pervasive, these exceptions have been removed in many places. For example AnsiString.ToInt () does not produce an exception when the chain past argument is not strictly digital. 
+
+  Method "Translate" and call this method for all labels DFM (to facilitate the internationalization). 
+
+
+Of the objects 
+
+  TModalResult is an enum rather than # define (more secure level programming). 
+
+  TParaAttributes of TRichEdit has new properties (spacing of characters, index or exhibitor, ...). 
+
+  TForm TFrame can read and resources' DIALOGUE 'DR. 
+
+  All graphics have LoadFromResourceName method (and not only TBitmaps). 
+
+  New property TApplication-> ExePath. 
+
+  New property RightJustify of TMenuItem to bring a menu on the right of the window. 
+
+
+EDI Interface 
+
+Some methods have been added to facilitate the achievement of publishers properties. These methods can list, read and write properties, but also to create objects: 
+
+<color=10> bool GetListObjects (TStrings * ListObjects); 
+List of items that can be created 
+
+TComponent * CreateObject (TComponent * AOwner, AnsiString asNom); 
+Creating an object 
+
+<color=10> virtual bool GetListProperties (TStrings * ListProperties); 
+List properties published. 
+
+<color=10> virtual TYPEPROPERTY GetTypeProperty (AnsiString asProperty, AnsiString * asChoix); 
+Reading the type of property. 
+
+<color=10> virtual AnsiString GetDefaultProperty (AnsiString asProperty); 
+Reading the default value of a property 
+
+<color=10> virtual AnsiString GetProperty (AnsiString asProperty); 
+Reading the value of a property 
+
+<color=10> virtual bool SetProperty (AnsiString asProperty, AnsiString asValeur, TPersistent * Sender); 
+Writing a property 
+
+
+All these methods are described in detail in the doc DOXYGEN. 
+
+
+I would never have been able to create this software without the following tools: 
+
+
+Code: Blocks (\ uldb http://www.codeblocks.org) (\ v! ExecFile (http://www.codeblocks.org,, 9,)) 
+
+Compiler free, which has nothing to envy to other compilers pay and dear that I am forced to use daily (And that, alas, I can not name). 
+
+Simple, clear, and rolling through an interface allowing the development of plugins. 
+
+
+
+Inno Setup (\ uldb http://www.innosetup.com) (\ v! ExecFile (http://www.innosetup.com,, 9,)) 
+
+Installation Program. The attempt is to adopt it. 
+
+
+
+DOXYGEN (\ uldb http://www.doxygen.org/index.html) (\ v! ExecFile (http://www.doxygen.org/index.html,, 9,)) 
+
+Documentation automatic sources. You have nothing more to be done to have a doc always up to date. 
+
+
+
+Shalom Help Maker (\ uldb http://www.danish-shareware.dk/soft/shelpm) (\ v! ExecFile (http://www.danish-shareware.dk/soft/shelpm,, 9,)) 
+
+Program creation assistance. The one you're reading. As you can see, there's nothing to blame.

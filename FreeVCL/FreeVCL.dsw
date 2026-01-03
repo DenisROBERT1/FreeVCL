@@ -1,0 +1,263 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "BonjourMot"=..\UnitTests\BonjourMot\BonjourMot.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "FreeVCL_Multimed"=.\FreeVCL_Multimed\FreeVCL_Multimed.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FreeVCL_RichEdit"=.\FreeVCL_RichEdit\FreeVCL_RichEdit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FreeVCL_ToolsEDI"=.\FreeVCL_ToolEDI\FreeVCL_ToolsEDI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FreeVCL_Web"=.\FreeVCL_Web\FreeVCL_Web.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FreeVCL_XFiles"=.\FreeVCL_XFiles\FreeVCL_XFiles.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FreeVCL"=.\FreeVCL\FreeVCL.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RTFExpert"=..\UnitTests\RTFExpert\RTFExpert.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL_RichEdit
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestAnimate"=..\UnitTests\TestAnimate\TestAnimate.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL_Multimed
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestClient"=..\UnitTests\TestSocket\TestClient\TestClient.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL_Web
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestCppWebBrowser"=..\UnitTests\TestCppWebBrowser\TestCppWebBrowser.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL_Web
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestHotKey"=..\UnitTests\TestHotKey\TestHotKey.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestMetafile"=..\UnitTests\TestMetafile\TestMetafile.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL_Multimed
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestPdf"=..\UnitTests\TestPdf\TestPdf.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL_XFiles
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestServer"=..\UnitTests\TestSocket\TestServer\TestServer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL_Web
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestWebCam"=..\UnitTests\TestWebCam\TestWebCam.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FreeVCL_Multimed
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="../FreeVCL/FreeVCL/FreeVcl.cbp" />
+		<Project filename="../FreeVCL/FreeVCL_Multimed/FreeVCL_Multimed.cbp" />
+		<Project filename="../FreeVCL/FreeVCL_RichEdit/FreeVCL_RichEdit.cbp" />
+		<Project filename="../FreeVCL/FreeVCL_ToolEDI/FreeVCL_ToolsEDI.cbp" />
+		<Project filename="../FreeVCL/FreeVCL_Web/FreeVCL_Web.cbp" />
+		<Project filename="../FreeVCL/FreeVCL_XFiles/FreeVCL_XFiles.cbp" />
+		<Project filename="../Tools/CreateUnit/CreateUnit.cbp">
+			<Depends filename="../FreeVCL/FreeVCL/FreeVcl.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_Multimed/FreeVCL_Multimed.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_RichEdit/FreeVCL_RichEdit.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_ToolEDI/FreeVCL_ToolsEDI.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_Web/FreeVCL_Web.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_XFiles/FreeVCL_XFiles.cbp" />
+		</Project>
+		<Project filename="../Tools/VCL2FreeVCL/VCL2FreeVCL.cbp">
+			<Depends filename="../FreeVCL/FreeVCL/FreeVcl.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_Multimed/FreeVCL_Multimed.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_RichEdit/FreeVCL_RichEdit.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_ToolEDI/FreeVCL_ToolsEDI.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_Web/FreeVCL_Web.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_XFiles/FreeVCL_XFiles.cbp" />
+		</Project>
+		<Project filename="FVCLIDE.cbp">
+			<Depends filename="../FreeVCL/FreeVCL/FreeVcl.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_Multimed/FreeVCL_Multimed.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_RichEdit/FreeVCL_RichEdit.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_ToolEDI/FreeVCL_ToolsEDI.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_Web/FreeVCL_Web.cbp" />
+			<Depends filename="../FreeVCL/FreeVCL_XFiles/FreeVCL_XFiles.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,1214 @@
+# depslib dependency file v1.0
+1215899824 c:\programmes\FVCLIDE\tbasetree.cpp
+	<FreeVcl.h>
+	"TBaseTree.h"
+
+1254430429 c:\programmes\FVCLIDE\tbasetree.h
+
+1217786355 c:\programmes\FVCLIDE\tcodeeditor.cpp
+	<FreeVcl.h>
+	"TCodeEditor.h"
+
+1229266265 c:\programmes\FVCLIDE\tcodeeditor.h
+	<vector>
+	"TUndoRedo.h"
+
+1215963226 c:\programmes\FVCLIDE\tcodepanel.cpp
+	<FreeVcl.h>
+	"TCodePanel.h"
+
+1218833572 c:\programmes\FVCLIDE\tcodepanel.h
+	"TCodeEditor.h"
+
+1215887785 c:\programmes\FVCLIDE\tfileascii.cpp
+	<FreeVcl.h>
+	"TFileASCII.h"
+
+1254430429 c:\programmes\FVCLIDE\tfileascii.h
+	<windows.h>
+
+1217791954 c:\programmes\FVCLIDE\tform_principale.cpp
+	<FreeVcl.h>
+	"TXMLTree.h"
+	"TSynchroTree.h"
+	"TVCLTreeView.h"
+	"TCodePanel.h"
+	"TConfig.h"
+	"TForm_Principale.h"
+
+1254430429 c:\programmes\FVCLIDE\txmltree.h
+	<vector>
+	"TBaseTree.h"
+	"TFileASCII.h"
+
+1254430429 c:\programmes\FVCLIDE\tsynchrotree.h
+	<vector>
+
+1254430429 c:\programmes\FVCLIDE\tform_principale.h
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+
+1254430429 c:\programmes\FVCLIDE\tvcltreeview.h
+	"TBaseTree.h"
+	<Classes.hpp>
+	<ComCtrls.hpp>
+	<Controls.hpp>
+	<Dialogs.hpp>
+	<ExtCtrls.hpp>
+	<Menus.hpp>
+	<StdCtrls.hpp>
+	<ToolWin.hpp>
+
+1215973224 c:\programmes\FVCLIDE\tsynchrotree.cpp
+	<FreeVcl.h>
+	"TSynchroTree.h"
+	"TBaseTree.h"
+
+1215975800 c:\programmes\FVCLIDE\tvcltreeview.cpp
+	<FreeVcl.h>
+	"TVCLTreeView.h"
+
+1215904010 c:\programmes\FVCLIDE\txmltree.cpp
+	<FreeVcl.h>
+	"TXMLTree.h"
+
+1216033590 c:\programmes\FVCLIDE\FVCLIDE.cpp
+	<FreeVcl.h>
+	"TForm_Principale.h"
+
+1215939103 c:\programmes\FVCLIDE\FVCLIDE.rc
+	"resource.h"
+	"windows.h"
+
+1254430429 c:\programmes\FVCLIDE\resource.h
+
+1217790752 c:\programmes\FVCLIDE\tconfig.cpp
+	<windows.h>
+	<FreeVcl.h>
+	"TConfig.h"
+
+1254430429 c:\programmes\FVCLIDE\tconfig.h
+
+1254433194 source:c:\programmes\FVCLIDE\tbasetree.cpp
+	<FreeVcl.h>
+
+1229717823 source:c:\programmes\FVCLIDE\tcodeeditor.cpp
+	<FreeVcl.h>
+	"TCodeEditor.h"
+
+1218830676 source:c:\programmes\FVCLIDE\tcodepanel.cpp
+	<FreeVcl.h>
+	"TCodePanel.h"
+
+1254433194 source:c:\programmes\FVCLIDE\tfileascii.cpp
+	<FreeVcl.h>
+
+1254433284 source:c:\programmes\FVCLIDE\tform_principale.cpp
+	<FreeVcl.h>
+	<Shlwapi.h>
+
+1254433195 source:c:\programmes\FVCLIDE\tsynchrotree.cpp
+	<FreeVcl.h>
+
+1254433195 source:c:\programmes\FVCLIDE\tvcltreeview.cpp
+	<FreeVcl.h>
+
+1254433195 source:c:\programmes\FVCLIDE\txmltree.cpp
+	<FreeVcl.h>
+
+1254433195 source:c:\programmes\FVCLIDE\FVCLIDE.cpp
+	<FreeVcl.h>
+
+1254075442 source:c:\programmes\FVCLIDE\FVCLIDE.rc
+	"resource.h"
+
+1254433194 source:c:\programmes\FVCLIDE\tconfig.cpp
+	<windows.h>
+	<FreeVcl.h>
+
+1218847932 c:\programmes\FVCLIDE\tundoredo.h
+
+1218844018 source:c:\programmes\FVCLIDE\tundoredo.cpp
+	<FreeVcl.h>
+	"TUndoRedo.h"
+
+1254433195 source:c:\programmes\FVCLIDE\tform_chercher.cpp
+	<FreeVCL.h>
+	<FileCtrl.hpp>
+
+1254430429 c:\programmes\FVCLIDE\tform_chercher.h
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+
+1212360189 source:c:\programmes\FVCLIDE\tform_hitakey.cpp
+	<Windows.h>
+	<FreeVCL.h>
+	"TForm_HitAKey.h"
+
+1212360242 c:\programmes\FVCLIDE\tform_hitakey.h
+	<FreeVCL.h>
+
+1254433314 source:c:\programmes\FVCLIDE\tform_saisieracc.cpp
+	<Windows.h>
+	<FreeVCL.h>
+
+1254430429 c:\programmes\FVCLIDE\tform_saisieracc.h
+	<FreeVCL.h>
+	<vector>
+
+1254433194 source:c:\programmes\FVCLIDE\tcontrolsizer.cpp
+	<windows.h>
+	<FreeVcl.h>
+	<windows.h>
+	<assert.h>
+
+1228082111 c:\programmes\common\include\freevcl.h
+	<assert.h>
+	<string>
+	<vector>
+	<windows.h>
+	<commdlg.h>
+	<commctrl.h>
+	"property.h"
+	"FVCLBase.h"
+	"Collections.h"
+	"Persistents.h"
+	"Components.h"
+	"WinControls.h"
+	<vcl.h>
+	"property.h"
+
+1226873983 c:\programmes\common\include\property.h
+
+1224701859 c:\programmes\common\include\fvclbase.h
+	"Set.h"
+	"FVCLTypes.h"
+	"CharString.h"
+	"WideString.h"
+	"TDateTime.h"
+	"TFactory_FVCL.h"
+
+1210711019 c:\programmes\common\include\set.h
+
+1231093516 c:\programmes\common\include\fvcltypes.h
+
+1224877081 c:\programmes\common\include\charstring.h
+	<string>
+	"property.h"
+
+1224870229 c:\programmes\common\include\widestring.h
+	<string>
+	"property.h"
+
+1219350780 c:\programmes\common\include\tdatetime.h
+
+1211214301 c:\programmes\common\include\tfactory_fvcl.h
+	"TFactory.h"
+
+1227455009 c:\programmes\common\include\tfactory.h
+
+1210711019 c:\programmes\common\include\collections.h
+	"TStringList.h"
+
+1210957139 c:\programmes\common\include\tstringlist.h
+	"TStrings.h"
+
+1222016554 c:\programmes\common\include\tstrings.h
+	<string>
+	"TPersistent.h"
+
+1227455009 c:\programmes\common\include\tpersistent.h
+	"TObject.h"
+
+1224336648 c:\programmes\common\include\tobject.h
+	<string>
+	"FVCLTypes.h"
+
+1217103039 c:\programmes\common\include\persistents.h
+	"TPrinter.h"
+	"TMouse.h"
+	"TScreen.h"
+	"TDragControlObjectEx.h"
+	"TClipboard.h"
+	"TApplication.h"
+	"TPen.h"
+	"TFont.h"
+	"TPicture.h"
+	"TGraphic.h"
+	"TBitmap.h"
+	"TIcon.h"
+	"TToolButton.h"
+	"TControlScrollBar.h"
+
+1211214713 c:\programmes\common\include\tprinter.h
+
+1210711020 c:\programmes\common\include\tmouse.h
+	"TPersistent.h"
+	"TPoint.h"
+
+1210711020 c:\programmes\common\include\tpoint.h
+
+1230220616 c:\programmes\common\include\tscreen.h
+	"TPersistent.h"
+
+1218814904 c:\programmes\common\include\tdragcontrolobjectex.h
+	"TDragControlObject.h"
+
+1218814905 c:\programmes\common\include\tdragcontrolobject.h
+	"TBaseDragControlObject.h"
+
+1218814905 c:\programmes\common\include\tbasedragcontrolobject.h
+	"TDragObject.h"
+
+1218814904 c:\programmes\common\include\tdragobject.h
+	"TObject.h"
+
+1224783092 c:\programmes\common\include\tclipboard.h
+	"TPersistent.h"
+
+1230220616 c:\programmes\common\include\tapplication.h
+	"TPersistent.h"
+	"Translate.h"
+
+1210711020 c:\programmes\common\include\translate.h
+
+1227039685 c:\programmes\common\include\tpen.h
+	"TCustomPen.h"
+	"TColor.h"
+
+1227045385 c:\programmes\common\include\tcustompen.h
+	"TPersistent.h"
+	"TColor.h"
+
+1215886005 c:\programmes\common\include\tcolor.h
+
+1228065177 c:\programmes\common\include\tfont.h
+	"TCustomFont.h"
+	"TColor.h"
+
+1228064473 c:\programmes\common\include\tcustomfont.h
+	"TPersistent.h"
+	"TColor.h"
+
+1210711020 c:\programmes\common\include\tpicture.h
+	"TPersistent.h"
+
+1227818594 c:\programmes\common\include\tgraphic.h
+	<string>
+	"TPersistent.h"
+
+1230834639 c:\programmes\common\include\tbitmap.h
+	<string>
+	"TGraphic.h"
+	"TBMPFile.h"
+	"TCanvas.h"
+
+1224533749 c:\programmes\common\include\tbmpfile.h
+	"TPersistent.h"
+	"TPaletteVCL.h"
+
+1210711020 c:\programmes\common\include\tpalettevcl.h
+	"TPersistent.h"
+
+1228082671 c:\programmes\common\include\tcanvas.h
+	"TCustomCanvas.h"
+	"TPen.h"
+	"TBrush.h"
+	"TFont.h"
+
+1228063723 c:\programmes\common\include\tcustomcanvas.h
+	"TPen.h"
+	"TBrush.h"
+	"TFont.h"
+	"TRect.h"
+
+1227041175 c:\programmes\common\include\tbrush.h
+	"TCustomBrush.h"
+	"TColor.h"
+
+1227045385 c:\programmes\common\include\tcustombrush.h
+	"TPersistent.h"
+	"TColor.h"
+
+1211918212 c:\programmes\common\include\trect.h
+
+1227818594 c:\programmes\common\include\ticon.h
+	"TWinControl.h"
+	"TGraphic.h"
+	"TBitmap.h"
+	"TICOFile.h"
+
+1231446729 c:\programmes\common\include\twincontrol.h
+	"TControl.h"
+	"TCanvas.h"
+
+1223237462 c:\programmes\common\include\tcontrol.h
+	"TComponent.h"
+	"TPoint.h"
+	"TFont.h"
+	"TRect.h"
+	"TSizeConstraints.h"
+
+1231098546 c:\programmes\common\include\tcomponent.h
+	"TPersistent.h"
+
+1210711020 c:\programmes\common\include\tsizeconstraints.h
+
+1224533750 c:\programmes\common\include\ticofile.h
+	"TPersistent.h"
+
+1218814904 c:\programmes\common\include\ttoolbutton.h
+	"TControl.h"
+
+1221844972 c:\programmes\common\include\tcontrolscrollbar.h
+	"TPersistent.h"
+
+1211396103 c:\programmes\common\include\components.h
+	"TOpenDialog.h"
+	"TSaveDialog.h"
+	"TPrintDialog.h"
+	"TPrinterSetupDialog.h"
+	"TColorDialog.h"
+	"TFontDialog.h"
+	"TMenuItem.h"
+	"TMainMenu.h"
+	"TPopupMenu.h"
+	"TImageList.h"
+	"TTimer.h"
+
+1210711020 c:\programmes\common\include\topendialog.h
+	"TOpenSaveDialog.h"
+
+1220215062 c:\programmes\common\include\topensavedialog.h
+	"TComponent.h"
+
+1210711020 c:\programmes\common\include\tsavedialog.h
+	"TOpenSaveDialog.h"
+
+1218814904 c:\programmes\common\include\tprintdialog.h
+
+1218814952 c:\programmes\common\include\tprintersetupdialog.h
+
+1210711019 c:\programmes\common\include\tcolordialog.h
+	"TComponent.h"
+
+1211403645 c:\programmes\common\include\tfontdialog.h
+	"TFont.h"
+
+1225038933 c:\programmes\common\include\tmenuitem.h
+	"TComponent.h"
+	"TImageList.h"
+
+1214158751 c:\programmes\common\include\timagelist.h
+	"TDragImageList.h"
+
+1214166641 c:\programmes\common\include\tdragimagelist.h
+	"TCustomImageList.h"
+
+1214157916 c:\programmes\common\include\tcustomimagelist.h
+	"TComponent.h"
+
+1225036786 c:\programmes\common\include\tmainmenu.h
+	"TMenu.h"
+
+1210711020 c:\programmes\common\include\tmenu.h
+	"TComponent.h"
+	"TMenuItem.h"
+
+1210711020 c:\programmes\common\include\tpopupmenu.h
+	"TMenu.h"
+
+1210711021 c:\programmes\common\include\ttimer.h
+	"TComponent.h"
+
+1215891116 c:\programmes\common\include\wincontrols.h
+	"THintWindow.h"
+	"TLabel.h"
+	"TStaticText.h"
+	"TImage.h"
+	"TEdit.h"
+	"TMaskEdit.h"
+	"TMemo.h"
+	"TDateTimePicker.h"
+	"TButton.h"
+	"TBitBtn.h"
+	"TRadioButton.h"
+	"TCheckBox.h"
+	"TListBox.h"
+	"TComboBox.h"
+	"TTreeView.h"
+	"TListView.h"
+	"TStringGrid.h"
+	"TGroupBox.h"
+	"TBevel.h"
+	"TPanel.h"
+	"TPaintBox.h"
+	"TRadioGroup.h"
+	"TScrollBar.h"
+	"TStatusBar.h"
+	"TControlBar.h"
+	"TToolBar.h"
+	"TUpDown.h"
+	"TTabSheet.h"
+	"TTabControl.h"
+	"TPageControl.h"
+	"TSpeedButton.h"
+	"TSplitter.h"
+	"TScrollBox.h"
+	"TForm.h"
+	"TFrame.h"
+	"TTrayIcon.h"
+
+1210794856 c:\programmes\common\include\thintwindow.h
+	"TWinControl.h"
+
+1217098859 c:\programmes\common\include\tlabel.h
+	"TWinControl.h"
+
+1217098859 c:\programmes\common\include\tstatictext.h
+	"TWinControl.h"
+
+1210711020 c:\programmes\common\include\timage.h
+	"TWinControl.h"
+
+1224533750 c:\programmes\common\include\tedit.h
+	"TWinControl.h"
+
+1224533750 c:\programmes\common\include\tmaskedit.h
+	"TWinControl.h"
+
+1217614985 c:\programmes\common\include\tmemo.h
+	"TWinControl.h"
+	"TMemoLines.h"
+
+1210957139 c:\programmes\common\include\tmemolines.h
+	"TStrings.h"
+
+1221257214 c:\programmes\common\include\tdatetimepicker.h
+	"TWinControl.h"
+	"TDateTime.h"
+
+1229254923 c:\programmes\common\include\tbutton.h
+	"TWinControl.h"
+
+1210711019 c:\programmes\common\include\tbitbtn.h
+	"TWinControl.h"
+
+1210711020 c:\programmes\common\include\tradiobutton.h
+	"TWinControl.h"
+
+1210711019 c:\programmes\common\include\tcheckbox.h
+	"TWinControl.h"
+
+1223219046 c:\programmes\common\include\tlistbox.h
+	"TWinControl.h"
+	"TListBoxItems.h"
+
+1210957139 c:\programmes\common\include\tlistboxitems.h
+	"TStrings.h"
+
+1211567591 c:\programmes\common\include\tcombobox.h
+	"TWinControl.h"
+	"TComboBoxItems.h"
+
+1210957139 c:\programmes\common\include\tcomboboxitems.h
+	"TWinControl.h"
+
+1227040531 c:\programmes\common\include\ttreeview.h
+	"TWinControl.h"
+	"TTreeNodes.h"
+
+1212844835 c:\programmes\common\include\ttreenodes.h
+	<vector>
+	"TTreeNode.h"
+
+1218814904 c:\programmes\common\include\ttreenode.h
+	"TListViewSubItems.h"
+
+1210957139 c:\programmes\common\include\tlistviewsubitems.h
+	"TStrings.h"
+
+1230853055 c:\programmes\common\include\tlistview.h
+	"TWinControl.h"
+	"TListColumns.h"
+	"TListItems.h"
+
+1210960673 c:\programmes\common\include\tlistcolumns.h
+	"TListcolumn.h"
+
+1210711020 c:\programmes\common\include\tlistcolumn.h
+
+1210957139 c:\programmes\common\include\tlistitems.h
+	<vector>
+	"TListItem.h"
+
+1218814904 c:\programmes\common\include\tlistitem.h
+	"TListViewSubItems.h"
+
+1226259628 c:\programmes\common\include\tstringgrid.h
+	<vector>
+	"TCustomGrid.h"
+	"TStringTab.h"
+
+1229897605 c:\programmes\common\include\tcustomgrid.h
+	<vector>
+	"TCustomControl.h"
+
+1221418739 c:\programmes\common\include\tcustomcontrol.h
+	"TWinControl.h"
+
+1221593391 c:\programmes\common\include\tstringtab.h
+	"TStringList.h"
+
+1229256362 c:\programmes\common\include\tgroupbox.h
+	"TWinControl.h"
+
+1210711019 c:\programmes\common\include\tbevel.h
+	"TWinControl.h"
+
+1215891116 c:\programmes\common\include\tpanel.h
+	"TCustomPanel.h"
+
+1234571317 c:\programmes\common\include\tcustompanel.h
+	"TCustomControl.h"
+
+1210711020 c:\programmes\common\include\tpaintbox.h
+	"TWinControl.h"
+
+1210711020 c:\programmes\common\include\tradiogroup.h
+	"TWinControl.h"
+
+1217103039 c:\programmes\common\include\tscrollbar.h
+	"TWinControl.h"
+
+1210711020 c:\programmes\common\include\tstatusbar.h
+	"TWinControl.h"
+
+1210711020 c:\programmes\common\include\tcontrolbar.h
+	"TWinControl.h"
+
+1210711021 c:\programmes\common\include\ttoolbar.h
+	"TWinControl.h"
+
+1221257214 c:\programmes\common\include\tupdown.h
+	"TWinControl.h"
+
+1230233025 c:\programmes\common\include\ttabsheet.h
+	"TWinControl.h"
+
+1221257214 c:\programmes\common\include\ttabcontrol.h
+	<string>
+	"TWinControl.h"
+	"TTabControlTabs.h"
+
+1210957139 c:\programmes\common\include\ttabcontroltabs.h
+	"TStrings.h"
+
+1231094555 c:\programmes\common\include\tpagecontrol.h
+	<string>
+	"TWinControl.h"
+
+1210711020 c:\programmes\common\include\tspeedbutton.h
+	"TWinControl.h"
+
+1210711020 c:\programmes\common\include\tsplitter.h
+	"TWinControl.h"
+
+1234558775 c:\programmes\common\include\tscrollbox.h
+	"TWinControl.h"
+
+1231452383 c:\programmes\common\include\tform.h
+	"TFormFrame.h"
+
+1225022334 c:\programmes\common\include\tformframe.h
+	"TWinControl.h"
+
+1224788755 c:\programmes\common\include\tframe.h
+	"TFormFrame.h"
+
+1210794856 c:\programmes\common\include\ttrayicon.h
+	"TWinControl.h"
+
+1254430429 c:\programmes\FVCLIDE\tform_proprietes.h
+	<vector>
+	"TGlobalConstr.h"
+
+1254430429 c:\programmes\FVCLIDE\tglobalconstr.h
+
+1254430429 c:\programmes\FVCLIDE\tcontrolsizer.h
+	<vector>
+	"TGlobalConstr.h"
+
+1254430429 c:\programmes\FVCLIDE\telembase.h
+	<vector>
+	"TGlobalConstr.h"
+
+1254434017 source:c:\programmes\FVCLIDE\telembase.cpp
+	<windows.h>
+	<FreeVcl.h>
+	<windows.h>
+	<assert.h>
+
+1254433972 source:c:\programmes\FVCLIDE\telemvcl.cpp
+	<windows.h>
+	<FreeVcl.h>
+	<windows.h>
+	<assert.h>
+
+1254430429 c:\programmes\FVCLIDE\telemvcl.h
+	"TElemBase.h"
+
+1254433195 source:c:\programmes\FVCLIDE\tform_proprietes.cpp
+	<windows.h>
+	<FreeVcl.h>
+	<windows.h>
+	<assert.h>
+	<math.h>
+
+1254433478 source:c:\programmes\FVCLIDE\tframe_saisiedialogue.cpp
+	<FreeVcl.h>
+
+1254430429 c:\programmes\FVCLIDE\tframe_saisiedialogue.h
+	<vector>
+	"TGlobalConstr.h"
+
+1254430429 c:\programmes\FVCLIDE\tfileform.h
+	<vector>
+
+1254433499 source:c:\programmes\FVCLIDE\tglobalconstr.cpp
+	<windows.h>
+	<FreeVcl.h>
+	<windows.h>
+	<assert.h>
+
+1254433255 source:c:\programmes\FVCLIDE\tfileform.cpp
+	<windows.h>
+	<FreeVcl.h>
+
+1254430429 c:\programmes\FVCLIDE\tframe_editfichiertext.h
+	<FreeVCL.h>
+	<FreeVCL_ToolsEDI.h>
+
+1254433195 source:c:\programmes\FVCLIDE\tframe_editfichiertext.cpp
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+
+1254426697 source:c:\programmes\common\forms\tform_apropos.cpp
+	<windows.h>
+	<commdlg.h>
+	<FreeVcl.h>
+	"TForm_APropos.h"
+
+1209666669 c:\programmes\common\forms\tform_apropos.h
+
+1254430429 c:\programmes\FVCLIDE\tform_statistiques.h
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+
+1254433195 source:c:\programmes\FVCLIDE\tform_statistiques.cpp
+	<FreeVCL.h>
+	<FileCtrl.hpp>
+
+1591042129 source:c:\sources\freevcl\fvclide\fvclide.cpp
+	<FreeVcl.h>
+	"TTypeProject.h"
+	"TForm_Principale.h"
+
+1551361334 c:\sources\freevcl\fvclide\ttypeproject.h
+	"..\Plugins\Include\Plugin.h"
+
+1551361368 c:\sources\freevcl\plugins\include\plugin.h
+
+1591561609 c:\sources\freevcl\fvclide\tform_principale.h
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+	<FreeVcl_XFiles.h>
+	<FreeVcl_Web.h>
+	"TFVCLIDEAutomation.h"
+
+1589051391 c:\sources\freevcl\fvclide\tfvclideautomation.h
+
+1589404902 source:c:\sources\common\forms\tform_apropos.cpp
+	<FreeVcl.h>
+	"TForm_APropos.h"
+
+1589404902 c:\sources\common\forms\tform_apropos.h
+
+1590440470 source:c:\sources\freevcl\fvclide\fvclide.rc
+	"resource.h"
+
+1551361316 c:\sources\freevcl\fvclide\resource.h
+
+1443563438 source:c:\sources\freevcl\fvclide\tbasetree.cpp
+	<FreeVcl.h>
+	"TBaseTree.h"
+
+1443564035 c:\sources\freevcl\fvclide\tbasetree.h
+
+1590703853 source:c:\sources\freevcl\fvclide\tconfig.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+
+1588359712 c:\sources\freevcl\fvclide\tconfig.h
+	<map>
+	<TTextEditor.h>
+
+1589487449 source:c:\sources\freevcl\fvclide\tcontrolsizer.cpp
+	<windows.h>
+	<FreeVcl.h>
+	"TControlSizer.h"
+
+1589487449 c:\sources\freevcl\fvclide\tcontrolsizer.h
+
+1551361323 source:c:\sources\freevcl\fvclide\telembase.cpp
+	<windows.h>
+	<FreeVcl.h>
+	<windows.h>
+	<assert.h>
+	"TControlSizer.h"
+	"TControlSizer_Collection.h"
+	"TElemBase.h"
+
+1589407313 c:\sources\freevcl\fvclide\tcontrolsizer_collection.h
+	"TControlSizer.h"
+
+1551361316 c:\sources\freevcl\fvclide\telembase.h
+	"TControlSizer.h"
+
+1590098720 source:c:\sources\freevcl\fvclide\telemvcl.cpp
+	<windows.h>
+	<FreeVcl.h>
+	"TControlSizer_Collection.h"
+	"TElemVCL.h"
+	"TFrame_SaisieDialog.h"
+	"TForm_SaisieDialog.h"
+
+1551361345 c:\sources\freevcl\fvclide\telemvcl.h
+	"TElemBase.h"
+
+1590432284 c:\sources\freevcl\fvclide\tframe_saisiedialog.h
+	<vector>
+	<TUndoRedo.h>
+	"TFrame_FVCLIDEBase.h"
+
+1551361328 c:\sources\freevcl\fvclide\tframe_fvclidebase.h
+	"TFVCLIDEAutomation.h"
+
+1589487449 c:\sources\freevcl\fvclide\tform_saisiedialog.h
+
+1589106259 source:c:\sources\freevcl\fvclide\tfileascii.cpp
+	<FreeVcl.h>
+	"TFileASCII.h"
+
+1589106259 c:\sources\freevcl\fvclide\tfileascii.h
+	<windows.h>
+
+1590749951 source:c:\sources\freevcl\fvclide\tfileform.cpp
+	<windows.h>
+	<FreeVcl.h>
+	"TForm_DisplayError.h"
+	"TFrame_SaisieDialog.h"
+	"TElemVcl.h"
+	"TFileForm.h"
+
+1551361316 c:\sources\freevcl\fvclide\tform_displayerror.h
+
+1589112176 c:\sources\freevcl\fvclide\tfileform.h
+	<vector>
+
+1590787239 source:c:\sources\freevcl\fvclide\tform_principale.cpp
+	<FreeVcl.h>
+	<FreeVcl_Web.h>
+	<FreeVcl_XFiles.h>
+	<Shlwapi.h>
+	"TFileASCII.h"
+	"TNumVersion.h"
+	"Utilit.h"
+	"TConfig.h"
+	"TTypeProject.h"
+	"TListTypeProjects.h"
+	"TProject.h"
+	"TForm_AddNewFile.h"
+	"TForm_AddNewProject.h"
+	"TForm_FileProperties.h"
+	"TForm_DisplayError.h"
+	"TForm_NewDialog.h"
+	"TForm_FileFormat.h"
+	"TForm_SearchAndReplace.h"
+	"TForm_RepeatMacro.h"
+	"TForm_Models.h"
+	"TForm_Statistics.h"
+	"TForm_EdiOptions.h"
+	"TForm_SaisieRacc.h"
+	"TForm_SaisieColors.h"
+	"TForm_CodeFormatParams.h"
+	"TForm_DefaultResponses.h"
+	"TForm_ConvertNumbers.h"
+	"TForm_Tools.h"
+	"TForm_Autocompletion.h"
+	"TForm_Principale.h"
+	"../../Common/Forms/TForm_APropos.h"
+	"TElemVcl.h"
+	"TFrame_EditFichierText.h"
+	"TFrame_EditFichierHexa.h"
+	"TFrame_SaisieDialog.h"
+	"TFrame_SaisieIcon.h"
+	"TFrame_SaisieCursor.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1551361316 c:\sources\freevcl\fvclide\utilit.h
+
+1551361334 c:\sources\freevcl\fvclide\tlisttypeprojects.h
+
+1551361328 c:\sources\freevcl\fvclide\tproject.h
+
+1551361322 c:\sources\freevcl\fvclide\tform_addnewfile.h
+	<vector>
+
+1589483485 c:\sources\freevcl\fvclide\tform_addnewproject.h
+	<vector>
+
+1551361333 c:\sources\freevcl\fvclide\tform_fileproperties.h
+	<vector>
+
+1590699879 c:\sources\freevcl\fvclide\tform_newdialog.h
+
+1551361323 c:\sources\freevcl\fvclide\tform_searchandreplace.h
+
+1589409658 c:\sources\freevcl\fvclide\tform_models.h
+	<vector>
+
+1551361327 c:\sources\freevcl\fvclide\tform_statistics.h
+
+1551361317 c:\sources\freevcl\fvclide\tform_edioptions.h
+
+1589490260 c:\sources\freevcl\fvclide\tform_saisieracc.h
+	<FreeVCL.h>
+	<vector>
+
+1551361323 c:\sources\freevcl\fvclide\tform_saisiecolors.h
+	<FreeVCL.h>
+	<vector>
+
+1551361311 c:\sources\freevcl\fvclide\tform_codeformatparams.h
+
+1551361323 c:\sources\freevcl\fvclide\tform_defaultresponses.h
+
+1551361334 c:\sources\freevcl\fvclide\tform_convertnumbers.h
+
+1551361328 c:\sources\freevcl\fvclide\tform_tools.h
+	<vector>
+
+1551361323 c:\sources\freevcl\fvclide\tform_autocompletion.h
+
+1589408816 c:\sources\freevcl\fvclide\tframe_editfichiertext.h
+	<FreeVCL.h>
+	<FreeVCL_ToolsEDI.h>
+	"TFrame_FVCLIDEBase.h"
+
+1589486461 c:\sources\freevcl\fvclide\tframe_editfichierhexa.h
+	<FreeVCL.h>
+	<FreeVCL_ToolsEDI.h>
+	"TFrame_FVCLIDEBase.h"
+
+1591548631 c:\sources\freevcl\fvclide\hlp_fvclide_fr.h
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_proprietes.cpp
+	<windows.h>
+	<FreeVcl.h>
+	<windows.h>
+	<assert.h>
+	<math.h>
+	"TForm_Proprietes.h"
+	"TConfig.h"
+	"HLP_FVCLIDE_Fr.h"
+	"TFVCLIDEAutomation.h"
+
+1551361352 c:\sources\freevcl\fvclide\tform_proprietes.h
+	<vector>
+
+1589492177 source:c:\sources\freevcl\fvclide\tform_saisieracc.cpp
+	<FreeVCL.h>
+	"TConfig.h"
+	"TForm_DisplayError.h"
+	"TForm_SaisieRacc.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_searchandreplace.cpp
+	<FreeVCL.h>
+	"Utilit.h"
+	"TTextEditor.h"
+	"THexaEditor.h"
+	"TConfig.h"
+	"TForm_DisplayError.h"
+	"TForm_SearchAndReplace.h"
+	"TFVCLIDEAutomation.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_statistics.cpp
+	<FreeVCL.h>
+	"TTextEditor.h"
+	"TConfig.h"
+	"TFVCLIDEAutomation.h"
+	"TForm_DisplayError.h"
+	"TForm_Statistics.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1590696250 source:c:\sources\freevcl\fvclide\tframe_editfichiertext.cpp
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+	"Utilit.h"
+	"TConfig.h"
+	"TFrame_EditFichierText.h"
+	"TFVCLIDEAutomation.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tframe_saisiedialog.cpp
+	<FreeVcl.h>
+	"TElemVcl.h"
+	"TConfig.h"
+	"TForm_Proprietes.h"
+	"TFrame_SaisieDialog.h"
+	"TFileForm.h"
+	"TFVCLIDEAutomation.h"
+	"TForm_SaisieDialog.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1551361334 source:c:\sources\freevcl\fvclide\tglobalconstr.cpp
+	<windows.h>
+	<FreeVcl.h>
+	<windows.h>
+	<assert.h>
+	"TGlobalConstr.h"
+
+1551361322 c:\sources\freevcl\fvclide\tglobalconstr.h
+
+1551361326 source:c:\sources\freevcl\fvclide\txmltree.cpp
+	<FreeVcl.h>
+	"TXMLTree.h"
+
+1551361323 c:\sources\freevcl\fvclide\txmltree.h
+	<vector>
+	"TFileASCII.h"
+
+1589407348 source:c:\sources\freevcl\fvclide\tcontrolsizer_collection.cpp
+	<windows.h>
+	<FreeVcl.h>
+	"TControlSizer_Collection.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_displayerror.cpp
+	<windows.h>
+	<commdlg.h>
+	<FreeVcl.h>
+	"TForm_DisplayError.h"
+	"TConfig.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_convertnumbers.cpp
+	<FreeVCL.h>
+	"TTextEditor.h"
+	"TConfig.h"
+	"TFVCLIDEAutomation.h"
+	"TForm_DisplayError.h"
+	"TForm_ConvertNumbers.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_models.cpp
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+	"TConfig.h"
+	"TFrame_FVCLIDEBase.h"
+	"TForm_SaisieModel.h"
+	"TForm_Models.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1551361314 c:\sources\freevcl\fvclide\tform_saisiemodel.h
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_saisiemodel.cpp
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+	"TConfig.h"
+	"TFVCLIDEAutomation.h"
+	"TFrame_EditFichierText.h"
+	"TForm_SaisieModel.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_defaultresponses.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+	"TForm_SaisieTools.h"
+	"TForm_DefaultResponses.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1551361322 c:\sources\freevcl\fvclide\tform_saisietools.h
+
+1551361311 source:c:\sources\freevcl\fvclide\tfvclideautomation.cpp
+	<FreeVcl.h>
+	"TFVCLIDEAutomation.h"
+
+1551361317 source:c:\sources\freevcl\fvclide\tproject.cpp
+	<FreeVcl.h>
+	"TFVCLIDEAutomation.h"
+	"TTypeProject.h"
+	"TListTypeProjects.h"
+	"TProject.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_codeformatparams.cpp
+	<FreeVCL.h>
+	"TTextEditor.h"
+	"TConfig.h"
+	"TFVCLIDEAutomation.h"
+	"TFrame_EditFichierText.h"
+	"TForm_CodeFormatParams.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_edioptions.cpp
+	<FreeVCL.h>
+	"TTextEditor.h"
+	"TConfig.h"
+	"TFVCLIDEAutomation.h"
+	"TFrame_EditFichierText.h"
+	"TForm_EdiOptions.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1589492177 source:c:\sources\freevcl\fvclide\tform_saisiedialog.cpp
+	<FreeVCL.h>
+	"TControlSizer.h"
+	"TControlSizer_Collection.h"
+	"TFrame_SaisieDialog.h"
+	"TForm_SaisieDialog.h"
+	"TElemBase.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_autocompletion.cpp
+	<FreeVCL.h>
+	"TTextEditor.h"
+	"TConfig.h"
+	"TFVCLIDEAutomation.h"
+	"TFrame_EditFichierText.h"
+	"TForm_Autocompletion.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_saisiecolors.cpp
+	<FreeVCL.h>
+	<TDictionnary.h>
+	"TConfig.h"
+	"TForm_DisplayError.h"
+	"TFrame_EditFichierText.h"
+	"TForm_SaisieColors.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_addnewfile.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+	"TForm_AddNewFile.h"
+	"TFVCLIDEAutomation.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_addnewproject.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+	"TForm_AddNewProject.h"
+	"TFVCLIDEAutomation.h"
+	"TTypeProject.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_fileproperties.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+	"TForm_FileProperties.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_tools.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+	"TForm_SaisieTools.h"
+	"TForm_Tools.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1589661939 source:c:\sources\freevcl\fvclide\tframe_editfichierhexa.cpp
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+	"TConfig.h"
+	"TFrame_EditFichierHexa.h"
+	"TFVCLIDEAutomation.h"
+
+1590758327 source:c:\sources\freevcl\fvclide\ttypeproject.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+	"TTypeProject.h"
+	"TFVCLIDEAutomation.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_saisietools.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+	"TForm_SaisieTools.h"
+	"TFVCLIDEAutomation.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1551361352 source:c:\sources\freevcl\fvclide\tframe_fvclidebase.cpp
+	<FreeVcl.h>
+	"TFrame_FVCLIDEBase.h"
+
+1551361344 source:c:\sources\freevcl\fvclide\utilit.cpp
+	<FreeVcl.h>
+	"Utilit.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_newdialog.cpp
+	<FreeVCL.h>
+	"TConfig.h"
+	"TFVCLIDEAutomation.h"
+	"TForm_NewDialog.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1551361328 source:c:\sources\freevcl\fvclide\tlisttypeprojects.cpp
+	<FreeVcl.h>
+	"TListTypeProjects.h"
+	"TTypeProject.h"
+
+1553038827 c:\sources\freevcl\fvclide\tform_repeatmacro.h
+
+1553036737 c:\sources\freevcl\fvclide\tframe_saisieicon.h
+	<FreeVCL.h>
+	<FreeVCL_ToolsEDI.h>
+	<TUndoRedo.h>
+	"TFrame_FVCLIDEBase.h"
+
+1553036738 c:\sources\freevcl\fvclide\tframe_saisiecursor.h
+	<FreeVCL.h>
+	<FreeVCL_ToolsEDI.h>
+	<TUndoRedo.h>
+	"TFrame_FVCLIDEBase.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tform_repeatmacro.cpp
+	<FreeVcl.h>
+	"TConfig.h"
+	"TForm_RepeatMacro.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tframe_saisiecursor.cpp
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+	"TConfig.h"
+	"TFrame_SaisieCursor.h"
+	"TFVCLIDEAutomation.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1591549287 source:c:\sources\freevcl\fvclide\tframe_saisieicon.cpp
+	<FreeVcl.h>
+	<FreeVcl_ToolsEDI.h>
+	"TConfig.h"
+	"TFrame_SaisieIcon.h"
+	"TFVCLIDEAutomation.h"
+	"HLP_FVCLIDE_Fr.h"
+
+1551361285 c:\sources\freevcl\fvclide\tnumversion.h
+
+1591043113 c:\sources\freevcl\fvclide\tform_fileformat.h
+
+1551361288 source:c:\sources\freevcl\fvclide\tnumversion.cpp
+	<FreeVcl.h>
+	"TNumVersion.h"
+
+1591043113 source:c:\sources\freevcl\fvclide\tform_fileformat.cpp
+	<FreeVCL.h>
+	"TForm_FileFormat.h"
+

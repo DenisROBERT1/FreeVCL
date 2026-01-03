@@ -1,0 +1,17 @@
+a=*(1)
+GOTO Etape 1
+%truc()
+GOTO Etape 5 
+GOTOPRINTDUTEXTE() &a GOTO Affiche 1
+GOTOFIN
+
+§truc:ASV
+	GOTO Etape 2
+	pingouin a GOTO Cette variable est locale
+	GOTOPASMALIN %%2
+§1	GOTO Etape 4
+	REGOTO
+§2	GOTO Etape 3
+	a=*(5)
+	GOTOPASMALIN %%1
+APLUS

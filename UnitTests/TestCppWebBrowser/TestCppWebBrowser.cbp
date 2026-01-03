@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TestCppWebBrowser" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output=".\CodeBlocks\MBCS_32bits\$(Build)\TestCppWebBrowser.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output=".\CodeBlocks\MBCS_32bits\$(Build)" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-march=i486" />
+					<Add option="-Os" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libcomdlg32.a" />
+					<Add library="libcomctl32.a" />
+					<Add library="libOle32.a" />
+					<Add library="libwsock32.a" />
+					<Add library="libOleAut32.a" />
+					<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl.a" />
+					<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl_Web.a" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Debug" />
+					<Variable name="LibLib" value="..\..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\Debug" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output=".\CodeBlocks\MBCS_32bits\$(Build)\TestCppWebBrowser.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output=".\CodeBlocks\MBCS_32bits\$(Build)" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-march=i486" />
+					<Add option="-Os" />
+					<Add option="-W" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libcomdlg32.a" />
+					<Add library="libcomctl32.a" />
+					<Add library="libOle32.a" />
+					<Add library="libwsock32.a" />
+					<Add library="libOleAut32.a" />
+					<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl.a" />
+					<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl_Web.a" />
+				</Linker>
+				<Environment>
+					<Variable name="Build" value="Release" />
+					<Variable name="LibLib" value="..\..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\Release" />
+				</Environment>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-march=i486" />
+			<Add option="-Os" />
+			<Add option="-W" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libOle32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libOleAut32.a" />
+			<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl.a" />
+			<Add library="..\..\..\FreeVCL\Lib\CodeBlocks\MBCS_32bits\$(Build)\FreeVcl_Web.a" />
+		</Linker>
+		<Unit filename="TForm_Principale.cpp" />
+		<Unit filename="TForm_Principale.dfm" />
+		<Unit filename="TForm_Principale.h" />
+		<Unit filename="TestCppWebBrowser.cpp" />
+		<Unit filename="TestCppWebBrowser.rc">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

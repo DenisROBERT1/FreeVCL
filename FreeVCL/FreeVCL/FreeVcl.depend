@@ -1,0 +1,409 @@
+# depslib dependency file v1.0
+1590528763 source:c:\sources\freevcl\freevcl\freevcl\charstring.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\exceptions.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\freevcl.cpp
+	<FreeVcl.h>
+	<assert.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\taction.cpp
+	<FreeVcl.h>
+
+1602185050 source:c:\sources\freevcl\freevcl\freevcl\tapplication.cpp
+	<FreeVcl.h>
+	<limits.h>
+	<shlobj.h>
+	<Shlwapi.h>
+	<time.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tbasedragcontrolobject.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tbevel.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tbitbtn.cpp
+	<FreeVcl.h>
+
+1602185050 source:c:\sources\freevcl\freevcl\freevcl\tbitmap.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tbmpfile.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tbrush.cpp
+	<FreeVcl.h>
+
+1553026137 source:c:\sources\freevcl\freevcl\freevcl\tbutton.cpp
+	<FreeVcl.h>
+
+1601925518 source:c:\sources\freevcl\freevcl\freevcl\tcanvas.cpp
+	<FreeVcl.h>
+
+1553026145 source:c:\sources\freevcl\freevcl\freevcl\tcheckbox.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tclipboard.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tcolor.cpp
+	<FreeVcl.h>
+
+1590664505 source:c:\sources\freevcl\freevcl\freevcl\tcolorbox.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcolordialog.cpp
+	<FreeVcl.h>
+
+1589486660 source:c:\sources\freevcl\freevcl\freevcl\tcombobox.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcomboboxitems.cpp
+	<FreeVcl.h>
+
+1553026176 source:c:\sources\freevcl\freevcl\freevcl\tcommoncalendar.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcomponent.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tcontrol.cpp
+	<FreeVcl.h>
+
+1553026191 source:c:\sources\freevcl\freevcl\freevcl\tcontrolbar.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcontrolcanvas.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcontrolscrollbar.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tcustombrush.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcustomcanvas.cpp
+	<FreeVcl.h>
+
+1553026233 source:c:\sources\freevcl\freevcl\freevcl\tcustomcontrol.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcustomfont.cpp
+	<FreeVcl.h>
+
+1553026243 source:c:\sources\freevcl\freevcl\freevcl\tcustomgrid.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcustomimagelist.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tcustompanel.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tcustompen.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tdatetime.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tdatetimepicker.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tdragcontrolobject.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tdragcontrolobjectex.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tdragimagelist.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tdragobject.cpp
+	<FreeVcl.h>
+
+1602089551 source:c:\sources\freevcl\freevcl\freevcl\tdirectorylistbox.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tedit.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tfactory.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tfactory_fvcl.cpp
+	<FreeVcl.h>
+
+1602185050 source:c:\sources\freevcl\freevcl\freevcl\tfilelist.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tfilestream.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tfont.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tfontdialog.cpp
+	<FreeVcl.h>
+
+1590528763 source:c:\sources\freevcl\freevcl\freevcl\tform.cpp
+	<FreeVcl.h>
+
+1590664505 source:c:\sources\freevcl\freevcl\freevcl\tformframe.cpp
+	<FreeVcl.h>
+
+1553026268 source:c:\sources\freevcl\freevcl\freevcl\tframe.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tgiffile.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tgifimage.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tgraphic.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tgroupbox.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\thintwindow.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\thotkey.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\ticofile.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\ticon.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\timage.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\timagelist.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tlabel.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tlink.cpp
+	<FreeVcl.h>
+
+1589486660 source:c:\sources\freevcl\freevcl\freevcl\tlistbox.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tlistboxitems.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tlistcolumn.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tlistcolumns.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tlistitem.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tlistitems.cpp
+	<FreeVcl.h>
+
+1553026285 source:c:\sources\freevcl\freevcl\freevcl\tlistview.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tlistviewsubitems.cpp
+	<FreeVcl.h>
+	<TListViewSubItems.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tmainmenu.cpp
+	<FreeVcl.h>
+
+1602185050 source:c:\sources\freevcl\freevcl\freevcl\tmask.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tmaskedit.cpp
+	<FreeVcl.h>
+
+1553033136 source:c:\sources\freevcl\freevcl\freevcl\tmemo.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tmemolines.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tmemorystream.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tmenu.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tmenuitem.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tmonthcalcolors.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tmonthcalendar.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tmouse.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tobject.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\topendialog.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\topensavedialog.cpp
+	<FreeVcl.h>
+
+1553026312 source:c:\sources\freevcl\freevcl\freevcl\tpagecontrol.cpp
+	<FreeVcl.h>
+
+1551357798 source:c:\sources\freevcl\freevcl\freevcl\tpagescroller.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tpaintbox.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tpalettevcl.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tpanel.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tpen.cpp
+	<FreeVcl.h>
+
+1602185050 source:c:\sources\freevcl\freevcl\freevcl\tpersistent.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tpicture.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tpoint.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tpopupmenu.cpp
+	<FreeVcl.h>
+
+1603967061 source:c:\sources\freevcl\freevcl\freevcl\tprintdialog.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tprinter.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tprintersetupdialog.cpp
+	<FreeVcl.h>
+
+1590528763 source:c:\sources\freevcl\freevcl\freevcl\tprogressbar.cpp
+	<FreeVcl.h>
+
+1553026337 source:c:\sources\freevcl\freevcl\freevcl\tradiobutton.cpp
+	<FreeVcl.h>
+
+1551357799 source:c:\sources\freevcl\freevcl\freevcl\tradiogroup.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\trect.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tregexp.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tsavedialog.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tscreen.cpp
+	<FreeVcl.h>
+
+1551357800 source:c:\sources\freevcl\freevcl\freevcl\tscrollbar.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tscrollbox.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tshape.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tsizeconstraints.cpp
+	<FreeVcl.h>
+
+1553026345 source:c:\sources\freevcl\freevcl\freevcl\tspeedbutton.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tsplitter.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tstatictext.cpp
+	<FreeVcl.h>
+
+1553026374 source:c:\sources\freevcl\freevcl\freevcl\tstatusbar.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tstream.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tstringgrid.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\tstringlist.cpp
+	<FreeVcl.h>
+
+1589924001 source:c:\sources\freevcl\freevcl\freevcl\tstrings.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\tstringtab.cpp
+	<FreeVcl.h>
+
+1553026384 source:c:\sources\freevcl\freevcl\freevcl\ttabcontrol.cpp
+	<FreeVcl.h>
+
+1553026407 source:c:\sources\freevcl\freevcl\freevcl\ttabcontroltabs.cpp
+	<FreeVcl.h>
+
+1553026415 source:c:\sources\freevcl\freevcl\freevcl\ttabsheet.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\ttimer.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\ttoolbar.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\ttoolbutton.cpp
+	<FreeVcl.h>
+
+1553026425 source:c:\sources\freevcl\freevcl\freevcl\ttrackbar.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\ttrayicon.cpp
+	<FreeVcl.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl\ttreenode.cpp
+	<FreeVcl.h>
+
+1545950479 source:c:\sources\freevcl\freevcl\freevcl\ttreenodes.cpp
+	<FreeVcl.h>
+
+1562622427 source:c:\sources\freevcl\freevcl\freevcl\ttreeview.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tupdown.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\twincontrol.cpp
+	<FreeVcl.h>
+
+1590528763 source:c:\sources\freevcl\freevcl\freevcl\widestring.cpp
+	<FreeVcl.h>
+
+1553026200 source:c:\sources\freevcl\freevcl\freevcl\tcurfile.cpp
+	<FreeVcl.h>
+
+1591774092 source:c:\sources\freevcl\freevcl\freevcl\tcuricofile.cpp
+	<FreeVcl.h>
+

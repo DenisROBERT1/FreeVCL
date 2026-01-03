@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestTreeView", "TestTreeView.vcproj", "{363C50E1-1227-4F62-8A1A-B7156DCA6333}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F4369BF2-1E61-4F13-9E09-E8119D30D612} = {F4369BF2-1E61-4F13-9E09-E8119D30D612}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeVCL", "..\..\FreeVCL\FreeVCL\FreeVCL.vcproj", "{F4369BF2-1E61-4F13-9E09-E8119D30D612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{363C50E1-1227-4F62-8A1A-B7156DCA6333}.Debug|Win32.ActiveCfg = Debug|Win32
+		{363C50E1-1227-4F62-8A1A-B7156DCA6333}.Debug|Win32.Build.0 = Debug|Win32
+		{363C50E1-1227-4F62-8A1A-B7156DCA6333}.Release|Win32.ActiveCfg = Release|Win32
+		{363C50E1-1227-4F62-8A1A-B7156DCA6333}.Release|Win32.Build.0 = Release|Win32
+		{F4369BF2-1E61-4F13-9E09-E8119D30D612}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F4369BF2-1E61-4F13-9E09-E8119D30D612}.Debug|Win32.Build.0 = Debug|Win32
+		{F4369BF2-1E61-4F13-9E09-E8119D30D612}.Release|Win32.ActiveCfg = Release|Win32
+		{F4369BF2-1E61-4F13-9E09-E8119D30D612}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

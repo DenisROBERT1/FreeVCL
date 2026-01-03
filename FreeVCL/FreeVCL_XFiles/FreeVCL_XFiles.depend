@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tbrushpdf.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tcanvaspdf.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tcolorpdf.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tdbffile.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tfactory_fvcl_xfiles.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tfontpdf.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tmetafile.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdf.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdfcatalog.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdfcontent.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdffont.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdfoutlines.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdfpage.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdfpages.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdfprocset.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tobjetpdfunknown.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tpdffile.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1551357785 source:c:\sources\freevcl\freevcl\freevcl_xfiles\tpenpdf.cpp
+	<FreeVcl.h>
+	<FreeVCL_XFiles.h>
+
+1545950480 source:c:\sources\freevcl\freevcl\freevcl_xfiles\txmlfile.cpp
+	<FreeVcl.h>
+	"TXMLFile.h"
+

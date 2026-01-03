@@ -1,0 +1,17 @@
+AlphaChars=abcdefghijklmnopqrstuvwxyzéèêëîïôöùûüÿçABCDEFGHIJKLMNOPQRSTUVWXYZÉÈÊËÎÏÔÖÙÛÜŸÇ_
+CaseSensitive=false
+CommentSingle=//
+CommentBegin={
+CommentEnd=}
+CommentBegin2=(*
+CommentEnd2=*)
+BlockBegin=begin
+BlockEnd=end
+QuoteBegin="
+QuoteEnd="
+QuoteBegin2='
+QuoteEnd2='
+EscapeString=\
+MultiLine=\
+CodeFormat=PAS
+Associated=.hpp

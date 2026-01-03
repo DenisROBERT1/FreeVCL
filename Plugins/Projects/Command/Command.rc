@@ -1,0 +1,43 @@
+#include <windows.h>
+
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+BMP_COMMAND						BITMAP	MOVEABLE PURE 	"Command.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+FORM_SAISIEPARAMS DIALOG DISCARDABLE 0, 0, 300, 88
+CAPTION "Paramètres de la commande"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Programme :",LABEL_PROG,4,6,40,8
+    EDITTEXT        EDIT_PROG,48,4,204,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIRPROG,256,4,40,12,NOT WS_TABSTOP
+		LTEXT           "Arguments :",LABEL_ARGS,4,24,40,8
+    EDITTEXT        EDIT_ARGS,48,22,248,12,ES_AUTOHSCROLL
+    LTEXT           "Sortie :",LABEL_OUTPUT,4,42,40,8
+    EDITTEXT        EDIT_OUTPUT,48,40,204,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",BUTTON_PARCOURIROUTPUT,256,40,40,12,NOT WS_TABSTOP
+		DEFPUSHBUTTON   "Ok",BUTTON_OK,80,66,40,12
+    PUSHBUTTON      "Annuler",BUTTON_ANNULER,130,66,40,12
+    PUSHBUTTON      "Aide",BUTTON_AIDE,180,66,40,12
+END
+
